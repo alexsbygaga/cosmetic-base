@@ -1,0 +1,20 @@
+{
+  "key": "extracts-4",
+  "title": "Алоэ и ПДРН",
+  "hint": "Гель алоэ вера 10:1 (концентрат Aloe Barbadensis Leaf Juice/Extract). ПДРН Эдельвейса — полидезоксирибонуклеотид (PDRN), обычно из лосося, здесь растительный из Leontopodium alpinum.",
+  "items": [
+    {
+      "id": "gel-aloe-vera-10-1",
+      "name_ru": "Гель алоэ вера 10:1",
+      "category": "plant-extracts",
+      "inci_from_file": "Aloe Barbadensis Leaf Extract"
+    },
+    {
+      "id": "pdrn-edelveysa",
+      "name_ru": "ПДРН Эдельвейса",
+      "category": "active-ingredients",
+      "inci_from_file": "EDELWEISS PDRN/ПДРН Эдельвейс"
+    }
+  ],
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched\\extracts-4.json"
+}

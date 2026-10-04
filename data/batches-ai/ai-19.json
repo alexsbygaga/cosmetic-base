@@ -1,0 +1,47 @@
+{
+  "key": "ai-19",
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched-ai\\ai-19.json",
+  "append": true,
+  "items": [
+    {
+      "id": "stearalkonium-hlorid",
+      "name_ru": "Стеаралкониум хлорид",
+      "name_lat": "Stearalkonium Chloride",
+      "category": "conditioners-cationics",
+      "inci_from_file": "Stearalkonium Chloride",
+      "provenance": "ai"
+    },
+    {
+      "id": "polikvaternium-11",
+      "name_ru": "Поликватерниум-11",
+      "name_lat": "Polyquaternium-11",
+      "category": "conditioners-cationics",
+      "inci_from_file": "Polyquaternium-11",
+      "provenance": "ai"
+    },
+    {
+      "id": "polikvaternium-4",
+      "name_ru": "Поликватерниум-4",
+      "name_lat": "Polyquaternium-4",
+      "category": "conditioners-cationics",
+      "inci_from_file": "Polyquaternium-4",
+      "provenance": "ai"
+    },
+    {
+      "id": "polikvaternium-6",
+      "name_ru": "Поликватерниум-6",
+      "name_lat": "Polyquaternium-6",
+      "category": "conditioners-cationics",
+      "inci_from_file": "Polyquaternium-6",
+      "provenance": "ai"
+    },
+    {
+      "id": "behentrimonium-metosulfat",
+      "name_ru": "Бегентримониум метосульфат",
+      "name_lat": "Behentrimonium Methosulfate",
+      "category": "conditioners-cationics",
+      "inci_from_file": "Behentrimonium Methosulfate",
+      "provenance": "ai"
+    }
+  ]
+}

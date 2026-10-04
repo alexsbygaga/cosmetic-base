@@ -1,0 +1,26 @@
+{
+  "key": "colorants-1",
+  "title": "Красители: синие и зелёный",
+  "hint": "Синий патентованный V = E131 / CI 42051. Зелёный блестящий B11 = E142 / CI 44090. Синий блестящий E133 = CI 42090.",
+  "items": [
+    {
+      "id": "krasitel-siniy-panentovannyy-v",
+      "name_ru": "Краситель синий панентованный V",
+      "category": "colorants",
+      "inci_from_file": "Cl 42051"
+    },
+    {
+      "id": "krasitel-zelenyy-blestyaschiy-b11",
+      "name_ru": "Краситель Зеленый блестящий B11",
+      "category": "colorants",
+      "inci_from_file": ""
+    },
+    {
+      "id": "krasitel-ciniy-blestyaschiy-e133",
+      "name_ru": "Краситель Cиний блестящий E133",
+      "category": "colorants",
+      "inci_from_file": ""
+    }
+  ],
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched\\colorants-1.json"
+}

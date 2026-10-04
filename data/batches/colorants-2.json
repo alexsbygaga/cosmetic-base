@@ -1,0 +1,26 @@
+{
+  "key": "colorants-2",
+  "title": "Красители: жёлтые и красные",
+  "hint": "Тартразин E102 = CI 19140 (в ЕС запрещён в средствах, остающихся на коже). Понсо 4R E124 = CI 16255. Кармуазин E122 = CI 14720.",
+  "items": [
+    {
+      "id": "krasitel-tartrazin-e102",
+      "name_ru": "Краситель Тартразин E102",
+      "category": "colorants",
+      "inci_from_file": ""
+    },
+    {
+      "id": "krasitel-ponso-4k-e124-foodco-p02",
+      "name_ru": "Краситель Понсо 4К E124 FOODCO P02",
+      "category": "colorants",
+      "inci_from_file": ""
+    },
+    {
+      "id": "krasitel-karmuazin-e122",
+      "name_ru": "Краситель Кармуазин Е122",
+      "category": "colorants",
+      "inci_from_file": ""
+    }
+  ],
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched\\colorants-2.json"
+}

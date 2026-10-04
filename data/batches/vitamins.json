@@ -1,0 +1,26 @@
+{
+  "key": "vitamins",
+  "title": "Витамины и антиоксиданты",
+  "hint": "Vitamin B Complex — это смесь (Biotin, Folic Acid, Cyanocobalamin, Niacinamide, Pantothenic Acid, Pyridoxine, Riboflavin, Thiamine), заполни components. Комплекс витаминов А, Е, С. Витамин Е (Tocopheryl Acetate).",
+  "items": [
+    {
+      "id": "vitamin-b-complex",
+      "name_ru": "Vitamin B Complex",
+      "category": "vitamins-antioxidants",
+      "inci_from_file": "Biotin, Folic Acid, Cyanocobalamin, Niacinamide, Pantothenic Acid, Pyridoxine, Riboflavin, Thiamine"
+    },
+    {
+      "id": "kompleks-vitaminov-a-e-s",
+      "name_ru": "Комплекс витаминов А, Е, С",
+      "category": "vitamins-antioxidants",
+      "inci_from_file": "Retinyl Palmitate, Tocopheryl Acetate, Sodium Ascorbyl Phosphate"
+    },
+    {
+      "id": "vitamin-e",
+      "name_ru": "Витамин Е",
+      "category": "vitamins-antioxidants",
+      "inci_from_file": "Tocopheryl Acetate"
+    }
+  ],
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched\\vitamins.json"
+}

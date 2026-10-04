@@ -1,0 +1,182 @@
+[
+  {
+    "key": "frag-syren-sd-1",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\frag-syren-sd-1.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\frag-syren-sd-1.json",
+    "n": 6
+  },
+  {
+    "key": "frag-syren-sd-2",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\frag-syren-sd-2.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\frag-syren-sd-2.json",
+    "n": 6
+  },
+  {
+    "key": "extracts-1",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\extracts-1.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\extracts-1.json",
+    "n": 5
+  },
+  {
+    "key": "extracts-2-1",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\extracts-2-1.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\extracts-2-1.json",
+    "n": 4
+  },
+  {
+    "key": "extracts-2-2",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\extracts-2-2.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\extracts-2-2.json",
+    "n": 3
+  },
+  {
+    "key": "extracts-3",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\extracts-3.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\extracts-3.json",
+    "n": 4
+  },
+  {
+    "key": "extracts-4",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\extracts-4.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\extracts-4.json",
+    "n": 2
+  },
+  {
+    "key": "colorants-1",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\colorants-1.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\colorants-1.json",
+    "n": 3
+  },
+  {
+    "key": "colorants-2",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\colorants-2.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\colorants-2.json",
+    "n": 3
+  },
+  {
+    "key": "colorants-3",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\colorants-3.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\colorants-3.json",
+    "n": 2
+  },
+  {
+    "key": "surfactants-1",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\surfactants-1.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\surfactants-1.json",
+    "n": 4
+  },
+  {
+    "key": "surfactants-2",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\surfactants-2.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\surfactants-2.json",
+    "n": 4
+  },
+  {
+    "key": "emulsifiers",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\emulsifiers.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\emulsifiers.json",
+    "n": 4
+  },
+  {
+    "key": "oils-1",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\oils-1.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\oils-1.json",
+    "n": 6
+  },
+  {
+    "key": "oils-2",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\oils-2.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\oils-2.json",
+    "n": 6
+  },
+  {
+    "key": "silicones",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\silicones.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\silicones.json",
+    "n": 5
+  },
+  {
+    "key": "cationics-1",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\cationics-1.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\cationics-1.json",
+    "n": 4
+  },
+  {
+    "key": "cationics-2",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\cationics-2.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\cationics-2.json",
+    "n": 3
+  },
+  {
+    "key": "thickeners-1",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\thickeners-1.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\thickeners-1.json",
+    "n": 3
+  },
+  {
+    "key": "thickeners-2",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\thickeners-2.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\thickeners-2.json",
+    "n": 2
+  },
+  {
+    "key": "actives-1",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\actives-1.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\actives-1.json",
+    "n": 4
+  },
+  {
+    "key": "actives-2",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\actives-2.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\actives-2.json",
+    "n": 4
+  },
+  {
+    "key": "actives-2",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\actives-2.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\actives-2.json",
+    "n": 3
+  },
+  {
+    "key": "vitamins",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\vitamins.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\vitamins.json",
+    "n": 3
+  },
+  {
+    "key": "proteins-1",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\proteins-1.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\proteins-1.json",
+    "n": 3
+  },
+  {
+    "key": "proteins-2",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\proteins-2.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\proteins-2.json",
+    "n": 2
+  },
+  {
+    "key": "preservatives",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\preservatives.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\preservatives.json",
+    "n": 4
+  },
+  {
+    "key": "ph-chelants",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\ph-chelants.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\ph-chelants.json",
+    "n": 4
+  },
+  {
+    "key": "menthol",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\menthol.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\menthol.json",
+    "n": 1
+  },
+  {
+    "key": "basics",
+    "in": "F:\\cosmetic-compound-base\\data\\batches\\basics.json",
+    "out": "F:\\cosmetic-compound-base\\data\\enriched\\basics.json",
+    "n": 1
+  }
+]

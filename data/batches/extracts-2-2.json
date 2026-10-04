@@ -1,0 +1,26 @@
+{
+  "key": "extracts-2-2",
+  "title": "Экстракты: фрукты и ягоды",
+  "hint": "ПГ-экстракты лайма, виноградных косточек, орхидеи, розы, голубики, лимонника, ананаса.",
+  "items": [
+    {
+      "id": "pg-ekstrakt-golubiki",
+      "name_ru": "ПГ экстракт голубики",
+      "category": "plant-extracts",
+      "inci_from_file": ""
+    },
+    {
+      "id": "pg-ekstrakt-limonnika",
+      "name_ru": "ПГ экстракт лимонника",
+      "category": "plant-extracts",
+      "inci_from_file": ""
+    },
+    {
+      "id": "pg-ekstrakt-ananasa",
+      "name_ru": "ПГ экстракт ананаса",
+      "category": "plant-extracts",
+      "inci_from_file": ""
+    }
+  ],
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched\\extracts-2-2.json"
+}

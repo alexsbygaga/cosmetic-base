@@ -1,0 +1,113 @@
+[
+  {
+    "id": "solvents-humectants",
+    "ru": "Растворители и влагоудерживающие",
+    "en": "Solvents & Humectants",
+    "color": "#38bdf8"
+  },
+  {
+    "id": "surfactants",
+    "ru": "ПАВ (поверхностно-активные вещества)",
+    "en": "Surfactants",
+    "color": "#f472b6"
+  },
+  {
+    "id": "emulsifiers",
+    "ru": "Эмульгаторы и соэмульгаторы",
+    "en": "Emulsifiers",
+    "color": "#c084fc"
+  },
+  {
+    "id": "emollients-oils",
+    "ru": "Масла, жиры и эмоленты",
+    "en": "Oils, Butters & Emollients",
+    "color": "#fbbf24"
+  },
+  {
+    "id": "silicones",
+    "ru": "Силиконы и силиконовые эмульсии",
+    "en": "Silicones",
+    "color": "#94a3b8"
+  },
+  {
+    "id": "thickeners-rheology",
+    "ru": "Загустители и реология",
+    "en": "Thickeners & Rheology Modifiers",
+    "color": "#22d3ee"
+  },
+  {
+    "id": "conditioners-cationics",
+    "ru": "Катионные кондиционирующие добавки",
+    "en": "Cationic Conditioners",
+    "color": "#8b5cf6"
+  },
+  {
+    "id": "active-ingredients",
+    "ru": "Активные компоненты",
+    "en": "Active Ingredients",
+    "color": "#10b981"
+  },
+  {
+    "id": "vitamins-antioxidants",
+    "ru": "Витамины и антиоксиданты",
+    "en": "Vitamins & Antioxidants",
+    "color": "#f59e0b"
+  },
+  {
+    "id": "proteins-peptides",
+    "ru": "Протеины, пептиды, аминокислоты",
+    "en": "Proteins, Peptides & Amino Acids",
+    "color": "#e879f9"
+  },
+  {
+    "id": "plant-extracts",
+    "ru": "Растительные экстракты",
+    "en": "Plant Extracts",
+    "color": "#4ade80"
+  },
+  {
+    "id": "fragrances",
+    "ru": "Отдушки и ароматические композиции",
+    "en": "Fragrances",
+    "color": "#fb7185",
+    "hidden": true,
+    "hidden_reason": "отдушки: состав и артикулы — информация поставщика",
+    "hidden_note": "Доступно только администратору и модераторам"
+  },
+  {
+    "id": "colorants",
+    "ru": "Красители и пигменты",
+    "en": "Colorants & Pigments",
+    "color": "#ef4444"
+  },
+  {
+    "id": "preservatives",
+    "ru": "Консерванты и антимикробные",
+    "en": "Preservatives & Antimicrobials",
+    "color": "#0ea5e9"
+  },
+  {
+    "id": "ph-adjusters-chelants",
+    "ru": "Регуляторы pH, хелаты и буферы",
+    "en": "pH Adjusters, Chelants & Buffers",
+    "color": "#a3a3a3"
+  },
+  {
+    "id": "opacifiers-pearlizers",
+    "ru": "Замутнители и перламутровые добавки",
+    "en": "Opacifiers & Pearlizers",
+    "color": "#e2e8f0"
+  },
+  {
+    "id": "other-functional",
+    "ru": "Прочее функциональное сырьё",
+    "en": "Other Functional Ingredients",
+    "color": "#64748b"
+  },
+  {
+    "id": "uv-filters",
+    "ru": "УФ-фильтры",
+    "en": "UV Filters",
+    "color": "#facc15"
+  }
+]

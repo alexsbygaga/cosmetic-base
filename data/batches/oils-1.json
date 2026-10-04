@@ -1,0 +1,44 @@
+{
+  "key": "oils-1",
+  "title": "Масла, жирные спирты и эмоленты",
+  "hint": "Макадамия, авокадо, аргана, миндаль, ши, жожоба, сквалан, касторовое, кокосовое, виноградной косточки, изопропилмиристат, цетеариловый спирт.",
+  "items": [
+    {
+      "id": "maslo-makadamii",
+      "name_ru": "Масло макадамии",
+      "category": "emollients-oils",
+      "inci_from_file": "Macadamia Ternifolia Seed Oil"
+    },
+    {
+      "id": "maslo-avokado",
+      "name_ru": "Масло авокадо",
+      "category": "emollients-oils",
+      "inci_from_file": "Persea Gratissima Oil"
+    },
+    {
+      "id": "maslo-argany",
+      "name_ru": "Масло арганы",
+      "category": "emollients-oils",
+      "inci_from_file": "Argania Spinosa Kernel Oil"
+    },
+    {
+      "id": "maslo-mindalya-svetloe",
+      "name_ru": "Масло миндаля светлое",
+      "category": "emollients-oils",
+      "inci_from_file": "Prunus Amygdalus Dulcis Oil"
+    },
+    {
+      "id": "maslo-shi",
+      "name_ru": "Масло ши",
+      "category": "emollients-oils",
+      "inci_from_file": "Butyrospermum Parkii Butter"
+    },
+    {
+      "id": "maslo-zhozhoba",
+      "name_ru": "Масло жожоба",
+      "category": "emollients-oils",
+      "inci_from_file": "Simmondsia Chinensis Seed Oil"
+    }
+  ],
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched\\oils-1.json"
+}

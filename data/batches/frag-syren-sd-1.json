@@ -1,0 +1,44 @@
+{
+  "key": "frag-syren-sd-1",
+  "title": "Отдушки Syren серии SD",
+  "hint": "Производитель — Syren Fragrances, серия SD (в артикуле указана цена/линия, например L26). Для двух позиций производитель указан явно («Syren»).",
+  "items": [
+    {
+      "id": "otdushka-wood-sea-salt-sd-211",
+      "name_ru": "Отдушка Wood Sea Salt SD-211",
+      "category": "fragrances",
+      "inci_from_file": ""
+    },
+    {
+      "id": "otdushka-almond-milk-l26-sd-644",
+      "name_ru": "Отдушка Almond milk L26 SD-644",
+      "category": "fragrances",
+      "inci_from_file": ""
+    },
+    {
+      "id": "otdushka-amber-milk-l26-sd-445",
+      "name_ru": "Отдушка Amber milk L26 SD-445",
+      "category": "fragrances",
+      "inci_from_file": ""
+    },
+    {
+      "id": "otdushka-aloe-vera-sd-149",
+      "name_ru": "Отдушка Aloe vera SD-149",
+      "category": "fragrances",
+      "inci_from_file": ""
+    },
+    {
+      "id": "otdushka-black-currant-mint-sd-361",
+      "name_ru": "Отдушка Black currant & mint SD-361",
+      "category": "fragrances",
+      "inci_from_file": ""
+    },
+    {
+      "id": "otdushka-mandarin-peel-sd-759",
+      "name_ru": "Отдушка Mandarin peel SD-759",
+      "category": "fragrances",
+      "inci_from_file": ""
+    }
+  ],
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched\\frag-syren-sd-1.json"
+}

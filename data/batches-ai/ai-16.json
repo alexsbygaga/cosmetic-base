@@ -1,0 +1,47 @@
+{
+  "key": "ai-16",
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched-ai\\ai-16.json",
+  "append": true,
+  "items": [
+    {
+      "id": "glikolevaya-kislota-aktiv",
+      "name_ru": "Гликолевая кислота",
+      "name_lat": "Glycolic Acid",
+      "category": "active-ingredients",
+      "inci_from_file": "Glycolic Acid",
+      "provenance": "ai"
+    },
+    {
+      "id": "avobenzon",
+      "name_ru": "Авобензон",
+      "name_lat": "Butyl Methoxydibenzoylmethane",
+      "category": "uv-filters",
+      "inci_from_file": "Butyl Methoxydibenzoylmethane",
+      "provenance": "ai"
+    },
+    {
+      "id": "oktokrilen",
+      "name_ru": "Октокрилен",
+      "name_lat": "Octocrylene",
+      "category": "uv-filters",
+      "inci_from_file": "Octocrylene",
+      "provenance": "ai"
+    },
+    {
+      "id": "etilgeksil-triasont",
+      "name_ru": "Этилгексил триазон",
+      "name_lat": "Ethylhexyl Triazone",
+      "category": "uv-filters",
+      "inci_from_file": "Ethylhexyl Triazone",
+      "provenance": "ai"
+    },
+    {
+      "id": "bemotrizinol",
+      "name_ru": "Бемотризинол",
+      "name_lat": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+      "category": "uv-filters",
+      "inci_from_file": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+      "provenance": "ai"
+    }
+  ]
+}

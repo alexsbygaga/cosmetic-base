@@ -1,0 +1,32 @@
+{
+  "key": "surfactants-1",
+  "title": "ПАВ",
+  "hint": "Кокамидопропилбетаин (амфотерный), Децил глюкозид и Глицерил олеат/Coco Glucoside (неионные), Кокосульфат и Цетеарилсульфат натрия, Динатрия лаурет сульфосукцинат, Натрия лаурет сульфат (анионные), Кокамид ДЭА.",
+  "items": [
+    {
+      "id": "kokamidopropilbetain",
+      "name_ru": "Кокамидопропилбетаин",
+      "category": "surfactants",
+      "inci_from_file": "Cocamidopropilbetaine"
+    },
+    {
+      "id": "decil-glyukozid",
+      "name_ru": "Децил глюкозид",
+      "category": "surfactants",
+      "inci_from_file": "Decyl Glycoside"
+    },
+    {
+      "id": "kokosulfat-natriya",
+      "name_ru": "Кокосульфат натрия",
+      "category": "surfactants",
+      "inci_from_file": "Sodium Cocosulfate"
+    },
+    {
+      "id": "gliceril-oleat-i-koko-glyukozid",
+      "name_ru": "Глицерил олеат и Коко Глюкозид",
+      "category": "surfactants",
+      "inci_from_file": "Glyceryl oleate (and) Coco Glucoside"
+    }
+  ],
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched\\surfactants-1.json"
+}

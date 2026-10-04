@@ -1,0 +1,47 @@
+{
+  "key": "ai-18",
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched-ai\\ai-18.json",
+  "append": true,
+  "items": [
+    {
+      "id": "dvuoksid-titana",
+      "name_ru": "Диоксид титана",
+      "name_lat": "Titanium Dioxide",
+      "category": "uv-filters",
+      "inci_from_file": "Titanium Dioxide",
+      "provenance": "ai"
+    },
+    {
+      "id": "oksid-tsinka",
+      "name_ru": "Оксид цинка",
+      "name_lat": "Zinc Oxide",
+      "category": "uv-filters",
+      "inci_from_file": "Zinc Oxide",
+      "provenance": "ai"
+    },
+    {
+      "id": "oktilsalicilat",
+      "name_ru": "Октисалицилат",
+      "name_lat": "Ethylhexyl Salicylate",
+      "category": "uv-filters",
+      "inci_from_file": "Ethylhexyl Salicylate",
+      "provenance": "ai"
+    },
+    {
+      "id": "gomosalat",
+      "name_ru": "Гомосалат",
+      "name_lat": "Homosalate",
+      "category": "uv-filters",
+      "inci_from_file": "Homosalate",
+      "provenance": "ai"
+    },
+    {
+      "id": "tsetrimonium-bromid",
+      "name_ru": "Цетримониум бромид",
+      "name_lat": "Cetrimonium Bromide",
+      "category": "conditioners-cationics",
+      "inci_from_file": "Cetrimonium Bromide",
+      "provenance": "ai"
+    }
+  ]
+}

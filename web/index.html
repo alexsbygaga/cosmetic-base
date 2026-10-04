@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f766e" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b1220" media="(prefers-color-scheme: dark)">
+<title>Косметическая база — каталог сырья</title>
+<meta name="description" content="Каталог косметического сырья: INCI, CAS-номера, описание, технологические протоколы внесения, агрегатное состояние и происхождение.">
+<link rel="stylesheet" href="styles/base.css">
+<link rel="stylesheet" href="styles/app.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f766e'/%3E%3Cpath d='M9 21c0-6 5-11 14-12 0 9-5 13-11 13H9z' fill='%235eead4'/%3E%3C/svg%3E">
+</head>
+<body>
+<a class="skip-link" href="#catalog">Перейти к каталогу</a>
+
+<header class="topbar">
+  <div class="topbar__inner">
+    <div class="brand">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="30" height="30"><rect width="32" height="32" rx="9" fill="var(--accent)"/><path d="M9 21c0-6 5-11 14-12 0 9-5 13-11 13H9z" fill="var(--accent-soft)"/></svg>
+      </span>
+      <span class="brand__text">
+        <strong>Косметическая база</strong>
+        <small id="brandSubtitle">каталог сырья</small>
+      </span>
+    </div>
+
+    <div class="topbar__search">
+      <div class="search">
+        <svg class="search__icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M10.5 3a7.5 7.5 0 1 0 4.55 13.46l4.24 4.25 1.42-1.42-4.25-4.24A7.5 7.5 0 0 0 10.5 3Zm0 2a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11Z" fill="currentColor"/></svg>
+        <input id="searchInput" type="search" autocomplete="off" spellcheck="false"
+               placeholder="Поиск: название, INCI, CAS, синоним…" aria-label="Поиск по каталогу">
+        <button id="searchClear" class="search__clear" type="button" hidden aria-label="Очистить поиск">&times;</button>
+      </div>
+    </div>
+
+    <div class="topbar__actions">
+      <button id="themeToggle" class="btn btn--icon" type="button" title="Сменить тему" aria-label="Сменить тему">
+        <svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.39 5.39 0 0 1-4.4 2.26 5.4 5.4 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1Z" fill="currentColor"/></svg>
+      </button>
+      <button id="accountBtn" class="btn btn--account" type="button" title="Вход и права" aria-label="Учётная запись">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm0 2c-4 0-7 2.2-7 5v1h14v-1c0-2.8-3-5-7-5Z" fill="currentColor"/></svg>
+        <span id="accountLabel" class="btn__label">Войти</span>
+      </button>
+      <button id="menuToggle" class="btn btn--icon" type="button" title="Данные каталога" aria-label="Данные каталога" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M12 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" fill="currentColor"/></svg>
+      </button>
+      <button id="addBtn" class="btn btn--primary" type="button">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M11 5h2v6h6v2h-6v6h-2v-6H5v-2h6V5Z" fill="currentColor"/></svg>
+        <span class="btn__label">Добавить сырьё</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="topbar__stats" id="statsBar" role="status" aria-live="polite"></div>
+</header>
+
+<main class="page" id="catalog">
+  <aside class="sidebar" id="sidebar" aria-label="Фильтры">
+    <div class="sidebar__scroll">
+      <section class="panel">
+        <h2 class="panel__title">Категории</h2>
+        <div id="categoryList" class="chips chips--column"></div>
+      </section>
+
+      <section class="panel">
+        <h2 class="panel__title">Агрегатное состояние</h2>
+        <div id="stateList" class="chips chips--column"></div>
+      </section>
+
+      <section class="panel">
+        <h2 class="panel__title">Происхождение</h2>
+        <div id="originList" class="chips chips--column"></div>
+      </section>
+
+      <section class="panel">
+        <h2 class="panel__title">Источник данных</h2>
+        <div id="provenanceList" class="chips chips--column"></div>
+      </section>
+
+      <section class="panel" id="restrictedPanel" hidden>
+        <h2 class="panel__title">Скрытые от гостей</h2>
+        <label class="check">
+          <input type="checkbox" id="showRestricted">
+          <span>Показывать скрытые категории</span>
+        </label>
+        <p class="hint" id="restrictedHint"></p>
+      </section>
+
+      <section class="panel">
+        <h2 class="panel__title">Ещё</h2>
+        <label class="check">
+          <input type="checkbox" id="onlyFilled">
+          <span>Только с полными данными (CAS + описание)</span>
+        </label>
+        <label class="check">
+          <input type="checkbox" id="onlyEdited">
+          <span>Только изменённые мной</span>
+        </label>
+        <button id="resetFilters" class="btn btn--ghost btn--block" type="button">Сбросить фильтры</button>
+      </section>
+    </div>
+  </aside>
+
+  <div class="content">
+    <div class="toolbar">
+      <button id="filtersToggle" class="btn btn--outline filters-toggle" type="button" aria-controls="sidebar" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M3 5h18v2l-7 7v6l-4 2v-8L3 7V5Z" fill="currentColor"/></svg>
+        Фильтры <span id="filtersCount" class="badge" hidden>0</span>
+      </button>
+
+      <div class="viewswitch" role="group" aria-label="Вид">
+        <button class="viewswitch__btn is-active" data-view="cards" type="button" title="Плитка" aria-label="Плитка">
+          <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M4 4h7v7H4V4Zm9 0h7v7h-7V4ZM4 13h7v7H4v-7Zm9 0h7v7h-7v-7Z" fill="currentColor"/></svg>
+        </button>
+        <button class="viewswitch__btn" data-view="table" type="button" title="Таблица" aria-label="Таблица">
+          <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M4 5h16v3H4V5Zm0 5.5h16v3H4v-3ZM4 16h16v3H4v-3Z" fill="currentColor"/></svg>
+        </button>
+      </div>
+
+      <label class="field field--inline">
+        <span class="field__label">Сортировка</span>
+        <select id="sortSelect">
+          <option value="name-asc">Название: А → Я</option>
+          <option value="name-desc">Название: Я → А</option>
+          <option value="category-asc">Категория: А → Я</option>
+          <option value="category-desc">Категория: Я → А</option>
+          <option value="updated-desc">Сначала изменённые</option>
+          <option value="inci-asc">INCI: A → Z</option>
+        </select>
+      </label>
+
+      <span class="toolbar__spacer"></span>
+      <span id="resultCount" class="toolbar__count"></span>
+    </div>
+
+    <div id="activeFilters" class="active-filters" hidden></div>
+
+    <div id="cardsView" class="cards" role="list"></div>
+    <div id="tableView" class="table-wrap" hidden></div>
+
+    <div id="emptyState" class="empty" hidden>
+      <h2>Ничего не найдено</h2>
+      <p>Попробуйте изменить запрос или сбросить фильтры.</p>
+      <button class="btn btn--outline" type="button" data-action="reset-filters">Сбросить фильтры</button>
+    </div>
+  </div>
+</main>
+
+<div id="backdrop" class="backdrop" hidden></div>
+
+<dialog id="detailDialog" class="dialog dialog--detail" aria-labelledby="detailTitle">
+  <div id="detail"></div>
+</dialog>
+
+<dialog id="editorDialog" class="dialog">
+  <form id="editorForm" method="dialog" novalidate>
+    <header class="dialog__head">
+      <h2 id="editorTitle">Новое сырьё</h2>
+      <button type="button" class="btn btn--icon" data-close-dialog aria-label="Закрыть">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12 19 6.4 17.6 5 12 10.6 6.4 5Z" fill="currentColor"/></svg>
+      </button>
+    </header>
+    <div class="dialog__body" id="editorBody"></div>
+    <footer class="dialog__foot">
+      <span id="editorHint" class="dialog__hint"></span>
+      <span class="dialog__spacer"></span>
+      <button type="button" class="btn btn--ghost" data-close-dialog>Отмена</button>
+      <button type="submit" class="btn btn--primary" id="editorSave">Сохранить</button>
+    </footer>
+  </form>
+</dialog>
+
+<dialog id="menuDialog" class="dialog dialog--narrow">
+  <header class="dialog__head">
+    <h2>Данные каталога</h2>
+    <button type="button" class="btn btn--icon" data-close-dialog aria-label="Закрыть">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12 19 6.4 17.6 5 12 10.6 6.4 5Z" fill="currentColor"/></svg>
+    </button>
+  </header>
+  <div class="dialog__body">
+    <dl class="kv" id="storageInfo"></dl>
+    <div class="menu-actions">
+      <button class="btn btn--outline btn--block" type="button" data-action="export-json" hidden>Скачать каталог (JSON)</button>
+      <button class="btn btn--outline btn--block" type="button" data-action="import-json" hidden>Загрузить каталог из JSON</button>
+      <button class="btn btn--outline btn--block" type="button" data-action="export-csv" hidden>Скачать таблицу (CSV для Excel)</button>
+      <button class="btn btn--ghost btn--block" type="button" data-action="save-server" hidden>Сохранить в data/materials.json</button>
+      <button class="btn btn--ghost btn--block" type="button" data-action="reload-server" hidden>Перечитать data/materials.json</button>
+      <button class="btn btn--danger btn--block" type="button" data-action="reset-local">Сбросить мои правки</button>
+    </div>
+    <p class="muted" id="menuNote"></p>
+  </div>
+</dialog>
+
+<dialog id="accountDialog" class="dialog dialog--narrow" aria-labelledby="accountTitle">
+  <header class="dialog__head">
+    <h2 id="accountTitle">Учётная запись</h2>
+    <button type="button" class="btn btn--icon" data-close-dialog aria-label="Закрыть">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12 19 6.4 17.6 5 12 10.6 6.4 5Z" fill="currentColor"/></svg>
+    </button>
+  </header>
+  <div class="dialog__body" id="accountBody"></div>
+</dialog>
+
+<dialog id="usersDialog" class="dialog" aria-labelledby="usersTitle">
+  <header class="dialog__head">
+    <h2 id="usersTitle">Пользователи</h2>
+    <button type="button" class="btn btn--icon" data-close-dialog aria-label="Закрыть">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12 19 6.4 17.6 5 12 10.6 6.4 5Z" fill="currentColor"/></svg>
+    </button>
+  </header>
+  <div class="dialog__body" id="usersBody"></div>
+</dialog>
+
+<div id="toasts" class="toasts" aria-live="polite" aria-atomic="false"></div>
+
+<script type="module" src="scripts/main.js"></script>
+</body>
+</html>

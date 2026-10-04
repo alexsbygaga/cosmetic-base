@@ -1,0 +1,12 @@
+[Unit]
+Description=Ежедневное резервное копирование каталога «Косметическая база»
+
+[Timer]
+# каждый день в 03:30 по времени сервера, плюс случайная задержка до 10 минут
+OnCalendar=*-*-* 03:30:00
+RandomizedDelaySec=600
+Persistent=true
+Unit=cosmetic-base-backup.service
+
+[Install]
+WantedBy=timers.target

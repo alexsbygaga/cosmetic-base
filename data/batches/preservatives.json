@@ -1,0 +1,32 @@
+{
+  "key": "preservatives",
+  "title": "Консерванты и антимикробные",
+  "hint": "Эвагуард 400 (Potassium Sorbate, Sodium Benzoate, Water). Эуксил К100 (Benzyl Alcohol, Methylchloroisothiazolinone, Methylisothiazolinone) — торговая марка Ashland/Schülke. Эвагуард 206 и Эвагуард 100 — торговая марка «Эвагуард» (уточни производителя, вероятно российский).",
+  "items": [
+    {
+      "id": "evaguard-400",
+      "name_ru": "Эвагуард 400",
+      "category": "preservatives",
+      "inci_from_file": "Potassium Sobate, Sodium Benzoate, Water"
+    },
+    {
+      "id": "euksil-k100",
+      "name_ru": "Эуксил К100",
+      "category": "preservatives",
+      "inci_from_file": "Benzyl Alcohol, Methylchloroisothiazolinone, Methylisothiazolinone"
+    },
+    {
+      "id": "evaguard-206",
+      "name_ru": "Эвагуард 206",
+      "category": "preservatives",
+      "inci_from_file": "Potassium Sorbate, Sodium Benzoate,Benzyl Alcohol, Aqua"
+    },
+    {
+      "id": "evaguard-100",
+      "name_ru": "Эвагуард 100",
+      "category": "preservatives",
+      "inci_from_file": ""
+    }
+  ],
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched\\preservatives.json"
+}

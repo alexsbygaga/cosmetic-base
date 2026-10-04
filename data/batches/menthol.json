@@ -1,0 +1,14 @@
+{
+  "key": "menthol",
+  "title": "Ментол",
+  "hint": "Ментол — охлаждающий агент.",
+  "items": [
+    {
+      "id": "mentol",
+      "name_ru": "Ментол",
+      "category": "other-functional",
+      "inci_from_file": "Menthol"
+    }
+  ],
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched\\menthol.json"
+}

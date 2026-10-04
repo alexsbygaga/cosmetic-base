@@ -1,0 +1,32 @@
+{
+  "key": "cationics-1",
+  "title": "Катионные кондиционирующие добавки",
+  "hint": "Гидроксипропилгуар гидроксипропилтримониум хлорид, гуар гидроксипропилтримониум хлорид, цетримониум хлорид, линолеамидопропил PG-димониум хлорид фосфат, бегентримониум хлорид, поликватерниум-10, поликватерниум-7.",
+  "items": [
+    {
+      "id": "gidrokipropil-guar-gidroksipropil-trimonium-hlorid",
+      "name_ru": "Гидрокипропил гуар гидроксипропил тримониум хлорид",
+      "category": "conditioners-cationics",
+      "inci_from_file": "Hydroxypropyl guar hydroxypropyl trimonium chloride"
+    },
+    {
+      "id": "guar-gidroksipropil-trimonium-hlorid",
+      "name_ru": "Гуар гидроксипропил тримониум хлорид",
+      "category": "conditioners-cationics",
+      "inci_from_file": "Guar hydroxypropyl trimonium chloride"
+    },
+    {
+      "id": "cetrimonium-hlorid",
+      "name_ru": "Цетримониум хлорид",
+      "category": "conditioners-cationics",
+      "inci_from_file": "Cetrimonium Chloride"
+    },
+    {
+      "id": "linoleamidopropil-pg-dimonium-hlorid-fosfat",
+      "name_ru": "Линолеамидопропил ПГ-димониум хлорид фосфат",
+      "category": "conditioners-cationics",
+      "inci_from_file": "linoleamidopropyl pg dimonium chloride phosphate"
+    }
+  ],
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched\\cationics-1.json"
+}

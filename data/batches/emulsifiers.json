@@ -1,0 +1,32 @@
+{
+  "key": "emulsifiers",
+  "title": "Эмульгаторы и соэмульгаторы",
+  "hint": "Глицерил стеарат. «ПЭГ-40» — уточни продукт (вероятно PEG-40 Hydrogenated Castor Oil), оба варианта отрази в confidence_notes. Глицерил Глюкозид — увлажнитель/эмульгатор. PPG-3 Caprylyl Ether — эмолент.",
+  "items": [
+    {
+      "id": "gliceril-stearat",
+      "name_ru": "Глицерил стеарат",
+      "category": "emulsifiers",
+      "inci_from_file": "Glyceryl Stearate"
+    },
+    {
+      "id": "peg-40",
+      "name_ru": "ПЭГ-40",
+      "category": "emulsifiers",
+      "inci_from_file": ""
+    },
+    {
+      "id": "gliceril-glyukozid",
+      "name_ru": "Глицерил Глюкозид",
+      "category": "solvents-humectants",
+      "inci_from_file": "Glyceryl Glucoside"
+    },
+    {
+      "id": "ppg-3",
+      "name_ru": "PPG-3",
+      "category": "emollients-oils",
+      "inci_from_file": "PPG-3 Caprylyl Ether"
+    }
+  ],
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched\\emulsifiers.json"
+}

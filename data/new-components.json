@@ -1,0 +1,805 @@
+{
+  "provenance": "ai",
+  "items": [
+    {
+      "id": "lauril-sulfat-natriya",
+      "name_ru": "Лаурилсульфат натрия",
+      "name_lat": "Sodium Lauryl Sulfate",
+      "category": "surfactants",
+      "inci_from_file": "Sodium Lauryl Sulfate",
+      "provenance": "ai"
+    },
+    {
+      "id": "lauril-sulfat-ammoniya",
+      "name_ru": "Лаурилсульфат аммония",
+      "name_lat": "Ammonium Lauryl Sulfate",
+      "category": "surfactants",
+      "inci_from_file": "Ammonium Lauryl Sulfate",
+      "provenance": "ai"
+    },
+    {
+      "id": "natriy-kokoil-izetionat",
+      "name_ru": "Натрия кокоил изетионат",
+      "name_lat": "Sodium Cocoyl Isethionate",
+      "category": "surfactants",
+      "inci_from_file": "Sodium Cocoyl Isethionate",
+      "provenance": "ai"
+    },
+    {
+      "id": "natriy-metil-kokoil-taurat",
+      "name_ru": "Натрия метил кокоил таурат",
+      "name_lat": "Sodium Methyl Cocoyl Taurate",
+      "category": "surfactants",
+      "inci_from_file": "Sodium Methyl Cocoyl Taurate",
+      "provenance": "ai"
+    },
+    {
+      "id": "lauril-glukozid",
+      "name_ru": "Лаурил глюкозид",
+      "name_lat": "Lauryl Glucoside",
+      "category": "surfactants",
+      "inci_from_file": "Lauryl Glucoside",
+      "provenance": "ai"
+    },
+    {
+      "id": "kokamidopropil-gidroksisultain",
+      "name_ru": "Кокамидопропил гидроксисултаин",
+      "name_lat": "Cocamidopropyl Hydroxysultaine",
+      "category": "surfactants",
+      "inci_from_file": "Cocamidopropyl Hydroxysultaine",
+      "provenance": "ai"
+    },
+    {
+      "id": "natriy-lauroil-sarkozinat",
+      "name_ru": "Натрия лауроил саркозинат",
+      "name_lat": "Sodium Lauroyl Sarcosinate",
+      "category": "surfactants",
+      "inci_from_file": "Sodium Lauroyl Sarcosinate",
+      "provenance": "ai"
+    },
+    {
+      "id": "gliceril-stearat-se",
+      "name_ru": "Глицерил стеарат SE",
+      "name_lat": "Glyceryl Stearate SE",
+      "category": "emulsifiers",
+      "inci_from_file": "Glyceryl Stearate SE",
+      "provenance": "ai"
+    },
+    {
+      "id": "gliceril-stearat-citrat",
+      "name_ru": "Глицерил стеарат цитрат",
+      "name_lat": "Glyceryl Stearate Citrate",
+      "category": "emulsifiers",
+      "inci_from_file": "Glyceryl Stearate Citrate",
+      "provenance": "ai"
+    },
+    {
+      "id": "poligliceril-3-diizostearat",
+      "name_ru": "Полиглицерил-3 диизостеарат",
+      "name_lat": "Polyglyceryl-3 Diisostearate",
+      "category": "emulsifiers",
+      "inci_from_file": "Polyglyceryl-3 Diisostearate",
+      "provenance": "ai"
+    },
+    {
+      "id": "sorbitan-oleat",
+      "name_ru": "Сорбитан олеат",
+      "name_lat": "Sorbitan Oleate",
+      "category": "emulsifiers",
+      "inci_from_file": "Sorbitan Oleate",
+      "provenance": "ai"
+    },
+    {
+      "id": "sorbitan-stearat",
+      "name_ru": "Сорбитан стеарат",
+      "name_lat": "Sorbitan Stearate",
+      "category": "emulsifiers",
+      "inci_from_file": "Sorbitan Stearate",
+      "provenance": "ai"
+    },
+    {
+      "id": "polysorbat-20",
+      "name_ru": "Полисорбат 20",
+      "name_lat": "Polysorbate 20",
+      "category": "emulsifiers",
+      "inci_from_file": "Polysorbate 20",
+      "provenance": "ai"
+    },
+    {
+      "id": "polysorbat-60",
+      "name_ru": "Полисорбат 60",
+      "name_lat": "Polysorbate 60",
+      "category": "emulsifiers",
+      "inci_from_file": "Polysorbate 60",
+      "provenance": "ai"
+    },
+    {
+      "id": "polysorbat-80",
+      "name_ru": "Полисорбат 80",
+      "name_lat": "Polysorbate 80",
+      "category": "emulsifiers",
+      "inci_from_file": "Polysorbate 80",
+      "provenance": "ai"
+    },
+    {
+      "id": "tsetilfosfat-kaliya",
+      "name_ru": "Цетилфосфат калия",
+      "name_lat": "Potassium Cetyl Phosphate",
+      "category": "emulsifiers",
+      "inci_from_file": "Potassium Cetyl Phosphate",
+      "provenance": "ai"
+    },
+    {
+      "id": "tsetearilovyj-glukozid",
+      "name_ru": "Цетеарил глюкозид",
+      "name_lat": "Cetearyl Glucoside",
+      "category": "emulsifiers",
+      "inci_from_file": "Cetearyl Glucoside",
+      "provenance": "ai"
+    },
+    {
+      "id": "behenilovyj-spirt",
+      "name_ru": "Бегениловый спирт",
+      "name_lat": "Behenyl Alcohol",
+      "category": "emulsifiers",
+      "inci_from_file": "Behenyl Alcohol",
+      "provenance": "ai"
+    },
+    {
+      "id": "stearoil-glutamat-natriya",
+      "name_ru": "Натрия стеароил глутамат",
+      "name_lat": "Sodium Stearoyl Glutamate",
+      "category": "emulsifiers",
+      "inci_from_file": "Sodium Stearoyl Glutamate",
+      "provenance": "ai"
+    },
+    {
+      "id": "tsetilovyj-spirt",
+      "name_ru": "Цетиловый спирт",
+      "name_lat": "Cetyl Alcohol",
+      "category": "emulsifiers",
+      "inci_from_file": "Cetyl Alcohol",
+      "provenance": "ai"
+    },
+    {
+      "id": "olivat-emulgator",
+      "name_ru": "Цетеарил оливат и сорбитан оливат",
+      "name_lat": "Cetearyl Olivate (and) Sorbitan Olivate",
+      "category": "emulsifiers",
+      "inci_from_file": "Cetearyl Olivate (and) Sorbitan Olivate",
+      "provenance": "ai"
+    },
+    {
+      "id": "karbomer",
+      "name_ru": "Карбомер",
+      "name_lat": "Carbomer",
+      "category": "thickeners-rheology",
+      "inci_from_file": "Carbomer",
+      "provenance": "ai"
+    },
+    {
+      "id": "akrilatnyj-kopolimer",
+      "name_ru": "Акрилаты/C10-30 алкилакрилат кросполимер",
+      "name_lat": "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+      "category": "thickeners-rheology",
+      "inci_from_file": "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+      "provenance": "ai"
+    },
+    {
+      "id": "ksantanovaya-kamed",
+      "name_ru": "Ксантановая камедь",
+      "name_lat": "Xanthan Gum",
+      "category": "thickeners-rheology",
+      "inci_from_file": "Xanthan Gum",
+      "provenance": "ai"
+    },
+    {
+      "id": "gellanovaya-kamed",
+      "name_ru": "Геллановая камедь",
+      "name_lat": "Gellan Gum",
+      "category": "thickeners-rheology",
+      "inci_from_file": "Gellan Gum",
+      "provenance": "ai"
+    },
+    {
+      "id": "skleroglikany",
+      "name_ru": "Склероглюкан",
+      "name_lat": "Sclerotium Gum",
+      "category": "thickeners-rheology",
+      "inci_from_file": "Sclerotium Gum",
+      "provenance": "ai"
+    },
+    {
+      "id": "monostearat-glikolya",
+      "name_ru": "Гликоль стеарат",
+      "name_lat": "Glycol Stearate",
+      "category": "thickeners-rheology",
+      "inci_from_file": "Glycol Stearate",
+      "provenance": "ai"
+    },
+    {
+      "id": "gidroksipropilmetilcellyuloza",
+      "name_ru": "Гидроксипропилметилцеллюлоза",
+      "name_lat": "Hydroxypropyl Methylcellulose",
+      "category": "thickeners-rheology",
+      "inci_from_file": "Hydroxypropyl Methylcellulose",
+      "provenance": "ai"
+    },
+    {
+      "id": "magniya-alyuminiya-silikat",
+      "name_ru": "Магния алюминия силикат",
+      "name_lat": "Magnesium Aluminum Silicate",
+      "category": "thickeners-rheology",
+      "inci_from_file": "Magnesium Aluminum Silicate",
+      "provenance": "ai"
+    },
+    {
+      "id": "dvuoksid-kremniya",
+      "name_ru": "Диоксид кремния",
+      "name_lat": "Silica",
+      "category": "thickeners-rheology",
+      "inci_from_file": "Silica",
+      "provenance": "ai"
+    },
+    {
+      "id": "kaprilik-kaprikovyy-triglicerid",
+      "name_ru": "Каприлик/каприновый триглицерид",
+      "name_lat": "Caprylic/Capric Triglyceride",
+      "category": "emollients-oils",
+      "inci_from_file": "Caprylic/Capric Triglyceride",
+      "provenance": "ai"
+    },
+    {
+      "id": "izopropil-palmitat",
+      "name_ru": "Изопропилпальмитат",
+      "name_lat": "Isopropyl Palmitate",
+      "category": "emollients-oils",
+      "inci_from_file": "Isopropyl Palmitate",
+      "provenance": "ai"
+    },
+    {
+      "id": "oktil-dodekanol",
+      "name_ru": "Октилдодеканол",
+      "name_lat": "Octyldodecanol",
+      "category": "emollients-oils",
+      "inci_from_file": "Octyldodecanol",
+      "provenance": "ai"
+    },
+    {
+      "id": "setil-palmitat",
+      "name_ru": "Цетилпальмитат",
+      "name_lat": "Cetyl Palmitate",
+      "category": "emollients-oils",
+      "inci_from_file": "Cetyl Palmitate",
+      "provenance": "ai"
+    },
+    {
+      "id": "dikaprilil-karbonat",
+      "name_ru": "Дикаприлил карбонат",
+      "name_lat": "Dicaprylyl Carbonate",
+      "category": "emollients-oils",
+      "inci_from_file": "Dicaprylyl Carbonate",
+      "provenance": "ai"
+    },
+    {
+      "id": "izogeksadekan",
+      "name_ru": "Изогексадекан",
+      "name_lat": "Isohexadecane",
+      "category": "emollients-oils",
+      "inci_from_file": "Isohexadecane",
+      "provenance": "ai"
+    },
+    {
+      "id": "skvalen",
+      "name_ru": "Сквален",
+      "name_lat": "Squalene",
+      "category": "emollients-oils",
+      "inci_from_file": "Squalene",
+      "provenance": "ai"
+    },
+    {
+      "id": "lanolin",
+      "name_ru": "Ланолин",
+      "name_lat": "Lanolin",
+      "category": "emollients-oils",
+      "inci_from_file": "Lanolin",
+      "provenance": "ai"
+    },
+    {
+      "id": "pchelinyy-vosk",
+      "name_ru": "Пчелиный воск",
+      "name_lat": "Beeswax",
+      "category": "emollients-oils",
+      "inci_from_file": "Beeswax",
+      "provenance": "ai"
+    },
+    {
+      "id": "karnaubskiy-vosk",
+      "name_ru": "Карнаубский воск",
+      "name_lat": "Copernicia Cerifera Cera",
+      "category": "emollients-oils",
+      "inci_from_file": "Copernicia Cerifera (Carnauba) Wax",
+      "provenance": "ai"
+    },
+    {
+      "id": "mikrokristallicheskiy-vosk",
+      "name_ru": "Микрокристаллический воск",
+      "name_lat": "Microcrystalline Wax",
+      "category": "emollients-oils",
+      "inci_from_file": "Microcrystalline Wax",
+      "provenance": "ai"
+    },
+    {
+      "id": "paraffin",
+      "name_ru": "Парафин",
+      "name_lat": "Paraffin",
+      "category": "emollients-oils",
+      "inci_from_file": "Paraffin",
+      "provenance": "ai"
+    },
+    {
+      "id": "vazelinovoe-maslo",
+      "name_ru": "Вазелиновое масло",
+      "name_lat": "Mineral Oil",
+      "category": "emollients-oils",
+      "inci_from_file": "Mineral Oil",
+      "provenance": "ai"
+    },
+    {
+      "id": "stearinovaya-kislota",
+      "name_ru": "Стеариновая кислота",
+      "name_lat": "Stearic Acid",
+      "category": "emollients-oils",
+      "inci_from_file": "Stearic Acid",
+      "provenance": "ai"
+    },
+    {
+      "id": "izostearinovaya-kislota",
+      "name_ru": "Изостеариновая кислота",
+      "name_lat": "Isostearic Acid",
+      "category": "emollients-oils",
+      "inci_from_file": "Isostearic Acid",
+      "provenance": "ai"
+    },
+    {
+      "id": "propilenglikol",
+      "name_ru": "Пропиленгликоль",
+      "name_lat": "Propylene Glycol",
+      "category": "solvents-humectants",
+      "inci_from_file": "Propylene Glycol",
+      "provenance": "ai"
+    },
+    {
+      "id": "butilenglikol",
+      "name_ru": "Бутиленгликоль",
+      "name_lat": "Butylene Glycol",
+      "category": "solvents-humectants",
+      "inci_from_file": "Butylene Glycol",
+      "provenance": "ai"
+    },
+    {
+      "id": "pentilenglikol",
+      "name_ru": "Пентиленгликоль",
+      "name_lat": "Pentylene Glycol",
+      "category": "solvents-humectants",
+      "inci_from_file": "Pentylene Glycol",
+      "provenance": "ai"
+    },
+    {
+      "id": "geksilenglikol",
+      "name_ru": "Гексиленгликоль",
+      "name_lat": "Hexylene Glycol",
+      "category": "solvents-humectants",
+      "inci_from_file": "Hexylene Glycol",
+      "provenance": "ai"
+    },
+    {
+      "id": "etanol",
+      "name_ru": "Этанол (денатурированный)",
+      "name_lat": "Alcohol Denat.",
+      "category": "solvents-humectants",
+      "inci_from_file": "Alcohol Denat.",
+      "provenance": "ai"
+    },
+    {
+      "id": "natriy-gialuronat",
+      "name_ru": "Натрия гиалуронат",
+      "name_lat": "Sodium Hyaluronate",
+      "category": "solvents-humectants",
+      "inci_from_file": "Sodium Hyaluronate",
+      "provenance": "ai"
+    },
+    {
+      "id": "trehaloza",
+      "name_ru": "Трегалоза",
+      "name_lat": "Trehalose",
+      "category": "solvents-humectants",
+      "inci_from_file": "Trehalose",
+      "provenance": "ai"
+    },
+    {
+      "id": "betain",
+      "name_ru": "Бетаин",
+      "name_lat": "Betaine",
+      "category": "solvents-humectants",
+      "inci_from_file": "Betaine",
+      "provenance": "ai"
+    },
+    {
+      "id": "dimethicon",
+      "name_ru": "Диметикон",
+      "name_lat": "Dimethicone",
+      "category": "silicones",
+      "inci_from_file": "Dimethicone",
+      "provenance": "ai"
+    },
+    {
+      "id": "tsiklomethicon",
+      "name_ru": "Циклометикон",
+      "name_lat": "Cyclomethicone",
+      "category": "silicones",
+      "inci_from_file": "Cyclomethicone",
+      "provenance": "ai"
+    },
+    {
+      "id": "tsiklgeksasiloksan",
+      "name_ru": "Циклогексасилоксан",
+      "name_lat": "Cyclohexasiloxane",
+      "category": "silicones",
+      "inci_from_file": "Cyclohexasiloxane",
+      "provenance": "ai"
+    },
+    {
+      "id": "amodimethicon",
+      "name_ru": "Амодиметикон",
+      "name_lat": "Amodimethicone",
+      "category": "silicones",
+      "inci_from_file": "Amodimethicone",
+      "provenance": "ai"
+    },
+    {
+      "id": "dimethiconol",
+      "name_ru": "Диметиконол",
+      "name_lat": "Dimethiconol",
+      "category": "silicones",
+      "inci_from_file": "Dimethiconol",
+      "provenance": "ai"
+    },
+    {
+      "id": "dimethicon-krospolimer",
+      "name_ru": "Диметикон кросполимер",
+      "name_lat": "Dimethicone Crosspolymer",
+      "category": "silicones",
+      "inci_from_file": "Dimethicone Crosspolymer",
+      "provenance": "ai"
+    },
+    {
+      "id": "trimetilsiloksisilikat",
+      "name_ru": "Триметилсилоксисиликат",
+      "name_lat": "Trimethylsiloxysilicate",
+      "category": "silicones",
+      "inci_from_file": "Trimethylsiloxysilicate",
+      "provenance": "ai"
+    },
+    {
+      "id": "fenoksietanol",
+      "name_ru": "Феноксиэтанол",
+      "name_lat": "Phenoxyethanol",
+      "category": "preservatives",
+      "inci_from_file": "Phenoxyethanol",
+      "provenance": "ai"
+    },
+    {
+      "id": "etilgeksilglicerin",
+      "name_ru": "Этилгексилглицерин",
+      "name_lat": "Ethylhexylglycerin",
+      "category": "preservatives",
+      "inci_from_file": "Ethylhexylglycerin",
+      "provenance": "ai"
+    },
+    {
+      "id": "metilparaben",
+      "name_ru": "Метилпарабен",
+      "name_lat": "Methylparaben",
+      "category": "preservatives",
+      "inci_from_file": "Methylparaben",
+      "provenance": "ai"
+    },
+    {
+      "id": "propilparaben",
+      "name_ru": "Пропилпарабен",
+      "name_lat": "Propylparaben",
+      "category": "preservatives",
+      "inci_from_file": "Propylparaben",
+      "provenance": "ai"
+    },
+    {
+      "id": "dmdm-gidantoin",
+      "name_ru": "DMDM гидантоин",
+      "name_lat": "DMDM Hydantoin",
+      "category": "preservatives",
+      "inci_from_file": "DMDM Hydantoin",
+      "provenance": "ai"
+    },
+    {
+      "id": "imidazolidinil-mochevina",
+      "name_ru": "Имидазолидинил мочевина",
+      "name_lat": "Imidazolidinyl Urea",
+      "category": "preservatives",
+      "inci_from_file": "Imidazolidinyl Urea",
+      "provenance": "ai"
+    },
+    {
+      "id": "diazolidinil-mochevina",
+      "name_ru": "Диазолидинил мочевина",
+      "name_lat": "Diazolidinyl Urea",
+      "category": "preservatives",
+      "inci_from_file": "Diazolidinyl Urea",
+      "provenance": "ai"
+    },
+    {
+      "id": "iodopropinil-butilkarbamat",
+      "name_ru": "Йодопропинил бутилкарбамат",
+      "name_lat": "Iodopropynyl Butylcarbamate",
+      "category": "preservatives",
+      "inci_from_file": "Iodopropynyl Butylcarbamate",
+      "provenance": "ai"
+    },
+    {
+      "id": "askorbilglukozid",
+      "name_ru": "Аскорбил глюкозид",
+      "name_lat": "Ascorbyl Glucoside",
+      "category": "active-ingredients",
+      "inci_from_file": "Ascorbyl Glucoside",
+      "provenance": "ai"
+    },
+    {
+      "id": "askorbilfosfat-magniya",
+      "name_ru": "Аскорбилфосфат магния",
+      "name_lat": "Magnesium Ascorbyl Phosphate",
+      "category": "active-ingredients",
+      "inci_from_file": "Magnesium Ascorbyl Phosphate",
+      "provenance": "ai"
+    },
+    {
+      "id": "retinol",
+      "name_ru": "Ретинол",
+      "name_lat": "Retinol",
+      "category": "active-ingredients",
+      "inci_from_file": "Retinol",
+      "provenance": "ai"
+    },
+    {
+      "id": "bakuchiol",
+      "name_ru": "Бакучиол",
+      "name_lat": "Bakuchiol",
+      "category": "active-ingredients",
+      "inci_from_file": "Bakuchiol",
+      "provenance": "ai"
+    },
+    {
+      "id": "allantoin",
+      "name_ru": "Аллантоин",
+      "name_lat": "Allantoin",
+      "category": "active-ingredients",
+      "inci_from_file": "Allantoin",
+      "provenance": "ai"
+    },
+    {
+      "id": "bisabolol",
+      "name_ru": "Бисаболол",
+      "name_lat": "Bisabolol",
+      "category": "active-ingredients",
+      "inci_from_file": "Bisabolol",
+      "provenance": "ai"
+    },
+    {
+      "id": "gidroksiacetofenon",
+      "name_ru": "Гидроксиацетофенон",
+      "name_lat": "Hydroxyacetophenone",
+      "category": "active-ingredients",
+      "inci_from_file": "Hydroxyacetophenone",
+      "provenance": "ai"
+    },
+    {
+      "id": "alfa-arbutin",
+      "name_ru": "Альфа-арбутин",
+      "name_lat": "Alpha-Arbutin",
+      "category": "active-ingredients",
+      "inci_from_file": "Alpha-Arbutin",
+      "provenance": "ai"
+    },
+    {
+      "id": "glikolevaya-kislota-aktiv",
+      "name_ru": "Гликолевая кислота",
+      "name_lat": "Glycolic Acid",
+      "category": "active-ingredients",
+      "inci_from_file": "Glycolic Acid",
+      "provenance": "ai"
+    },
+    {
+      "id": "ferulovaya-kislota",
+      "name_ru": "Феруловая кислота",
+      "name_lat": "Ferulic Acid",
+      "category": "active-ingredients",
+      "inci_from_file": "Ferulic Acid",
+      "provenance": "ai"
+    },
+    {
+      "id": "trietanolamin",
+      "name_ru": "Триэтаноламин",
+      "name_lat": "Triethanolamine",
+      "category": "ph-adjusters-chelants",
+      "inci_from_file": "Triethanolamine",
+      "provenance": "ai"
+    },
+    {
+      "id": "aminometilpropanol",
+      "name_ru": "Аминометилпропанол",
+      "name_lat": "Aminomethyl Propanol",
+      "category": "ph-adjusters-chelants",
+      "inci_from_file": "Aminomethyl Propanol",
+      "provenance": "ai"
+    },
+    {
+      "id": "trometamin",
+      "name_ru": "Трометамин",
+      "name_lat": "Tromethamine",
+      "category": "ph-adjusters-chelants",
+      "inci_from_file": "Tromethamine",
+      "provenance": "ai"
+    },
+    {
+      "id": "tetranatriy-glutamat-diacetat",
+      "name_ru": "Тетранатрия глутамат диацетат",
+      "name_lat": "Tetrasodium Glutamate Diacetate",
+      "category": "ph-adjusters-chelants",
+      "inci_from_file": "Tetrasodium Glutamate Diacetate",
+      "provenance": "ai"
+    },
+    {
+      "id": "fittovaya-kislota",
+      "name_ru": "Фитовая кислота",
+      "name_lat": "Phytic Acid",
+      "category": "ph-adjusters-chelants",
+      "inci_from_file": "Phytic Acid",
+      "provenance": "ai"
+    },
+    {
+      "id": "glikolevaya-kislota-ph",
+      "name_ru": "Гликолевая кислота (регулятор pH)",
+      "name_lat": "Glycolic Acid",
+      "category": "ph-adjusters-chelants",
+      "inci_from_file": "Glycolic Acid",
+      "provenance": "ai"
+    },
+    {
+      "id": "molochaynaya-kislota-ph",
+      "name_ru": "Молочная кислота (регулятор pH)",
+      "name_lat": "Lactic Acid",
+      "category": "ph-adjusters-chelants",
+      "inci_from_file": "Lactic Acid",
+      "provenance": "ai"
+    },
+    {
+      "id": "avobenzon",
+      "name_ru": "Авобензон",
+      "name_lat": "Butyl Methoxydibenzoylmethane",
+      "category": "uv-filters",
+      "inci_from_file": "Butyl Methoxydibenzoylmethane",
+      "provenance": "ai"
+    },
+    {
+      "id": "oktokrilen",
+      "name_ru": "Октокрилен",
+      "name_lat": "Octocrylene",
+      "category": "uv-filters",
+      "inci_from_file": "Octocrylene",
+      "provenance": "ai"
+    },
+    {
+      "id": "etilgeksil-triasont",
+      "name_ru": "Этилгексил триазон",
+      "name_lat": "Ethylhexyl Triazone",
+      "category": "uv-filters",
+      "inci_from_file": "Ethylhexyl Triazone",
+      "provenance": "ai"
+    },
+    {
+      "id": "bemotrizinol",
+      "name_ru": "Бемотризинол",
+      "name_lat": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+      "category": "uv-filters",
+      "inci_from_file": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+      "provenance": "ai"
+    },
+    {
+      "id": "dvuoksid-titana",
+      "name_ru": "Диоксид титана",
+      "name_lat": "Titanium Dioxide",
+      "category": "uv-filters",
+      "inci_from_file": "Titanium Dioxide",
+      "provenance": "ai"
+    },
+    {
+      "id": "oksid-tsinka",
+      "name_ru": "Оксид цинка",
+      "name_lat": "Zinc Oxide",
+      "category": "uv-filters",
+      "inci_from_file": "Zinc Oxide",
+      "provenance": "ai"
+    },
+    {
+      "id": "oktilsalicilat",
+      "name_ru": "Октисалицилат",
+      "name_lat": "Ethylhexyl Salicylate",
+      "category": "uv-filters",
+      "inci_from_file": "Ethylhexyl Salicylate",
+      "provenance": "ai"
+    },
+    {
+      "id": "gomosalat",
+      "name_ru": "Гомосалат",
+      "name_lat": "Homosalate",
+      "category": "uv-filters",
+      "inci_from_file": "Homosalate",
+      "provenance": "ai"
+    },
+    {
+      "id": "tsetrimonium-bromid",
+      "name_ru": "Цетримониум бромид",
+      "name_lat": "Cetrimonium Bromide",
+      "category": "conditioners-cationics",
+      "inci_from_file": "Cetrimonium Bromide",
+      "provenance": "ai"
+    },
+    {
+      "id": "stearalkonium-hlorid",
+      "name_ru": "Стеаралкониум хлорид",
+      "name_lat": "Stearalkonium Chloride",
+      "category": "conditioners-cationics",
+      "inci_from_file": "Stearalkonium Chloride",
+      "provenance": "ai"
+    },
+    {
+      "id": "polikvaternium-11",
+      "name_ru": "Поликватерниум-11",
+      "name_lat": "Polyquaternium-11",
+      "category": "conditioners-cationics",
+      "inci_from_file": "Polyquaternium-11",
+      "provenance": "ai"
+    },
+    {
+      "id": "polikvaternium-4",
+      "name_ru": "Поликватерниум-4",
+      "name_lat": "Polyquaternium-4",
+      "category": "conditioners-cationics",
+      "inci_from_file": "Polyquaternium-4",
+      "provenance": "ai"
+    },
+    {
+      "id": "polikvaternium-6",
+      "name_ru": "Поликватерниум-6",
+      "name_lat": "Polyquaternium-6",
+      "category": "conditioners-cationics",
+      "inci_from_file": "Polyquaternium-6",
+      "provenance": "ai"
+    },
+    {
+      "id": "behentrimonium-metosulfat",
+      "name_ru": "Бегентримониум метосульфат",
+      "name_lat": "Behentrimonium Methosulfate",
+      "category": "conditioners-cationics",
+      "inci_from_file": "Behentrimonium Methosulfate",
+      "provenance": "ai"
+    },
+    {
+      "id": "dicetyldimonium-hlorid",
+      "name_ru": "Дицетилдимониум хлорид",
+      "name_lat": "Dicetyldimonium Chloride",
+      "category": "conditioners-cationics",
+      "inci_from_file": "Dicetyldimonium Chloride",
+      "provenance": "ai"
+    }
+  ]
+}

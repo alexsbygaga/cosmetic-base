@@ -1,0 +1,38 @@
+{
+  "key": "silicones",
+  "title": "Силиконы и силиконовые эмульсии",
+  "hint": "Силиконовая эмульсия Amodimethicone/Cetrimonium Chloride/Trideceth-12. Циклопентасилоксан (D5). Фенилтриметикон. Силиконовая эмульсия EVS-0785: Dimethiconol и TEA-Dodecylbenzenesulfonate. ВАЖНО: в базе две строки с названием «Силиконовая эмульсия» — это два разных продукта, id silikonovaya-emulsiya (Bis-Cetearyl Amodimethicone / Ceteareth-25 / Ceteareth-7) и silikonovaya-emulsiya-evs-0785 (Dimethiconol / TEA-Dodecylbenzenesulfonate). Опиши ОБА, включая silikonovaya-emulsiya.",
+  "items": [
+    {
+      "id": "emulsiya-silikonovaya-amodimethicone-cetrimonium-chloride-trideceth-12",
+      "name_ru": "Эмульсия силиконовая (Amodimethicone, Cetrimonium Chloride, Trideceth-12)",
+      "category": "silicones",
+      "inci_from_file": "Amodimethicone, Cetrimonium Chloride, Trideceth-12"
+    },
+    {
+      "id": "ciklopentasiloksan",
+      "name_ru": "Циклопентасилоксан",
+      "category": "silicones",
+      "inci_from_file": "Cyclopentasiloxane"
+    },
+    {
+      "id": "feniltrimetikon",
+      "name_ru": "Фенилтриметикон",
+      "category": "silicones",
+      "inci_from_file": "Phenyltrimethicone"
+    },
+    {
+      "id": "silikonovaya-emulsiya-evs-0785-dimethiconol-and-tea-dodecylbenzenesulf",
+      "name_ru": "Силиконовая эмульсия EVS-0785 (Dimethiconol and TEA-Dodecylbenzenesulfonate)",
+      "category": "silicones",
+      "inci_from_file": "Dimethiconol and TEA-Dodecylbenzenesulfonate"
+    },
+    {
+      "id": "silikonovaya-emulsiya",
+      "name_ru": "Силиконовая эмульсия",
+      "category": "silicones",
+      "inci_from_file": "Bis-Cetearyl Amodimethicone (and) Ceteareth-25 (and) Ceteareth-7"
+    }
+  ],
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched\\silicones.json"
+}

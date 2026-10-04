@@ -1,0 +1,8 @@
+[Unit]
+Description=Обновление DuckDNS и проверка каталога «Косметическая база»
+After=network-online.target cosmetic-base.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/opt/cosmetic-base/app/deploy/keepalive.sh

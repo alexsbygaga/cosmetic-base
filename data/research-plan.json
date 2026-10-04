@@ -1,0 +1,945 @@
+[
+  {
+    "key": "frag-suppliers",
+    "title": "Отдушки: Новаком, Доброфф, INTERDISP",
+    "hint": "Производители: позиции с V1502/1 и «Зелёный чай» — «Новаком» (Novakom, Россия); Style 897992 — «Доброфф» (Dobroff, Россия); 122948 — композиция INTERDISP «Ромашка без аллергенов» (без 26 аллергенов EU). Fruity Care — без указания поставщика. Обязательно проанализируй сайты производителей и общие принципы создания парфюмерных композиций для косметики (IFRA, раскрытие аллергенов).",
+    "items": [
+      {
+        "id": "otdushka-romashka-v1502-1-novakom",
+        "name_ru": "Отдушка Ромашка V1502/1 (Новаком)",
+        "category": "fragrances",
+        "inci_from_file": "Parfum"
+      },
+      {
+        "id": "otdushka-style-897992-dobroff",
+        "name_ru": "Отдушка Style 897992 (Доброфф)",
+        "category": "fragrances",
+        "inci_from_file": "Parfum"
+      },
+      {
+        "id": "otdushka-zelenyy-chay-novakom",
+        "name_ru": "Отдушка Зеленый чай (Новаком)",
+        "category": "fragrances",
+        "inci_from_file": "Parfum"
+      },
+      {
+        "id": "otdushka-122948-interdisp-romashka-bez-allergenov",
+        "name_ru": "Отдушка 122948 INTERDISP Ромашка без аллергенов",
+        "category": "fragrances",
+        "inci_from_file": "Parfum"
+      },
+      {
+        "id": "otdushka-fruity-care",
+        "name_ru": "Отдушка Fruity Care",
+        "category": "fragrances",
+        "inci_from_file": "Parfum"
+      }
+    ]
+  },
+  {
+    "key": "frag-syren-avm-1",
+    "title": "Отдушки Syren серии AVM (часть 1)",
+    "hint": "Производитель — Syren Fragrances (торговая марка SYREN; сайты syrenfragrances.com, syren.ru). Артикулы AVM-… — конкретные композиции. Проанализируй сайт производителя и опиши ароматический профиль по названию композиции.",
+    "items": [
+      {
+        "id": "otdushka-allure-avm-554",
+        "name_ru": "Отдушка Allure AVM-554",
+        "category": "fragrances",
+        "inci_from_file": ""
+      },
+      {
+        "id": "otdushka-aurum-elite-avm-516",
+        "name_ru": "Отдушка Aurum Elite AVM-516",
+        "category": "fragrances",
+        "inci_from_file": ""
+      },
+      {
+        "id": "otdushka-bad-girl-avm-645",
+        "name_ru": "Отдушка Bad girl AVM-645",
+        "category": "fragrances",
+        "inci_from_file": ""
+      },
+      {
+        "id": "otdushka-cannabis-sky-avm-855",
+        "name_ru": "Отдушка Cannabis sky AVM-855",
+        "category": "fragrances",
+        "inci_from_file": ""
+      },
+      {
+        "id": "otdushka-classic-no-5-avm-1070",
+        "name_ru": "Отдушка Classic No.5 AVM-1070",
+        "category": "fragrances",
+        "inci_from_file": ""
+      },
+      {
+        "id": "otdushka-florencia-avm-521",
+        "name_ru": "Отдушка Florencia AVM-521",
+        "category": "fragrances",
+        "inci_from_file": ""
+      },
+      {
+        "id": "otdushka-ganymede-avm-891",
+        "name_ru": "Отдушка Ganymede AVM-891",
+        "category": "fragrances",
+        "inci_from_file": ""
+      },
+      {
+        "id": "otdushka-lime-basil-mandarin-avm-711",
+        "name_ru": "Отдушка Lime, basil & mandarin AVM-711",
+        "category": "fragrances",
+        "inci_from_file": ""
+      },
+      {
+        "id": "otdushka-molecular-02-avm-841",
+        "name_ru": "Отдушка Molecular 02 AVM-841",
+        "category": "fragrances",
+        "inci_from_file": ""
+      },
+      {
+        "id": "otdushka-mystique-florale-avm-505",
+        "name_ru": "Отдушка Mystique Florale AVM-505",
+        "category": "fragrances",
+        "inci_from_file": ""
+      }
+    ]
+  },
+  {
+    "key": "frag-syren-avm-2",
+    "title": "Отдушки Syren серии AVM (часть 2)",
+    "hint": "Производитель — Syren Fragrances.",
+    "items": [
+      {
+        "id": "otdushka-night-afghan-avm-567",
+        "name_ru": "Отдушка Night Afghan AVM-567",
+        "category": "fragrances",
+        "inci_from_file": ""
+      },
+      {
+        "id": "otdushka-noir-bloom-avm-507",
+        "name_ru": "Отдушка Noir Bloom AVM-507",
+        "category": "fragrances",
+        "inci_from_file": ""
+      },
+      {
+        "id": "otdushka-pomegranate-night-avm-699",
+        "name_ru": "Отдушка Pomegranate night AVM-699",
+        "category": "fragrances",
+        "inci_from_file": ""
+      },
+      {
+        "id": "otdushka-savage-avm-679",
+        "name_ru": "Отдушка Savage AVM-679, Syren",
+        "category": "fragrances",
+        "inci_from_file": ""
+      },
+      {
+        "id": "otdushka-the-best-girl-avm-803",
+        "name_ru": "Отдушка The best girl AVM-803",
+        "category": "fragrances",
+        "inci_from_file": ""
+      }
+    ]
+  },
+  {
+    "key": "frag-syren-sd",
+    "title": "Отдушки Syren серии SD",
+    "hint": "Производитель — Syren Fragrances, серия SD (в артикуле указана цена/линия, например L26). Для двух позиций производитель указан явно («Syren»).",
+    "items": [
+      {
+        "id": "otdushka-wood-sea-salt-sd-211",
+        "name_ru": "Отдушка Wood Sea Salt SD-211",
+        "category": "fragrances",
+        "inci_from_file": ""
+      },
+      {
+        "id": "otdushka-almond-milk-l26-sd-644",
+        "name_ru": "Отдушка Almond milk L26 SD-644",
+        "category": "fragrances",
+        "inci_from_file": ""
+      },
+      {
+        "id": "otdushka-amber-milk-l26-sd-445",
+        "name_ru": "Отдушка Amber milk L26 SD-445",
+        "category": "fragrances",
+        "inci_from_file": ""
+      },
+      {
+        "id": "otdushka-aloe-vera-sd-149",
+        "name_ru": "Отдушка Aloe vera SD-149",
+        "category": "fragrances",
+        "inci_from_file": ""
+      },
+      {
+        "id": "otdushka-black-currant-mint-sd-361",
+        "name_ru": "Отдушка Black currant & mint SD-361",
+        "category": "fragrances",
+        "inci_from_file": ""
+      },
+      {
+        "id": "otdushka-mandarin-peel-sd-759",
+        "name_ru": "Отдушка Mandarin peel SD-759",
+        "category": "fragrances",
+        "inci_from_file": ""
+      },
+      {
+        "id": "otdushka-matcha-mint-sd-758",
+        "name_ru": "Отдушка Matcha & mint SD-758",
+        "category": "fragrances",
+        "inci_from_file": ""
+      },
+      {
+        "id": "otdushka-peach-sd-156",
+        "name_ru": "Отдушка Peach SD-156",
+        "category": "fragrances",
+        "inci_from_file": ""
+      },
+      {
+        "id": "otdushka-vanilla-cola-sd-82",
+        "name_ru": "Отдушка Vanilla cola SD-82",
+        "category": "fragrances",
+        "inci_from_file": ""
+      },
+      {
+        "id": "otdushka-young-pear-sd-7",
+        "name_ru": "Отдушка Young Pear SD-7",
+        "category": "fragrances",
+        "inci_from_file": ""
+      },
+      {
+        "id": "otdushka-raspberry-green-sd-340",
+        "name_ru": "Отдушка Raspberry green SD-340",
+        "category": "fragrances",
+        "inci_from_file": ""
+      },
+      {
+        "id": "otdushka-solary-yuzu-sd-761-syren",
+        "name_ru": "Отдушка Solary yuzu SD-761, Syren",
+        "category": "fragrances",
+        "inci_from_file": ""
+      }
+    ]
+  },
+  {
+    "key": "extracts-1",
+    "title": "Экстракты: ромашка и календула",
+    "hint": "ПГ = пропиленгликолевый экстракт, ВГ = водно-гликолевый экстракт. Для каждого укажи точные INCI-имена формы экстракта (Chamomilla Recutita Flower Extract, Calendula Officinalis Flower Extract и т. п.) и носитель (Propylene Glycol / Water / Glycerin).",
+    "items": [
+      {
+        "id": "pg-ekstrakt-romashki-i-kalenduly",
+        "name_ru": "ПГ Экстракт ромашки и календулы",
+        "category": "plant-extracts",
+        "inci_from_file": "Chamomilla recutita flower Extract"
+      },
+      {
+        "id": "pg-ekstrakt-romashki",
+        "name_ru": "ПГ Экстракт ромашки",
+        "category": "plant-extracts",
+        "inci_from_file": "Chamomilla Recutita (Matricaria) Flower Extract"
+      },
+      {
+        "id": "vg-ekstrakt-romashki",
+        "name_ru": "ВГ экстракт ромашки",
+        "category": "plant-extracts",
+        "inci_from_file": ""
+      },
+      {
+        "id": "vg-ekstrakt-kalenduly",
+        "name_ru": "ВГ экстракт календулы",
+        "category": "plant-extracts",
+        "inci_from_file": ""
+      },
+      {
+        "id": "pg-ekstrakt-kalenduly",
+        "name_ru": "ПГ экстракт календулы",
+        "category": "plant-extracts",
+        "inci_from_file": ""
+      }
+    ]
+  },
+  {
+    "key": "extracts-2",
+    "title": "Экстракты: фрукты и ягоды",
+    "hint": "ПГ-экстракты лайма, виноградных косточек, орхидеи, розы, голубики, лимонника, ананаса.",
+    "items": [
+      {
+        "id": "pg-ekstrakt-layma",
+        "name_ru": "ПГ Экстракт лайма",
+        "category": "plant-extracts",
+        "inci_from_file": "Citrus Aurantifolia Fruit Extract"
+      },
+      {
+        "id": "pg-ekstrakt-vinogradnyh-kostochek",
+        "name_ru": "ПГ Экстракт виноградных косточек",
+        "category": "plant-extracts",
+        "inci_from_file": "Vitis Vinifera Seed Extract"
+      },
+      {
+        "id": "pg-ekstrakt-orihdei",
+        "name_ru": "ПГ экстракт орихдеи",
+        "category": "plant-extracts",
+        "inci_from_file": ""
+      },
+      {
+        "id": "pg-ekstrakt-rozy",
+        "name_ru": "ПГ экстракт розы",
+        "category": "plant-extracts",
+        "inci_from_file": ""
+      },
+      {
+        "id": "pg-ekstrakt-golubiki",
+        "name_ru": "ПГ экстракт голубики",
+        "category": "plant-extracts",
+        "inci_from_file": ""
+      },
+      {
+        "id": "pg-ekstrakt-limonnika",
+        "name_ru": "ПГ экстракт лимонника",
+        "category": "plant-extracts",
+        "inci_from_file": ""
+      },
+      {
+        "id": "pg-ekstrakt-ananasa",
+        "name_ru": "ПГ экстракт ананаса",
+        "category": "plant-extracts",
+        "inci_from_file": ""
+      }
+    ]
+  },
+  {
+    "key": "extracts-3",
+    "title": "Экстракты: чай, шалфей, женьшень, каштан",
+    "hint": "ПГ-экстракт зелёного чая и шалфея, ВГ-экстракты женьшеня и каштана конского.",
+    "items": [
+      {
+        "id": "pg-ekstrakt-zelenogo-chaya",
+        "name_ru": "ПГ экстракт зеленого чая",
+        "category": "plant-extracts",
+        "inci_from_file": ""
+      },
+      {
+        "id": "pg-ekstrakt-shalfeya",
+        "name_ru": "ПГ экстракт шалфея",
+        "category": "plant-extracts",
+        "inci_from_file": ""
+      },
+      {
+        "id": "vg-ekstrakt-zhenshenya",
+        "name_ru": "ВГ Экстракт Женьшеня",
+        "category": "plant-extracts",
+        "inci_from_file": ""
+      },
+      {
+        "id": "vg-ekstrakt-kashtana-konskogo",
+        "name_ru": "ВГ Экстракт Каштана Конского",
+        "category": "plant-extracts",
+        "inci_from_file": ""
+      }
+    ]
+  },
+  {
+    "key": "extracts-4",
+    "title": "Алоэ и ПДРН",
+    "hint": "Гель алоэ вера 10:1 (концентрат Aloe Barbadensis Leaf Juice/Extract). ПДРН Эдельвейса — полидезоксирибонуклеотид (PDRN), обычно из лосося, здесь растительный из Leontopodium alpinum.",
+    "items": [
+      {
+        "id": "gel-aloe-vera-10-1",
+        "name_ru": "Гель алоэ вера 10:1",
+        "category": "plant-extracts",
+        "inci_from_file": "Aloe Barbadensis Leaf Extract"
+      },
+      {
+        "id": "pdrn-edelveysa",
+        "name_ru": "ПДРН Эдельвейса",
+        "category": "active-ingredients",
+        "inci_from_file": "EDELWEISS PDRN/ПДРН Эдельвейс"
+      }
+    ]
+  },
+  {
+    "key": "colorants-1",
+    "title": "Красители: синие и зелёный",
+    "hint": "Синий патентованный V = E131 / CI 42051. Зелёный блестящий B11 = E142 / CI 44090. Синий блестящий E133 = CI 42090.",
+    "items": [
+      {
+        "id": "krasitel-siniy-panentovannyy-v",
+        "name_ru": "Краситель синий панентованный V",
+        "category": "colorants",
+        "inci_from_file": "Cl 42051"
+      },
+      {
+        "id": "krasitel-zelenyy-blestyaschiy-b11",
+        "name_ru": "Краситель Зеленый блестящий B11",
+        "category": "colorants",
+        "inci_from_file": ""
+      },
+      {
+        "id": "krasitel-ciniy-blestyaschiy-e133",
+        "name_ru": "Краситель Cиний блестящий E133",
+        "category": "colorants",
+        "inci_from_file": ""
+      }
+    ]
+  },
+  {
+    "key": "colorants-2",
+    "title": "Красители: жёлтые и красные",
+    "hint": "Тартразин E102 = CI 19140 (в ЕС запрещён в средствах, остающихся на коже). Понсо 4R E124 = CI 16255. Кармуазин E122 = CI 14720.",
+    "items": [
+      {
+        "id": "krasitel-tartrazin-e102",
+        "name_ru": "Краситель Тартразин E102",
+        "category": "colorants",
+        "inci_from_file": ""
+      },
+      {
+        "id": "krasitel-ponso-4k-e124-foodco-p02",
+        "name_ru": "Краситель Понсо 4К E124 FOODCO P02",
+        "category": "colorants",
+        "inci_from_file": ""
+      },
+      {
+        "id": "krasitel-karmuazin-e122",
+        "name_ru": "Краситель Кармуазин Е122",
+        "category": "colorants",
+        "inci_from_file": ""
+      }
+    ]
+  },
+  {
+    "key": "colorants-3",
+    "title": "Красители: красный и жёлтый (Alliance Organics, ТерезаИнтер)",
+    "hint": "«Красный очаровательный» (Alliance Organics LLP) = Allura Red AC / E129 / CI 16035. «Жёлтый солнечный закат» (ТерезаИнтер, Франция) = Sunset Yellow FCF / E110 / CI 15985.",
+    "items": [
+      {
+        "id": "krasnyy-ocharovatelnyy-proizvoditel-alliance-organics-llp",
+        "name_ru": "Красный очаровательный Производитель Alliance Organics LLP",
+        "category": "colorants",
+        "inci_from_file": ""
+      },
+      {
+        "id": "krasitel-zheltyy-solnechnyy-zakat-terezainter-franciya",
+        "name_ru": "Краситель Желтый солнечный закат, ТерезаИнтер, Франция",
+        "category": "colorants",
+        "inci_from_file": ""
+      }
+    ]
+  },
+  {
+    "key": "surfactants",
+    "title": "ПАВ",
+    "hint": "Кокамидопропилбетаин (амфотерный), Децил глюкозид и Глицерил олеат/Coco Glucoside (неионные), Кокосульфат и Цетеарилсульфат натрия, Динатрия лаурет сульфосукцинат, Натрия лаурет сульфат (анионные), Кокамид ДЭА.",
+    "items": [
+      {
+        "id": "kokamidopropilbetain",
+        "name_ru": "Кокамидопропилбетаин",
+        "category": "surfactants",
+        "inci_from_file": "Cocamidopropilbetaine"
+      },
+      {
+        "id": "decil-glyukozid",
+        "name_ru": "Децил глюкозид",
+        "category": "surfactants",
+        "inci_from_file": "Decyl Glycoside"
+      },
+      {
+        "id": "kokosulfat-natriya",
+        "name_ru": "Кокосульфат натрия",
+        "category": "surfactants",
+        "inci_from_file": "Sodium Cocosulfate"
+      },
+      {
+        "id": "gliceril-oleat-i-koko-glyukozid",
+        "name_ru": "Глицерил олеат и Коко Глюкозид",
+        "category": "surfactants",
+        "inci_from_file": "Glyceryl oleate (and) Coco Glucoside"
+      },
+      {
+        "id": "cetearilsulfat-natriya",
+        "name_ru": "Цетеарилсульфат натрия",
+        "category": "surfactants",
+        "inci_from_file": "Sodium Cetearyl Sulfate"
+      },
+      {
+        "id": "dinatriya-lauret-sulfosukcinat",
+        "name_ru": "Динатрия лаурет сульфосукцинат",
+        "category": "surfactants",
+        "inci_from_file": "Disodium Laureth Sulfosuccinate"
+      },
+      {
+        "id": "natriya-lauret-sulfat",
+        "name_ru": "Натрия лаурет сульфат",
+        "category": "surfactants",
+        "inci_from_file": "Sodium Laureth Sulfate"
+      },
+      {
+        "id": "kokamid-dea",
+        "name_ru": "Кокамид ДЭА",
+        "category": "surfactants",
+        "inci_from_file": ""
+      }
+    ]
+  },
+  {
+    "key": "emulsifiers",
+    "title": "Эмульгаторы и соэмульгаторы",
+    "hint": "Глицерил стеарат. «ПЭГ-40» — уточни продукт (вероятно PEG-40 Hydrogenated Castor Oil), оба варианта отрази в confidence_notes. Глицерил Глюкозид — увлажнитель/эмульгатор. PPG-3 Caprylyl Ether — эмолент.",
+    "items": [
+      {
+        "id": "gliceril-stearat",
+        "name_ru": "Глицерил стеарат",
+        "category": "emulsifiers",
+        "inci_from_file": "Glyceryl Stearate"
+      },
+      {
+        "id": "peg-40",
+        "name_ru": "ПЭГ-40",
+        "category": "emulsifiers",
+        "inci_from_file": ""
+      },
+      {
+        "id": "gliceril-glyukozid",
+        "name_ru": "Глицерил Глюкозид",
+        "category": "solvents-humectants",
+        "inci_from_file": "Glyceryl Glucoside"
+      },
+      {
+        "id": "ppg-3",
+        "name_ru": "PPG-3",
+        "category": "emollients-oils",
+        "inci_from_file": "PPG-3 Caprylyl Ether"
+      }
+    ]
+  },
+  {
+    "key": "oils",
+    "title": "Масла, жирные спирты и эмоленты",
+    "hint": "Макадамия, авокадо, аргана, миндаль, ши, жожоба, сквалан, касторовое, кокосовое, виноградной косточки, изопропилмиристат, цетеариловый спирт.",
+    "items": [
+      {
+        "id": "maslo-makadamii",
+        "name_ru": "Масло макадамии",
+        "category": "emollients-oils",
+        "inci_from_file": "Macadamia Ternifolia Seed Oil"
+      },
+      {
+        "id": "maslo-avokado",
+        "name_ru": "Масло авокадо",
+        "category": "emollients-oils",
+        "inci_from_file": "Persea Gratissima Oil"
+      },
+      {
+        "id": "maslo-argany",
+        "name_ru": "Масло арганы",
+        "category": "emollients-oils",
+        "inci_from_file": "Argania Spinosa Kernel Oil"
+      },
+      {
+        "id": "maslo-mindalya-svetloe",
+        "name_ru": "Масло миндаля светлое",
+        "category": "emollients-oils",
+        "inci_from_file": "Prunus Amygdalus Dulcis Oil"
+      },
+      {
+        "id": "maslo-shi",
+        "name_ru": "Масло ши",
+        "category": "emollients-oils",
+        "inci_from_file": "Butyrospermum Parkii Butter"
+      },
+      {
+        "id": "maslo-zhozhoba",
+        "name_ru": "Масло жожоба",
+        "category": "emollients-oils",
+        "inci_from_file": "Simmondsia Chinensis Seed Oil"
+      },
+      {
+        "id": "skvalan",
+        "name_ru": "Сквалан",
+        "category": "emollients-oils",
+        "inci_from_file": "Squalane"
+      },
+      {
+        "id": "kastorovoe-maslo",
+        "name_ru": "Касторовое масло",
+        "category": "emollients-oils",
+        "inci_from_file": "Ricinus Communis Seed Oil"
+      },
+      {
+        "id": "maslo-kokosa",
+        "name_ru": "Масло кокоса",
+        "category": "emollients-oils",
+        "inci_from_file": "Cocos Nucifera Oil"
+      },
+      {
+        "id": "maslo-vinogradnoy-kostochki-rafinirovannoe",
+        "name_ru": "Масло виноградной косточки рафинированное",
+        "category": "emollients-oils",
+        "inci_from_file": ""
+      },
+      {
+        "id": "izopropilmiristat",
+        "name_ru": "Изопропилмиристат",
+        "category": "emollients-oils",
+        "inci_from_file": ""
+      },
+      {
+        "id": "cetearilovyy-spirt",
+        "name_ru": "Цетеариловый спирт",
+        "category": "emollients-oils",
+        "inci_from_file": "Cetearyl alcohol"
+      }
+    ]
+  },
+  {
+    "key": "silicones",
+    "title": "Силиконы и силиконовые эмульсии",
+    "hint": "Силиконовая эмульсия Amodimethicone/Cetrimonium Chloride/Trideceth-12. Циклопентасилоксан (D5). Фенилтриметикон. Силиконовая эмульсия EVS-0785: Dimethiconol и TEA-Dodecylbenzenesulfonate. ВАЖНО: в базе две строки с названием «Силиконовая эмульсия» — это два разных продукта, id silikonovaya-emulsiya (Bis-Cetearyl Amodimethicone / Ceteareth-25 / Ceteareth-7) и silikonovaya-emulsiya-evs-0785 (Dimethiconol / TEA-Dodecylbenzenesulfonate). Опиши ОБА, включая silikonovaya-emulsiya.",
+    "items": [
+      {
+        "id": "emulsiya-silikonovaya-amodimethicone-cetrimonium-chloride-trideceth-12",
+        "name_ru": "Эмульсия силиконовая (Amodimethicone, Cetrimonium Chloride, Trideceth-12)",
+        "category": "silicones",
+        "inci_from_file": "Amodimethicone, Cetrimonium Chloride, Trideceth-12"
+      },
+      {
+        "id": "ciklopentasiloksan",
+        "name_ru": "Циклопентасилоксан",
+        "category": "silicones",
+        "inci_from_file": "Cyclopentasiloxane"
+      },
+      {
+        "id": "feniltrimetikon",
+        "name_ru": "Фенилтриметикон",
+        "category": "silicones",
+        "inci_from_file": "Phenyltrimethicone"
+      },
+      {
+        "id": "silikonovaya-emulsiya-evs-0785-dimethiconol-and-tea-dodecylbenzenesulf",
+        "name_ru": "Силиконовая эмульсия EVS-0785 (Dimethiconol and TEA-Dodecylbenzenesulfonate)",
+        "category": "silicones",
+        "inci_from_file": "Dimethiconol and TEA-Dodecylbenzenesulfonate"
+      },
+      {
+        "id": "silikonovaya-emulsiya",
+        "name_ru": "Силиконовая эмульсия",
+        "category": "silicones",
+        "inci_from_file": "Bis-Cetearyl Amodimethicone (and) Ceteareth-25 (and) Ceteareth-7"
+      }
+    ]
+  },
+  {
+    "key": "cationics",
+    "title": "Катионные кондиционирующие добавки",
+    "hint": "Гидроксипропилгуар гидроксипропилтримониум хлорид, гуар гидроксипропилтримониум хлорид, цетримониум хлорид, линолеамидопропил PG-димониум хлорид фосфат, бегентримониум хлорид, поликватерниум-10, поликватерниум-7.",
+    "items": [
+      {
+        "id": "gidrokipropil-guar-gidroksipropil-trimonium-hlorid",
+        "name_ru": "Гидрокипропил гуар гидроксипропил тримониум хлорид",
+        "category": "conditioners-cationics",
+        "inci_from_file": "Hydroxypropyl guar hydroxypropyl trimonium chloride"
+      },
+      {
+        "id": "guar-gidroksipropil-trimonium-hlorid",
+        "name_ru": "Гуар гидроксипропил тримониум хлорид",
+        "category": "conditioners-cationics",
+        "inci_from_file": "Guar hydroxypropyl trimonium chloride"
+      },
+      {
+        "id": "cetrimonium-hlorid",
+        "name_ru": "Цетримониум хлорид",
+        "category": "conditioners-cationics",
+        "inci_from_file": "Cetrimonium Chloride"
+      },
+      {
+        "id": "linoleamidopropil-pg-dimonium-hlorid-fosfat",
+        "name_ru": "Линолеамидопропил ПГ-димониум хлорид фосфат",
+        "category": "conditioners-cationics",
+        "inci_from_file": "linoleamidopropyl pg dimonium chloride phosphate"
+      },
+      {
+        "id": "begentrimonium-hlorid",
+        "name_ru": "Бегентримониум хлорид",
+        "category": "conditioners-cationics",
+        "inci_from_file": "Behentrimonium Chloride"
+      },
+      {
+        "id": "polikvaternium-10",
+        "name_ru": "Поликватерниум -10",
+        "category": "conditioners-cationics",
+        "inci_from_file": "Polyquaternium-10"
+      },
+      {
+        "id": "polikvaternium-7",
+        "name_ru": "Поликватерниум-7",
+        "category": "conditioners-cationics",
+        "inci_from_file": ""
+      }
+    ]
+  },
+  {
+    "key": "thickeners",
+    "title": "Загустители, реология, замутнители, электролиты",
+    "hint": "Соль мелкая (Sodium Chloride) — электролит-загуститель ПАВ-систем. Гидроксиэтилцеллюлоза. ПЭГ-120 Methyl Glucose Dioleate. Замутнитель на гликоль дистеарате Hony EGDS. Замутнитель моностеарат этиленгликоля HONY EGMS — уточни точный INCI (вероятно Glycol Stearate) и отметь сомнение.",
+    "items": [
+      {
+        "id": "sol-melkaya",
+        "name_ru": "Соль мелкая",
+        "category": "ph-adjusters-chelants",
+        "inci_from_file": "Sodium chloride"
+      },
+      {
+        "id": "gidroksietilcellyuloza",
+        "name_ru": "Гидроксиэтилцеллюлоза",
+        "category": "thickeners-rheology",
+        "inci_from_file": "Hydroxyethylcellulose"
+      },
+      {
+        "id": "peg-120",
+        "name_ru": "ПЭГ-120",
+        "category": "thickeners-rheology",
+        "inci_from_file": "PEG-120 Methyl Glucose Dioleate"
+      },
+      {
+        "id": "zamutnitel-zamutnitel-glikol-distearat-hony-egds",
+        "name_ru": "Замутнитель (Замутнитель гликоль дистеарат Hony EGDS)",
+        "category": "opacifiers-pearlizers",
+        "inci_from_file": "Ethylene Glycol Distearate"
+      },
+      {
+        "id": "zamutnitel-monostearat-etilenglikolya-hony-egms",
+        "name_ru": "Замутнитель (Моностеарат этиленгликоля HONY EGMS)",
+        "category": "opacifiers-pearlizers",
+        "inci_from_file": ""
+      }
+    ]
+  },
+  {
+    "key": "actives",
+    "title": "Активные компоненты",
+    "hint": "Продью 500 (смесь NMF-компонентов, заполни components). Ниацинамид. Пантенол. Дрожжевые полипептиды. Ceramide Complex CLR (смесь фосфолипидов и сфинголипидов). Салициловая кислота. Пироктон оламин (против перхоти/консервант). Сорбитол.",
+    "items": [
+      {
+        "id": "prodyu-500",
+        "name_ru": "Продью 500",
+        "category": "active-ingredients",
+        "inci_from_file": "Sodium PCA, Sodium Lactate, Arginine, Aspartic Acid, PCA Alanine, Glycine, Serine, Valine, Isoleucine, Threonine, Proline, Histidine, Phenylalanine, Aqua"
+      },
+      {
+        "id": "niacinamid",
+        "name_ru": "Ниацинамид",
+        "category": "active-ingredients",
+        "inci_from_file": "Niacinamide"
+      },
+      {
+        "id": "pantenol",
+        "name_ru": "Пантенол",
+        "category": "active-ingredients",
+        "inci_from_file": "Panthenol"
+      },
+      {
+        "id": "drozhzhevye-polipeptidy",
+        "name_ru": "Дрожжевые полипептиды",
+        "category": "active-ingredients",
+        "inci_from_file": "Yeast polypeptides"
+      },
+      {
+        "id": "ceramide-complex-clr",
+        "name_ru": "Ceramide Complex CLR",
+        "category": "active-ingredients",
+        "inci_from_file": "phospholipids sphingolipids"
+      },
+      {
+        "id": "salicilovaya-kislota",
+        "name_ru": "Салициловая кислота",
+        "category": "active-ingredients",
+        "inci_from_file": "Salicylic Acid"
+      },
+      {
+        "id": "pirokton-olamin",
+        "name_ru": "Пироктон оламин",
+        "category": "active-ingredients",
+        "inci_from_file": "Piroctone Olamine"
+      },
+      {
+        "id": "sorbitol",
+        "name_ru": "Сорбитол",
+        "category": "solvents-humectants",
+        "inci_from_file": ""
+      }
+    ]
+  },
+  {
+    "key": "actives-2",
+    "title": "Активные: изопентилдиол, кофеин, экзосомы",
+    "hint": "Изопентилдиол. Кофеин безводный. Экзосомы молока (Milk Exosomes 10000 ppm) — опиши как биотехнологическую липосомальную/везикулярную систему; точный состав не раскрыт, обязательно отметь это в confidence_notes.",
+    "items": [
+      {
+        "id": "izopentildiol",
+        "name_ru": "Изопентилдиол",
+        "category": "solvents-humectants",
+        "inci_from_file": ""
+      },
+      {
+        "id": "kofein-bezvodnyy",
+        "name_ru": "Кофеин безводный",
+        "category": "active-ingredients",
+        "inci_from_file": "CAFFEINE"
+      },
+      {
+        "id": "ekzosomy-moloka-milk-exosomes-10000-ppm",
+        "name_ru": "Экзосомы молока (Milk Exosomes 10000 ppm)",
+        "category": "active-ingredients",
+        "inci_from_file": ""
+      }
+    ]
+  },
+  {
+    "key": "vitamins",
+    "title": "Витамины и антиоксиданты",
+    "hint": "Vitamin B Complex — это смесь (Biotin, Folic Acid, Cyanocobalamin, Niacinamide, Pantothenic Acid, Pyridoxine, Riboflavin, Thiamine), заполни components. Комплекс витаминов А, Е, С. Витамин Е (Tocopheryl Acetate).",
+    "items": [
+      {
+        "id": "vitamin-b-complex",
+        "name_ru": "Vitamin B Complex",
+        "category": "vitamins-antioxidants",
+        "inci_from_file": "Biotin, Folic Acid, Cyanocobalamin, Niacinamide, Pantothenic Acid, Pyridoxine, Riboflavin, Thiamine"
+      },
+      {
+        "id": "kompleks-vitaminov-a-e-s",
+        "name_ru": "Комплекс витаминов А, Е, С",
+        "category": "vitamins-antioxidants",
+        "inci_from_file": "Retinyl Palmitate, Tocopheryl Acetate, Sodium Ascorbyl Phosphate"
+      },
+      {
+        "id": "vitamin-e",
+        "name_ru": "Витамин Е",
+        "category": "vitamins-antioxidants",
+        "inci_from_file": "Tocopheryl Acetate"
+      }
+    ]
+  },
+  {
+    "key": "proteins",
+    "title": "Протеины, пептиды, аминокислоты",
+    "hint": "Гидролизованные протеины пшеницы, шёлка, сои, растительный белок, кератин. Укажи степень гидролиза, молекулярную массу, источник сырья.",
+    "items": [
+      {
+        "id": "proteiny-pshenicy",
+        "name_ru": "Протеины пшеницы",
+        "category": "proteins-peptides",
+        "inci_from_file": "Hydrolyzed Wheat Protein"
+      },
+      {
+        "id": "proteiny-shelka",
+        "name_ru": "Протеины шелка",
+        "category": "proteins-peptides",
+        "inci_from_file": "Hydrolyzed Silk Protein"
+      },
+      {
+        "id": "keratin",
+        "name_ru": "Кератин",
+        "category": "proteins-peptides",
+        "inci_from_file": "Hydrolyzed Keratin"
+      },
+      {
+        "id": "gidrolizovannye-proteiny-soi",
+        "name_ru": "Гидролизованные протеины сои",
+        "category": "proteins-peptides",
+        "inci_from_file": "Hydrolyzed Soy Protein"
+      },
+      {
+        "id": "gidrolizovannyy-rastitelnyy-belok",
+        "name_ru": "Гидролизованный растительный белок",
+        "category": "proteins-peptides",
+        "inci_from_file": "Hydrolyzed Vegetable Protein"
+      }
+    ]
+  },
+  {
+    "key": "preservatives",
+    "title": "Консерванты и антимикробные",
+    "hint": "Эвагуард 400 (Potassium Sorbate, Sodium Benzoate, Water). Эуксил К100 (Benzyl Alcohol, Methylchloroisothiazolinone, Methylisothiazolinone) — торговая марка Ashland/Schülke. Эвагуард 206 и Эвагуард 100 — торговая марка «Эвагуард» (уточни производителя, вероятно российский).",
+    "items": [
+      {
+        "id": "evaguard-400",
+        "name_ru": "Эвагуард 400",
+        "category": "preservatives",
+        "inci_from_file": "Potassium Sobate, Sodium Benzoate, Water"
+      },
+      {
+        "id": "euksil-k100",
+        "name_ru": "Эуксил К100",
+        "category": "preservatives",
+        "inci_from_file": "Benzyl Alcohol, Methylchloroisothiazolinone, Methylisothiazolinone"
+      },
+      {
+        "id": "evaguard-206",
+        "name_ru": "Эвагуард 206",
+        "category": "preservatives",
+        "inci_from_file": "Potassium Sorbate, Sodium Benzoate,Benzyl Alcohol, Aqua"
+      },
+      {
+        "id": "evaguard-100",
+        "name_ru": "Эвагуард 100",
+        "category": "preservatives",
+        "inci_from_file": ""
+      }
+    ]
+  },
+  {
+    "key": "ph-chelants",
+    "title": "Регуляторы pH, хелаты, буферы",
+    "hint": "Лимонная кислота, гидроксид натрия 30 %, цитрат натрия, Трилон Б (Disodium EDTA).",
+    "items": [
+      {
+        "id": "limonnaya-kislota",
+        "name_ru": "Лимонная кислота",
+        "category": "ph-adjusters-chelants",
+        "inci_from_file": "Citric acid"
+      },
+      {
+        "id": "gidroksid-natriya-30",
+        "name_ru": "Гидроксид натрия 30%",
+        "category": "ph-adjusters-chelants",
+        "inci_from_file": "Sodium Hydroxide"
+      },
+      {
+        "id": "citrat-natriya",
+        "name_ru": "Цитрат натрия",
+        "category": "ph-adjusters-chelants",
+        "inci_from_file": "Sodium Citrate"
+      },
+      {
+        "id": "trilon-b",
+        "name_ru": "Трилон Б",
+        "category": "ph-adjusters-chelants",
+        "inci_from_file": "Disodium EDTA"
+      }
+    ]
+  },
+  {
+    "key": "menthol",
+    "title": "Ментол",
+    "hint": "Ментол — охлаждающий агент.",
+    "items": [
+      {
+        "id": "mentol",
+        "name_ru": "Ментол",
+        "category": "other-functional",
+        "inci_from_file": "Menthol"
+      }
+    ]
+  },
+  {
+    "key": "basics",
+    "title": "Базовые растворители и влагоудерживающие",
+    "hint": "Глицерин — ключевой влагоудерживающий компонент. Опиши максимально подробно: происхождение (растительный/животный/синтетический), гигроскопичность, ограничения по концентрации, техпротокол внесения в водную фазу.",
+    "items": [
+      {
+        "id": "glicerin",
+        "name_ru": "Глицерин",
+        "category": "solvents-humectants",
+        "inci_from_file": "Glycerin"
+      }
+    ]
+  }
+]

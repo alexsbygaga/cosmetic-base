@@ -1,0 +1,29 @@
+# Служебные и рабочие файлы
+*.log
+__pycache__/
+*.pyc
+
+# Данные аутентификации: пароли и сессии не должны попадать в репозиторий
+data/auth/
+data/backups/
+
+# Секреты Cloudflare Tunnel (сертификат и конфигурация туннеля)
+.tunnel/
+
+# Служебные папки
+node_modules/
+.pnpm-store/
+dist/
+*.log
+
+# Временные данные тестов и отладки
+tools/auth-test-data/
+tools/ep-*/
+tools/reports/*.json
+
+# Локальные копии и артефакты
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+node_modules/

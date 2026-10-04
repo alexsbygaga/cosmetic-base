@@ -1,0 +1,32 @@
+{
+  "key": "extracts-3",
+  "title": "Экстракты: чай, шалфей, женьшень, каштан",
+  "hint": "ПГ-экстракт зелёного чая и шалфея, ВГ-экстракты женьшеня и каштана конского.",
+  "items": [
+    {
+      "id": "pg-ekstrakt-zelenogo-chaya",
+      "name_ru": "ПГ экстракт зеленого чая",
+      "category": "plant-extracts",
+      "inci_from_file": ""
+    },
+    {
+      "id": "pg-ekstrakt-shalfeya",
+      "name_ru": "ПГ экстракт шалфея",
+      "category": "plant-extracts",
+      "inci_from_file": ""
+    },
+    {
+      "id": "vg-ekstrakt-zhenshenya",
+      "name_ru": "ВГ Экстракт Женьшеня",
+      "category": "plant-extracts",
+      "inci_from_file": ""
+    },
+    {
+      "id": "vg-ekstrakt-kashtana-konskogo",
+      "name_ru": "ВГ Экстракт Каштана Конского",
+      "category": "plant-extracts",
+      "inci_from_file": ""
+    }
+  ],
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched\\extracts-3.json"
+}

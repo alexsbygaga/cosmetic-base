@@ -1,0 +1,129 @@
+  1. Глицерин  |  Glycerin
+  2. Гидрокипропил гуар гидроксипропил тримониум хлорид  |  Hydroxypropyl guar hydroxypropyl trimonium chloride
+  3. Гуар гидроксипропил тримониум хлорид  |  Guar hydroxypropyl trimonium chloride
+  4. Кокамидопропилбетаин  |  Cocamidopropilbetaine
+  5. Децил глюкозид  |  Decyl Glycoside
+  6. Кокосульфат натрия  |  Sodium Cocosulfate
+  7. Глицерил олеат и Коко Глюкозид  |  Glyceryl oleate (and) Coco Glucoside
+  8. Соль мелкая  |  Sodium chloride
+  9. Краситель синий панентованный V  |  Cl 42051
+ 10. Протеины пшеницы  |  Hydrolyzed Wheat Protein
+ 11. Протеины шелка  |  Hydrolyzed Silk Protein
+ 12. Лимонная кислота  |  Citric acid
+ 13. Продью 500  |  Sodium PCA, Sodium Lactate, Arginine, Aspartic Acid, PCA Alanine, Glycine, Serine, Valine, Isoleucine, Threonine, Proline, Histidine, Phenylalanine, Aqua
+ 14. Ниацинамид  |  Niacinamide
+ 15. Отдушка Ромашка V1502/1 (Новаком)  |  Parfum
+ 16. Отдушка Style 897992 (Доброфф)  |  Parfum
+ 17. Отдушка Зеленый чай (Новаком)  |  Parfum
+ 18. Эвагуард 400  |  Potassium Sobate, Sodium Benzoate, Water
+ 19. Цетримониум хлорид  |  Cetrimonium Chloride
+ 20. Цетеариловый спирт  |  Cetearyl alcohol
+ 21. Глицерил стеарат  |  Glyceryl Stearate
+ 22. Эмульсия силиконовая (Amodimethicone, Cetrimonium Chloride, Trideceth-12)  |  Amodimethicone, Cetrimonium Chloride, Trideceth-12
+ 23. Циклопентасилоксан  |  Cyclopentasiloxane
+ 24. Масло макадамии  |  Macadamia Ternifolia Seed Oil
+ 25. Масло авокадо  |  Persea Gratissima Oil
+ 26. Пантенол  |  Panthenol
+ 27. Отдушка 122948 INTERDISP Ромашка без аллергенов  |  Parfum
+ 28. Эуксил К100  |  Benzyl Alcohol, Methylchloroisothiazolinone, Methylisothiazolinone
+ 29. Глицерил Глюкозид  |  Glyceryl Glucoside
+ 30. PPG-3  |  PPG-3 Caprylyl Ether
+ 31. ПГ Экстракт ромашки и календулы  |  Chamomilla recutita flower Extract
+ 32. Кератин  |  Hydrolyzed Keratin
+ 33. Отдушка Fruity Care  |  Parfum
+ 34. Гидроксид натрия 30%  |  Sodium Hydroxide
+ 35. Эвагуард 206  |  Potassium Sorbate, Sodium Benzoate,Benzyl Alcohol, Aqua
+ 36. Линолеамидопропил ПГ-димониум хлорид фосфат  |  linoleamidopropyl pg dimonium chloride phosphate
+ 37. Гидролизованные протеины сои  |  Hydrolyzed Soy Protein
+ 38. ПГ Экстракт лайма  |  Citrus Aurantifolia Fruit Extract
+ 39. ПГ Экстракт виноградных косточек  |  Vitis Vinifera Seed Extract
+ 40. Масло жожоба  |  Simmondsia Chinensis Seed Oil
+ 41. Сквалан  |  Squalane
+ 42. Vitamin B Complex  |  Biotin, Folic Acid, Cyanocobalamin, Niacinamide, Pantothenic Acid, Pyridoxine, Riboflavin, Thiamine
+ 43. Дрожжевые полипептиды  |  Yeast polypeptides
+ 44. Ceramide Complex CLR  |  phospholipids sphingolipids
+ 45. Масло арганы  |  Argania Spinosa Kernel Oil
+ 46. Масло миндаля светлое  |  Prunus Amygdalus Dulcis Oil
+ 47. Гидроксиэтилцеллюлоза  |  Hydroxyethylcellulose
+ 48. Гидролизованный растительный белок  |  Hydrolyzed Vegetable Protein
+ 49. Комплекс витаминов А, Е, С  |  Retinyl Palmitate, Tocopheryl Acetate, Sodium Ascorbyl Phosphate
+ 50. Цитрат натрия  |  Sodium Citrate
+ 51. Масло ши  |  Butyrospermum Parkii Butter
+ 52. Бегентримониум хлорид  |  Behentrimonium Chloride
+ 53. Фенилтриметикон  |  Phenyltrimethicone
+ 54. Касторовое масло  |  Ricinus Communis Seed Oil
+ 55. Силиконовая эмульсия  |  Bis-Cetearyl Amodimethicone (and) Ceteareth-25 (and) Ceteareth-7
+ 56. Витамин Е  |  Tocopheryl Acetate
+ 57. Масло кокоса  |  Cocos Nucifera Oil
+ 58. Цетеарилсульфат натрия  |  Sodium Cetearyl Sulfate
+ 59. Трилон Б  |  Disodium EDTA
+ 60. Салициловая кислота  |  Salicylic Acid
+ 61. Поликватерниум -10  |  Polyquaternium-10
+ 62. Динатрия лаурет сульфосукцинат  |  Disodium Laureth Sulfosuccinate
+ 63. Натрия лаурет сульфат  |  Sodium Laureth Sulfate
+ 64. Пироктон оламин  |  Piroctone Olamine
+ 65. Ментол  |  Menthol
+ 66. Гель алоэ вера 10:1  |  Aloe Barbadensis Leaf Extract
+ 67. ПГ Экстракт ромашки  |  Chamomilla Recutita (Matricaria) Flower Extract
+ 68. ПЭГ-120  |  PEG-120 Methyl Glucose Dioleate
+ 69. Замутнитель (Замутнитель гликоль дистеарат Hony EGDS)  |  Ethylene Glycol Distearate
+ 70. Замутнитель (Моностеарат этиленгликоля HONY EGMS)  |  
+ 71. Отдушка Allure AVM-554  |  
+ 72. Отдушка Aurum Elite AVM-516  |  
+ 73. Отдушка Bad girl AVM-645  |  
+ 74. Отдушка Cannabis sky AVM-855  |  
+ 75. Отдушка Classic No.5 AVM-1070  |  
+ 76. Отдушка Florencia AVM-521  |  
+ 77. Отдушка Ganymede AVM-891  |  
+ 78. Отдушка Lime, basil & mandarin AVM-711  |  
+ 79. Отдушка Molecular 02 AVM-841  |  
+ 80. Отдушка Mystique Florale AVM-505  |  
+ 81. Отдушка Night Afghan AVM-567  |  
+ 82. Отдушка Noir Bloom AVM-507  |  
+ 83. Отдушка Pomegranate night AVM-699  |  
+ 84. Отдушка Savage AVM-679  |  
+ 85. Отдушка The best girl AVM-803  |  
+ 86. Отдушка Wood Sea Salt SD-211  |  
+ 87. Отдушка Almond milk L26 SD-644  |  
+ 88. Отдушка Amber milk L26 SD-445  |  
+ 89. Отдушка Aloe vera SD-149  |  
+ 90. Отдушка Black currant & mint SD-361  |  
+ 91. Отдушка Mandarin peel SD-759  |  
+ 92. Отдушка Matcha & mint SD-758  |  
+ 93. Отдушка Peach SD-156  |  
+ 94. Отдушка Vanilla cola SD-82  |  
+ 95. Отдушка Young Pear SD-7  |  
+ 96. Отдушка Raspberry green SD-340  |  
+ 97. ПГ экстракт орихдеи  |  
+ 98. ПГ экстракт розы  |  
+ 99. ВГ экстракт ромашки  |  
+100. ВГ экстракт календулы  |  
+101. ПГ экстракт зеленого чая  |  
+102. ПГ экстракт голубики  |  
+103. ПГ экстракт лимонника  |  
+104. ПГ экстракт шалфея  |  
+105. ПГ экстракт ананаса  |  
+106. ПГ экстракт календулы  |  
+107. Краситель Зеленый блестящий B11  |  
+108. Краситель Тартразин E102  |  
+109. Краситель Понсо 4К E124 FOODCO P02  |  
+110. Краситель Cиний блестящий E133  |  
+111. Сорбитол  |  
+112. Поликватерниум-7  |  
+113. ПДРН Эдельвейса  |  EDELWEISS PDRN/ПДРН Эдельвейс
+114. Краситель Кармуазин Е122  |  
+115. Красный очаровательный Производитель Alliance Organics LLP  |  
+116. Краситель Желтый солнечный закат, ТерезаИнтер, Франция  |  
+117. Масло виноградной косточки рафинированное  |  
+118. Силиконовая эмульсия EVS-0785 (Dimethiconol and TEA-Dodecylbenzenesulfonate)  |  Dimethiconol and TEA-Dodecylbenzenesulfonate
+119. Изопентилдиол  |  
+120. Отдушка Savage AVM-679, Syren  |  
+121. Отдушка Solary yuzu SD-761, Syren  |  
+122. ВГ Экстракт Женьшеня  |  
+123. ВГ Экстракт Каштана Конского  |  
+124. Кокамид ДЭА  |  
+125. ПЭГ-40  |  
+126. Эвагуард 100  |  
+127. Изопропилмиристат  |  
+128. Кофеин безводный  |  CAFFEINE
+129. Экзосомы молока (Milk Exosomes 10000 ppm)  |  

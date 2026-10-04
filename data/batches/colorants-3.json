@@ -1,0 +1,20 @@
+{
+  "key": "colorants-3",
+  "title": "Красители: красный и жёлтый (Alliance Organics, ТерезаИнтер)",
+  "hint": "«Красный очаровательный» (Alliance Organics LLP) = Allura Red AC / E129 / CI 16035. «Жёлтый солнечный закат» (ТерезаИнтер, Франция) = Sunset Yellow FCF / E110 / CI 15985.",
+  "items": [
+    {
+      "id": "krasnyy-ocharovatelnyy-proizvoditel-alliance-organics-llp",
+      "name_ru": "Красный очаровательный Производитель Alliance Organics LLP",
+      "category": "colorants",
+      "inci_from_file": ""
+    },
+    {
+      "id": "krasitel-zheltyy-solnechnyy-zakat-terezainter-franciya",
+      "name_ru": "Краситель Желтый солнечный закат, ТерезаИнтер, Франция",
+      "category": "colorants",
+      "inci_from_file": ""
+    }
+  ],
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched\\colorants-3.json"
+}

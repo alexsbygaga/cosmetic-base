@@ -1,0 +1,90 @@
+name: Публикация каталога на GitHub Pages
+
+# Собирает статическую версию каталога (папку web/) и публикует её на GitHub Pages.
+# Правки в каталог вносятся файлом data/materials.json — при коммите сайт обновится сам.
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - 'data/materials.json'
+      - 'web/**'
+      - 'tools/sync-web-data.py'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Получить код
+        uses: actions/checkout@v4
+
+      - name: Собрать статическую версию (скрытые категории не публикуются)
+        run: python3 tools/sync-web-data.py
+
+      - name: Проверить, что в публикацию не попали скрытые категории
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, sys
+
+          catalog = json.loads(pathlib.Path('web/data/materials.json').read_text(encoding='utf-8'))
+          categories = json.loads(pathlib.Path('data/categories.json').read_text(encoding='utf-8'))
+          hidden = {c['id'] for c in categories if c.get('hidden')}
+
+          materials = catalog.get('materials', [])
+          leaked = [m for m in materials if m.get('category') in hidden]
+          leaked_categories = [c for c in catalog.get('categories', []) if c.get('hidden')]
+
+          print(f'Позиций к публикации: {len(materials)}')
+          print(f'Скрытых категорий: {len(hidden)} {sorted(hidden)}')
+
+          if leaked:
+              print(f'ОШИБКА: в публикацию попали {len(leaked)} позиций скрытых категорий', file=sys.stderr)
+              sys.exit(1)
+          if leaked_categories:
+              print(f'ОШИБКА: в публикации остались скрытые категории {leaked_categories}', file=sys.stderr)
+              sys.exit(1)
+          if not materials:
+              print('ОШИБКА: каталог пуст', file=sys.stderr)
+              sys.exit(1)
+
+          ai = sum(1 for m in materials if m.get('provenance') == 'ai')
+          print(f'Добавлено ИИ: {ai}, человеком: {len(materials) - ai}')
+          print('Проверка пройдена: скрытые позиции в публикацию не попали')
+          PY
+
+      - name: Проверить, что сайт собран целиком
+        run: |
+          for f in index.html styles/base.css styles/app.css scripts/main.js data/materials.json; do
+            test -f "web/$f" || { echo "Нет файла web/$f"; exit 1; }
+          done
+          echo "Все нужные файлы на месте"
+
+      - name: Настроить Pages
+        uses: actions/configure-pages@v5
+
+      - name: Загрузить статику
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Опубликовать
+        id: deployment
+        uses: actions/deploy-pages@v4

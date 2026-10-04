@@ -1,0 +1,26 @@
+{
+  "key": "actives-2",
+  "title": "Активные: изопентилдиол, кофеин, экзосомы",
+  "hint": "Изопентилдиол. Кофеин безводный. Экзосомы молока (Milk Exosomes 10000 ppm) — опиши как биотехнологическую липосомальную/везикулярную систему; точный состав не раскрыт, обязательно отметь это в confidence_notes.",
+  "items": [
+    {
+      "id": "izopentildiol",
+      "name_ru": "Изопентилдиол",
+      "category": "solvents-humectants",
+      "inci_from_file": ""
+    },
+    {
+      "id": "kofein-bezvodnyy",
+      "name_ru": "Кофеин безводный",
+      "category": "active-ingredients",
+      "inci_from_file": "CAFFEINE"
+    },
+    {
+      "id": "ekzosomy-moloka-milk-exosomes-10000-ppm",
+      "name_ru": "Экзосомы молока (Milk Exosomes 10000 ppm)",
+      "category": "active-ingredients",
+      "inci_from_file": ""
+    }
+  ],
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched\\actives-2.json"
+}

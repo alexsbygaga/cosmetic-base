@@ -1,0 +1,32 @@
+{
+  "key": "ph-chelants",
+  "title": "Регуляторы pH, хелаты, буферы",
+  "hint": "Лимонная кислота, гидроксид натрия 30 %, цитрат натрия, Трилон Б (Disodium EDTA).",
+  "items": [
+    {
+      "id": "limonnaya-kislota",
+      "name_ru": "Лимонная кислота",
+      "category": "ph-adjusters-chelants",
+      "inci_from_file": "Citric acid"
+    },
+    {
+      "id": "gidroksid-natriya-30",
+      "name_ru": "Гидроксид натрия 30%",
+      "category": "ph-adjusters-chelants",
+      "inci_from_file": "Sodium Hydroxide"
+    },
+    {
+      "id": "citrat-natriya",
+      "name_ru": "Цитрат натрия",
+      "category": "ph-adjusters-chelants",
+      "inci_from_file": "Sodium Citrate"
+    },
+    {
+      "id": "trilon-b",
+      "name_ru": "Трилон Б",
+      "category": "ph-adjusters-chelants",
+      "inci_from_file": "Disodium EDTA"
+    }
+  ],
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched\\ph-chelants.json"
+}

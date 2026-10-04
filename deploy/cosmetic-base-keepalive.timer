@@ -1,0 +1,12 @@
+[Unit]
+Description=Регулярное обновление DuckDNS и проверка каталога (защита от простоя)
+
+[Timer]
+# каждые 10 минут
+OnBootSec=2min
+OnUnitActiveSec=10min
+Persistent=true
+Unit=cosmetic-base-keepalive.service
+
+[Install]
+WantedBy=timers.target

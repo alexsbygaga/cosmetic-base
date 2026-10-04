@@ -1,0 +1,9 @@
+[Unit]
+Description=Резервное копирование каталога «Косметическая база»
+
+[Service]
+Type=oneshot
+Environment=CB_DATA_DIR=/var/lib/cosmetic-base
+Environment=CB_BACKUP_DIR=/var/backups/cosmetic-base
+Environment=CB_BACKUP_KEEP_DAYS=14
+ExecStart=/opt/cosmetic-base/app/deploy/backup.sh

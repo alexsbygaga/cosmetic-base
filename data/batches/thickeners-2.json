@@ -1,0 +1,20 @@
+{
+  "key": "thickeners-2",
+  "title": "Загустители, реология, замутнители, электролиты",
+  "hint": "Соль мелкая (Sodium Chloride) — электролит-загуститель ПАВ-систем. Гидроксиэтилцеллюлоза. ПЭГ-120 Methyl Glucose Dioleate. Замутнитель на гликоль дистеарате Hony EGDS. Замутнитель моностеарат этиленгликоля HONY EGMS — уточни точный INCI (вероятно Glycol Stearate) и отметь сомнение.",
+  "items": [
+    {
+      "id": "zamutnitel-zamutnitel-glikol-distearat-hony-egds",
+      "name_ru": "Замутнитель (Замутнитель гликоль дистеарат Hony EGDS)",
+      "category": "opacifiers-pearlizers",
+      "inci_from_file": "Ethylene Glycol Distearate"
+    },
+    {
+      "id": "zamutnitel-monostearat-etilenglikolya-hony-egms",
+      "name_ru": "Замутнитель (Моностеарат этиленгликоля HONY EGMS)",
+      "category": "opacifiers-pearlizers",
+      "inci_from_file": ""
+    }
+  ],
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched\\thickeners-2.json"
+}

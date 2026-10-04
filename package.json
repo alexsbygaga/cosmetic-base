@@ -1,0 +1,31 @@
+{
+  "name": "cosmetic-compound-base",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Каталог косметического сырья: категории, INCI, CAS, описания, техпротоколы внесения и веб-интерфейс для поиска и редактирования",
+  "type": "module",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server/serve.mjs",
+    "serve": "node server/serve.mjs",
+    "dev": "node server/serve.mjs --port 8787",
+    "test": "node web/tests/store.test.mjs && node web/tests/render-null.test.mjs",
+    "test:auth": "node server/tests/auth.test.mjs",
+    "admin": "node server/create-admin.mjs",
+    "validate": "python tools/validate_catalog.py",
+    "build": "python tools/build_catalog.py",
+    "recategorize": "python tools/recategorize.py"
+  },
+  "keywords": [
+    "cosmetics",
+    "inci",
+    "ingredients",
+    "catalog",
+    "formulation"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}

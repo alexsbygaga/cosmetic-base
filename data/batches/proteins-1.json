@@ -1,0 +1,26 @@
+{
+  "key": "proteins-1",
+  "title": "Протеины, пептиды, аминокислоты",
+  "hint": "Гидролизованные протеины пшеницы, шёлка, сои, растительный белок, кератин. Укажи степень гидролиза, молекулярную массу, источник сырья.",
+  "items": [
+    {
+      "id": "proteiny-pshenicy",
+      "name_ru": "Протеины пшеницы",
+      "category": "proteins-peptides",
+      "inci_from_file": "Hydrolyzed Wheat Protein"
+    },
+    {
+      "id": "proteiny-shelka",
+      "name_ru": "Протеины шелка",
+      "category": "proteins-peptides",
+      "inci_from_file": "Hydrolyzed Silk Protein"
+    },
+    {
+      "id": "keratin",
+      "name_ru": "Кератин",
+      "category": "proteins-peptides",
+      "inci_from_file": "Hydrolyzed Keratin"
+    }
+  ],
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched\\proteins-1.json"
+}

@@ -1,0 +1,353 @@
+{
+  "version": 1,
+  "updated_at": "2024-01-01T00:00:00.000Z",
+  "categories": [
+    {
+      "id": "solvents-humectants",
+      "ru": "Растворители и влагоудерживающие",
+      "en": "Solvents & Humectants",
+      "color": "#38bdf8"
+    },
+    {
+      "id": "surfactants",
+      "ru": "ПАВ (поверхностно-активные вещества)",
+      "en": "Surfactants",
+      "color": "#f472b6"
+    },
+    {
+      "id": "emulsifiers",
+      "ru": "Эмульгаторы и соэмульгаторы",
+      "en": "Emulsifiers",
+      "color": "#c084fc"
+    },
+    {
+      "id": "emollients-oils",
+      "ru": "Масла, жиры и эмоленты",
+      "en": "Oils, Butters & Emollients",
+      "color": "#fbbf24"
+    },
+    {
+      "id": "silicones",
+      "ru": "Силиконы и силиконовые эмульсии",
+      "en": "Silicones",
+      "color": "#94a3b8"
+    },
+    {
+      "id": "thickeners-rheology",
+      "ru": "Загустители и реология",
+      "en": "Thickeners & Rheology Modifiers",
+      "color": "#22d3ee"
+    },
+    {
+      "id": "conditioners-cationics",
+      "ru": "Катионные кондиционирующие добавки",
+      "en": "Cationic Conditioners",
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "active-ingredients",
+      "ru": "Активные компоненты",
+      "en": "Active Ingredients",
+      "color": "#10b981"
+    },
+    {
+      "id": "vitamins-antioxidants",
+      "ru": "Витамины и антиоксиданты",
+      "en": "Vitamins & Antioxidants",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "proteins-peptides",
+      "ru": "Протеины, пептиды, аминокислоты",
+      "en": "Proteins, Peptides & Amino Acids",
+      "color": "#e879f9"
+    },
+    {
+      "id": "plant-extracts",
+      "ru": "Растительные экстракты",
+      "en": "Plant Extracts",
+      "color": "#4ade80"
+    },
+    {
+      "id": "fragrances",
+      "ru": "Отдушки и ароматические композиции",
+      "en": "Fragrances",
+      "color": "#fb7185"
+    },
+    {
+      "id": "colorants",
+      "ru": "Красители и пигменты",
+      "en": "Colorants & Pigments",
+      "color": "#ef4444"
+    },
+    {
+      "id": "preservatives",
+      "ru": "Консерванты и антимикробные",
+      "en": "Preservatives & Antimicrobials",
+      "color": "#0ea5e9"
+    },
+    {
+      "id": "ph-adjusters-chelants",
+      "ru": "Регуляторы pH, хелаты и буферы",
+      "en": "pH Adjusters, Chelants & Buffers",
+      "color": "#a3a3a3"
+    },
+    {
+      "id": "opacifiers-pearlizers",
+      "ru": "Замутнители и перламутровые добавки",
+      "en": "Opacifiers & Pearlizers",
+      "color": "#e2e8f0"
+    },
+    {
+      "id": "other-functional",
+      "ru": "Прочее функциональное сырьё",
+      "en": "Other Functional Ingredients",
+      "color": "#64748b"
+    }
+  ],
+  "materials": [
+    {
+      "id": "glicerin",
+      "name_ru": "Глицерин",
+      "category": "solvents-humectants",
+      "name_lat": "Glycerin",
+      "inci": "Glycerin",
+      "cas": "56-81-5",
+      "aggregate_state": "вязкая жидкость",
+      "origin": "природное (растительное)",
+      "origin_details": "Промышленно получают омылением растительных или животных жиров (при этом образуются мыла и глицерин как побочный продукт), а также гидролизом жиров, переэтерификацией и синтезом из пропилена через эпихлоргидрин. Современный косметический глицерин обычно имеет растительное происхождение (рапс, соя, пальмовое масло) и маркируется как растительный.",
+      "description": "Глицерин (пропан-1,2,3-триол) — трёхатомный спирт, бесцветная вязкая гигроскопичная жидкость без запаха, сладковатая на вкус. В косметике это один из базовых влагоудерживающих компонентов: он притягивает и удерживает воду в роговом слое, повышает эластичность кожи, выступает криопротектором и стабилизатором рецептур. Работает в широком диапазоне pH, совместим практически со всеми классами сырья, хорошо растворяется в воде и этаноле, не растворяется в жирах. При концентрации выше 40 % может давать липкость и ощущение тяжести, поэтому в уходовых продуктах его обычно вводят на уровне 2–10 %. Это проверенная временем позиция: данные подтверждены CosIng, PubChem и регламентом ЕС.",
+      "function_in_formula": "увлажнитель (humectant), растворитель, криопротектор",
+      "tech_protocol": "Вносится в водную фазу (фаза A) при комнатной или слегка повышенной температуре — глицерин не требует нагрева и полностью смешивается с водой. Порядок: сначала вода, затем глицерин при перемешивании 200–400 об/мин до полного растворения; при работе с порошковыми гидроколлоидами (ксантановая камедь, карбомер) глицерин удобно использовать для предварительного диспергирования порошка — это предотвращает образование комков. Если рецептура содержит электролиты и карбомер, добавьте глицерин до нейтрализации, чтобы избежать преждевременного загущения. В эмульсиях вводится в водную фазу до эмульгирования; допустимо добавлять в фазу охлаждения при 40–45 °C, если нужно снизить нагрев термолабильных активов.",
+      "typical_usage": "2–10 %",
+      "ph_range": "3–10",
+      "solubility": "водорастворимо",
+      "compatibility_notes": "Гигроскопичен: на воздухе поглощает влагу до 40 % от собственной массы, поэтому хранить нужно в герметичной таре. Ограничений по pH нет. Совместим с анионными, катионными и неионными ПАВ, но в больших количествах может снижать пенообразование и усиливать раздражающее действие некоторых консервантов за счёт повышения активности воды.",
+      "regulatory": "Разрешён без ограничений в ЕС (Regulation (EC) No 1223/2009) и в РФ (ТР ТС 009/2011). Не относится к веществам с ограничениями по концентрации.",
+      "synonyms": [
+        "Glycerol",
+        "Пропан-1,2,3-триол",
+        "E422"
+      ],
+      "components": [],
+      "references": [
+        {
+          "title": "Glycerol — PubChem",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Glycerol"
+        },
+        {
+          "title": "Glycerin — CosIng",
+          "url": "https://ec.europa.eu/growth/tools-databases/cosing/"
+        },
+        {
+          "title": "Глицерин — Википедия",
+          "url": "https://ru.wikipedia.org/wiki/Глицерин"
+        },
+        {
+          "title": "Glycerin — INCIDecoder",
+          "url": "https://incidecoder.com/ingredients/glycerin"
+        }
+      ],
+      "data_confidence": "high",
+      "confidence_notes": "CAS, INCI и растворимость подтверждены PubChem и CosIng.",
+      "extra": {
+        "trade_name": "Glycerin 99,7 % USP",
+        "producer": "разные",
+        "storage": "герметичная тара, 5–25 °C"
+      }
+    },
+    {
+      "id": "niacinamid",
+      "name_ru": "Ниацинамид",
+      "category": "active-ingredients",
+      "name_lat": "Niacinamide",
+      "inci": "Niacinamide",
+      "cas": "98-92-0",
+      "aggregate_state": "твёрдое вещество (порошок)",
+      "origin": "синтетическое",
+      "origin_details": "Получают химическим синтезом из никотиновой кислоты или 3-пиколина.",
+      "description": "Ниацинамид (никотинамид, витамин B3) — водорастворимый амид никотиновой кислоты, белый кристаллический порошок. Один из самых изученных косметических активов: укрепляет барьер кожи, стимулирует синтез керамидов и свободных жирных кислот, снижает гиперпигментацию за счёт блокировки переноса меланосом, регулирует выработку себума и уменьшает воспаление. Работает в диапазоне pH 5–7.",
+      "function_in_formula": "активный компонент (витамин B3), себорегулятор, осветлитель",
+      "tech_protocol": "Вносится в водную фазу после охлаждения ниже 40 °C — при нагреве выше 80 °C возможен гидролиз до никотиновой кислоты с ростом раздражения. Растворяется в воде до 100 г/100 мл при 20 °C. Оптимальный pH готового продукта 5,5–6,5: при pH ниже 4 и выше 7 возрастает риск покраснения из-за примеси никотиновой кислоты.",
+      "typical_usage": "2–5 %",
+      "ph_range": "5–7",
+      "solubility": "водорастворимо",
+      "compatibility_notes": "Совместим с большинством активов. Не совмещать с сильными кислотами в одной фазе.",
+      "regulatory": "Разрешён без ограничений в ЕС и РФ.",
+      "synonyms": [
+        "Nicotinamide",
+        "Витамин B3"
+      ],
+      "components": [],
+      "references": [
+        {
+          "title": "Glycerol — PubChem",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Glycerol"
+        },
+        {
+          "title": "Glycerin — CosIng",
+          "url": "https://ec.europa.eu/growth/tools-databases/cosing/"
+        },
+        {
+          "title": "Глицерин — Википедия",
+          "url": "https://ru.wikipedia.org/wiki/Глицерин"
+        }
+      ],
+      "data_confidence": "high",
+      "confidence_notes": "CAS 98-92-0 подтверждён.",
+      "extra": {
+        "producer": "разные"
+      }
+    },
+    {
+      "id": "kokamidopropilbetain",
+      "name_ru": "Кокамидопропилбетаин",
+      "category": "surfactants",
+      "name_lat": "",
+      "inci": "Cocamidopropilbetaine",
+      "cas": "",
+      "aggregate_state": "",
+      "origin": "",
+      "origin_details": "",
+      "description": "",
+      "function_in_formula": "",
+      "tech_protocol": "",
+      "typical_usage": "",
+      "ph_range": "",
+      "solubility": "",
+      "compatibility_notes": "",
+      "regulatory": "",
+      "synonyms": [],
+      "components": [],
+      "references": [],
+      "data_confidence": "",
+      "confidence_notes": "ЗАГЛУШКА для проверки интерфейса.",
+      "extra": {}
+    },
+    {
+      "id": "krasitel-tartrazin-e102",
+      "name_ru": "Краситель Тартразин E102",
+      "category": "colorants",
+      "name_lat": "",
+      "inci": "",
+      "cas": "",
+      "aggregate_state": "",
+      "origin": "",
+      "origin_details": "",
+      "description": "",
+      "function_in_formula": "",
+      "tech_protocol": "",
+      "typical_usage": "",
+      "ph_range": "",
+      "solubility": "",
+      "compatibility_notes": "",
+      "regulatory": "",
+      "synonyms": [],
+      "components": [],
+      "references": [],
+      "data_confidence": "",
+      "confidence_notes": "ЗАГЛУШКА для проверки интерфейса.",
+      "extra": {}
+    },
+    {
+      "id": "otdushka-savage-avm-679",
+      "name_ru": "Отдушка Savage AVM-679",
+      "category": "fragrances",
+      "name_lat": "",
+      "inci": "",
+      "cas": "",
+      "aggregate_state": "",
+      "origin": "",
+      "origin_details": "",
+      "description": "",
+      "function_in_formula": "",
+      "tech_protocol": "",
+      "typical_usage": "",
+      "ph_range": "",
+      "solubility": "",
+      "compatibility_notes": "",
+      "regulatory": "",
+      "synonyms": [],
+      "components": [],
+      "references": [],
+      "data_confidence": "",
+      "confidence_notes": "ЗАГЛУШКА для проверки интерфейса.",
+      "extra": {}
+    },
+    {
+      "id": "trilon-b",
+      "name_ru": "Трилон Б",
+      "category": "active-ingredients",
+      "name_lat": "",
+      "inci": "Disodium EDTA",
+      "cas": "",
+      "aggregate_state": "",
+      "origin": "",
+      "origin_details": "",
+      "description": "",
+      "function_in_formula": "",
+      "tech_protocol": "",
+      "typical_usage": "",
+      "ph_range": "",
+      "solubility": "",
+      "compatibility_notes": "",
+      "regulatory": "",
+      "synonyms": [],
+      "components": [],
+      "references": [],
+      "data_confidence": "",
+      "confidence_notes": "ЗАГЛУШКА для проверки интерфейса.",
+      "extra": {}
+    },
+    {
+      "id": "maslo-shi",
+      "name_ru": "Масло ши",
+      "category": "emollients-oils",
+      "name_lat": "",
+      "inci": "Butyrospermum Parkii Butter",
+      "cas": "",
+      "aggregate_state": "",
+      "origin": "",
+      "origin_details": "",
+      "description": "",
+      "function_in_formula": "",
+      "tech_protocol": "",
+      "typical_usage": "",
+      "ph_range": "",
+      "solubility": "",
+      "compatibility_notes": "",
+      "regulatory": "",
+      "synonyms": [],
+      "components": [],
+      "references": [],
+      "data_confidence": "",
+      "confidence_notes": "ЗАГЛУШКА для проверки интерфейса.",
+      "extra": {}
+    },
+    {
+      "id": "ciklopentasiloksan",
+      "name_ru": "Циклопентасилоксан",
+      "category": "silicones",
+      "name_lat": "",
+      "inci": "Cyclopentasiloxane",
+      "cas": "",
+      "aggregate_state": "",
+      "origin": "",
+      "origin_details": "",
+      "description": "",
+      "function_in_formula": "",
+      "tech_protocol": "",
+      "typical_usage": "",
+      "ph_range": "",
+      "solubility": "",
+      "compatibility_notes": "",
+      "regulatory": "",
+      "synonyms": [],
+      "components": [],
+      "references": [],
+      "data_confidence": "",
+      "confidence_notes": "ЗАГЛУШКА для проверки интерфейса.",
+      "extra": {}
+    }
+  ]
+}

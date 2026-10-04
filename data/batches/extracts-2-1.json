@@ -1,0 +1,32 @@
+{
+  "key": "extracts-2-1",
+  "title": "Экстракты: фрукты и ягоды",
+  "hint": "ПГ-экстракты лайма, виноградных косточек, орхидеи, розы, голубики, лимонника, ананаса.",
+  "items": [
+    {
+      "id": "pg-ekstrakt-layma",
+      "name_ru": "ПГ Экстракт лайма",
+      "category": "plant-extracts",
+      "inci_from_file": "Citrus Aurantifolia Fruit Extract"
+    },
+    {
+      "id": "pg-ekstrakt-vinogradnyh-kostochek",
+      "name_ru": "ПГ Экстракт виноградных косточек",
+      "category": "plant-extracts",
+      "inci_from_file": "Vitis Vinifera Seed Extract"
+    },
+    {
+      "id": "pg-ekstrakt-orihdei",
+      "name_ru": "ПГ экстракт орихдеи",
+      "category": "plant-extracts",
+      "inci_from_file": ""
+    },
+    {
+      "id": "pg-ekstrakt-rozy",
+      "name_ru": "ПГ экстракт розы",
+      "category": "plant-extracts",
+      "inci_from_file": ""
+    }
+  ],
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched\\extracts-2-1.json"
+}

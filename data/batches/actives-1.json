@@ -1,0 +1,32 @@
+{
+  "key": "actives-1",
+  "title": "Активные компоненты",
+  "hint": "Продью 500 (смесь NMF-компонентов, заполни components). Ниацинамид. Пантенол. Дрожжевые полипептиды. Ceramide Complex CLR (смесь фосфолипидов и сфинголипидов). Салициловая кислота. Пироктон оламин (против перхоти/консервант). Сорбитол.",
+  "items": [
+    {
+      "id": "prodyu-500",
+      "name_ru": "Продью 500",
+      "category": "active-ingredients",
+      "inci_from_file": "Sodium PCA, Sodium Lactate, Arginine, Aspartic Acid, PCA Alanine, Glycine, Serine, Valine, Isoleucine, Threonine, Proline, Histidine, Phenylalanine, Aqua"
+    },
+    {
+      "id": "niacinamid",
+      "name_ru": "Ниацинамид",
+      "category": "active-ingredients",
+      "inci_from_file": "Niacinamide"
+    },
+    {
+      "id": "pantenol",
+      "name_ru": "Пантенол",
+      "category": "active-ingredients",
+      "inci_from_file": "Panthenol"
+    },
+    {
+      "id": "drozhzhevye-polipeptidy",
+      "name_ru": "Дрожжевые полипептиды",
+      "category": "active-ingredients",
+      "inci_from_file": "Yeast polypeptides"
+    }
+  ],
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched\\actives-1.json"
+}

@@ -1,0 +1,44 @@
+{
+  "key": "frag-syren-sd-2",
+  "title": "Отдушки Syren серии SD",
+  "hint": "Производитель — Syren Fragrances, серия SD (в артикуле указана цена/линия, например L26). Для двух позиций производитель указан явно («Syren»).",
+  "items": [
+    {
+      "id": "otdushka-matcha-mint-sd-758",
+      "name_ru": "Отдушка Matcha & mint SD-758",
+      "category": "fragrances",
+      "inci_from_file": ""
+    },
+    {
+      "id": "otdushka-peach-sd-156",
+      "name_ru": "Отдушка Peach SD-156",
+      "category": "fragrances",
+      "inci_from_file": ""
+    },
+    {
+      "id": "otdushka-vanilla-cola-sd-82",
+      "name_ru": "Отдушка Vanilla cola SD-82",
+      "category": "fragrances",
+      "inci_from_file": ""
+    },
+    {
+      "id": "otdushka-young-pear-sd-7",
+      "name_ru": "Отдушка Young Pear SD-7",
+      "category": "fragrances",
+      "inci_from_file": ""
+    },
+    {
+      "id": "otdushka-raspberry-green-sd-340",
+      "name_ru": "Отдушка Raspberry green SD-340",
+      "category": "fragrances",
+      "inci_from_file": ""
+    },
+    {
+      "id": "otdushka-solary-yuzu-sd-761-syren",
+      "name_ru": "Отдушка Solary yuzu SD-761, Syren",
+      "category": "fragrances",
+      "inci_from_file": ""
+    }
+  ],
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched\\frag-syren-sd-2.json"
+}

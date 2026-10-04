@@ -1,0 +1,43 @@
+# Конфигурация Caddy для каталога «Косметическая база».
+#
+# Caddy сам получает и продлевает бесплатный сертификат Let's Encrypt,
+# поэтому нужен домен (подойдёт бесплатный поддомен DuckDNS) и открытые порты 80 и 443.
+#
+# Замените cosmetic-base.duckdns.org на своё имя и скопируйте файл в
+# /etc/caddy/Caddyfile, затем: sudo systemctl reload caddy
+
+cosmetic-base.duckdns.org {
+	encode zstd gzip
+
+	# Всё обслуживает приложение: статика из web/ и API /api/*.
+	# Доступ к служебным файлам ограничивает сам сервер, наружу отдаётся только web/.
+	reverse_proxy 127.0.0.1:8787 {
+		# реальный адрес клиента — нужен для ограничения перебора паролей
+		header_up X-Forwarded-For {remote_host}
+		header_up X-Real-IP {remote_host}
+
+		# если приложение перезапускается, Caddy подождёт и повторит запрос
+		health_uri /api/health
+		health_interval 30s
+		health_timeout 5s
+	}
+
+	# Данные каталога меняются, поэтому в браузере их не кэшируем
+	@catalog path /data/materials.json /api/materials*
+	header @catalog Cache-Control "no-store"
+
+	# Заголовки безопасности
+	header {
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+		X-Frame-Options SAMEORIGIN
+		-Server
+	}
+
+	log {
+		output file /var/log/caddy/cosmetic-base.log {
+			roll_size 10MiB
+			roll_keep 5
+		}
+	}
+}

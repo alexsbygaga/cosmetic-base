@@ -1,0 +1,274 @@
+{
+  "_comment": [
+    "Ручные правки поверх собранных данных. Применяются в tools/build_catalog.py",
+    "после сборки из data/enriched/*.json, поэтому пересборка их не теряет.",
+    "Поля внутри patch заменяют значение целиком; extra дополняется по ключам.",
+    "",
+    "Здесь же добавлены ссылки на первоисточники производителя Syren (IFRA,",
+    "allergen declaration, MSDS, веган-сертификат) — файлы лежат в web/docs/syren/",
+    "и отдаются статикой по адресу /docs/syren/<файл>.pdf"
+  ],
+  "overrides": [
+    {
+      "id": "peg-40",
+      "reason": "Идентификация подтверждена технологом заказчика: в составах по INCI это PEG-40 Hydrogenated Castor Oil, работает как солюбилизатор и эмульгатор.",
+      "patch": {
+        "name_lat": "PEG-40 Hydrogenated Castor Oil",
+        "inci": "PEG-40 Hydrogenated Castor Oil",
+        "category": "emulsifiers",
+        "function_in_formula": "солюбилизатор (отдушки, эфирные масла, жирорастворимые активы); эмульгатор (неионный) для прямых эмульсий «масло в воде»; со-ПАВ",
+        "description": "PEG-40 Hydrogenated Castor Oil (гидрогенизированное этоксилированное касторовое масло, 40 моль оксида этилена; торговые марки Cremophor RH 40, Kolliphor RH 40, Eumulgin HRE 40) — неионогенный солюбилизатор и эмульгатор, одно из самых распространённых вспомогательных веществ в косметике. Химически это смесь этоксилированных триглицеридов, моно- и диэфиров рицинолевой кислоты и полиэтиленгликолей; строгой молекулярной формулы нет, CAS 61788-85-0 присвоен всей группе «Castor oil, hydrogenated, ethoxylated». Товарная форма — вязкая прозрачная жидкость от жёлтого до янтарного цвета со слабым жирным запахом, хорошо растворимая в воде, этаноле, пропиленгликоле и изопропаноле. В рецептурах выполняет две ключевые задачи. Как солюбилизатор он переводит в прозрачный водный раствор вещества, которые сами в воде не растворяются: отдушки, эфирные масла, жирорастворимые витамины и растительные экстракты. Именно поэтому он незаменим в тониках, мицеллярной воде, прозрачных гелях, сыворотках, лосьонах после бритья и несмываемых спреях — там, где нужна прозрачность и отсутствие расслоения. Как эмульгатор он стабилизирует прямые эмульсии «масло в воде», не давая кремам, лосьонам и молочку расслаиваться при хранении и перепадах температуры, и часто используется в паре с цетеариловым спиртом или глицерил стеаратом. Дополнительно работает как со-ПАВ: снижает раздражающее действие основных анионных ПАВ и улучшает смачивание. Типовые дозировки: 1–3 % для солюбилизации отдушки (обычно при соотношении с отдушкой 2:1–4:1), 2–5 % как соэмульгатор, 0,5–1 % в мицеллярных водах и тониках. Вещество неионогенное, поэтому совместимо с анионными, катионными и амфотерными компонентами и устойчиво в широком диапазоне pH 3–10; оптимально 4–8. Как все этоксилаты, требует защиты от окисления и хранится в герметичной таре при 5–25 °C, вдали от света.",
+        "typical_usage": "1–3 % для солюбилизации отдушки (соотношение с отдушкой обычно 2:1–4:1); 2–5 % как соэмульгатор прямых эмульсий; 0,5–1 % в мицеллярных водах и тониках",
+        "ph_range": "3–10 (устойчив в широком диапазоне, оптимально 4–8)",
+        "solubility": "водорастворимо; растворимо в этаноле, пропиленгликоле, изопропаноле; диспергируется в маслах",
+        "regulatory": "Разрешён к применению в косметике в ЕС и РФ без ограничения концентрации. В Регламенте (EC) № 1223/2009 не входит в приложения с ограничениями (II–VI). Полиоксиэтилированные производные нормируются по содержанию 1,4-диоксана (техническая примесь этоксилирования) и этиленоксида; в ЕС действуют рекомендации по контролю этих примесей, а для PEG-содержащего сырья запрашивают сертификат с остаточными количествами. Фармакопейная форма (Polyoxyl 40 Hydrogenated Castor Oil) применяется в лекарственных препаратах, что подтверждает его безопасность при наружном применении. В РФ — ТР ТС 009/2011.",
+        "data_confidence": "high",
+        "confidence_notes": "Идентификация позиции подтверждена технологом заказчика: в составах по INCI это PEG-40 Hydrogenated Castor Oil, функции — солюбилизатор отдушек, эфирных масел и жирорастворимых активов в водных формулах (тоники, мицеллярная вода, прозрачные гели) и эмульгатор, стабилизирующий прямые эмульсии и предотвращающий расслоение кремов, лосьонов и молочка. CAS 61788-85-0 подтверждён CosIng и PubChem для группы «Castor oil, hydrogenated, ethoxylated». Второй возможный продукт с сокращением «ПЭГ-40» в номенклатуре поставщика — PEG-40 Stearate (CAS 9004-99-3), но для косметических составов по INCI доминирует именно Hydrogenated Castor Oil; если в вашей спецификации указан стеарат, замените INCI и CAS на PEG-40 Stearate / 9004-99-3.",
+        "extra": {
+          "trade_name": "Cremophor RH 40 / Kolliphor RH 40 / Eumulgin HRE 40",
+          "roles": "солюбилизатор; эмульгатор (неионный); со-ПАВ",
+          "use_cases": "тоники, мицеллярная вода, прозрачные гели, сыворотки, лосьоны, кремы и молочко",
+          "hlb": "≈ 14–16 (гидрофильный, пригоден для прямых эмульсий и солюбилизации)",
+          "identification": "подтверждено технологом заказчика",
+          "alternative_product": "PEG-40 Stearate, CAS 9004-99-3 — если в спецификации указан стеарат"
+        }
+      }
+    },
+    {
+      "id": "otdushka-raspberry-green-sd-340",
+      "reason": "Добавлены ссылки на первоисточники производителя Syren по артикулу SD-340: IFRA-сертификат (Syren, SD-340); Allergen declaration / перечень аллергенов (Syren, SD-340); MSDS — паспорт безопасности (Syren, SD-340). Документы получены с сайта производителя и сохранены в проекте (web/docs/syren/), поэтому доступны без интернета.",
+      "patch": {
+        "data_confidence": "high",
+        "extra": {
+          "producer_documents": "IFRA-сертификат (Syren, SD-340); Allergen declaration / перечень аллергенов (Syren, SD-340); MSDS — паспорт безопасности (Syren, SD-340)",
+          "producer_documents_note": "Оригиналы IFRA, allergen declaration и MSDS приложены к каталогу в папке web/docs/syren — их можно открыть по ссылкам в карточке."
+        },
+        "references": [
+          {
+            "title": "IFRA-сертификат (Syren, SD-340)",
+            "url": "/docs/syren/sd340_IFRA.pdf"
+          },
+          {
+            "title": "Allergen declaration — перечень аллергенов (Syren, SD-340)",
+            "url": "/docs/syren/sd340_LA.pdf"
+          },
+          {
+            "title": "MSDS — паспорт безопасности (Syren, SD-340)",
+            "url": "/docs/syren/sd340_MSDS.pdf"
+          },
+          {
+            "title": "SYREN — карточка продукта Raspberry green SD-340 (производитель, пирамида, нормы ввода, документация)",
+            "url": "https://отдушка.рф/raspberry-green-sd-340"
+          },
+          {
+            "title": "SYREN — статья «Водорастворимые и жирорастворимые отдушки Syren» (линия SD на дипропиленгликоле)",
+            "url": "https://отдушка.рф/informations/vodorastvorimye-i-zhirorastvorimye-otdushki-syren"
+          },
+          {
+            "title": "SYREN — каталог жирорастворимых отдушек",
+            "url": "https://отдушка.рф/otdushki?filter%5B%5D=56"
+          },
+          {
+            "title": "SYREN — отдушки для косметики (области применения и нормы ввода)",
+            "url": "https://отдушка.рф/informations/otdushki-dlya-kosmetiki"
+          },
+          {
+            "title": "Regulation (EC) No 1223/2009 on cosmetic products — консолидированный текст, EUR-Lex",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20250501"
+          },
+          {
+            "title": "CosIng — база ингредиентов косметики, Европейская комиссия",
+            "url": "https://ec.europa.eu/growth/tools-databases/cosing/"
+          },
+          {
+            "title": "IFRA Standards Library — стандарты ограничений по категориям продукции",
+            "url": "https://ifrafragrance.org/standards-library"
+          },
+          {
+            "title": "INKEEDecoder — Parfum/Fragrance: общее описание ингредиента",
+            "url": "https://inkeedecoder.com/ingredients/parfum"
+          }
+        ]
+      }
+    },
+    {
+      "id": "otdushka-solary-yuzu-sd-761-syren",
+      "reason": "Добавлены ссылки на первоисточники производителя Syren по артикулу SD-761: IFRA-сертификат (Syren, SD-761); Allergen declaration / перечень аллергенов (Syren, SD-761); MSDS — паспорт безопасности (Syren, SD-761). Документы получены с сайта производителя и сохранены в проекте (web/docs/syren/), поэтому доступны без интернета.",
+      "patch": {
+        "data_confidence": "high",
+        "extra": {
+          "producer_documents": "IFRA-сертификат (Syren, SD-761); Allergen declaration / перечень аллергенов (Syren, SD-761); MSDS — паспорт безопасности (Syren, SD-761)",
+          "producer_documents_note": "Оригиналы IFRA, allergen declaration и MSDS приложены к каталогу в папке web/docs/syren — их можно открыть по ссылкам в карточке."
+        },
+        "references": [
+          {
+            "title": "IFRA-сертификат (Syren, SD-761)",
+            "url": "/docs/syren/sd761_IFRA.pdf"
+          },
+          {
+            "title": "Allergen declaration — перечень аллергенов (Syren, SD-761)",
+            "url": "/docs/syren/sd761_LA.pdf"
+          },
+          {
+            "title": "MSDS — паспорт безопасности (Syren, SD-761)",
+            "url": "/docs/syren/sd761_MSDS.pdf"
+          },
+          {
+            "title": "SYREN — карточка продукта Solary yuzu SD-761 (производитель, пирамида, нормы ввода, документация)",
+            "url": "https://отдушка.рф/solary-yuzu-sd-761"
+          },
+          {
+            "title": "SYREN — статья «Водорастворимые и жирорастворимые отдушки Syren» (линия SD на дипропиленгликоле)",
+            "url": "https://отдушка.рф/informations/vodorastvorimye-i-zhirorastvorimye-otdushki-syren"
+          },
+          {
+            "title": "SYREN — отдушки для косметики (области применения и нормы ввода)",
+            "url": "https://отдушка.рф/informations/otdushki-dlya-kosmetiki"
+          },
+          {
+            "title": "SYREN — о компании-производителе (ООО «Сайрэн», отдушки с 2023 г.)",
+            "url": "https://отдушка.рф/informations/about_us"
+          },
+          {
+            "title": "Regulation (EC) No 1223/2009 on cosmetic products — консолидированный текст, EUR-Lex",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20250501"
+          },
+          {
+            "title": "CosIng — база ингредиентов косметики, Европейская комиссия",
+            "url": "https://ec.europa.eu/growth/tools-databases/cosing/"
+          },
+          {
+            "title": "IFRA Standards Library — стандарты ограничений по категориям продукции",
+            "url": "https://ifrafragrance.org/standards-library"
+          },
+          {
+            "title": "INKEEDecoder — Parfum/Fragrance: общее описание ингредиента",
+            "url": "https://inkeedecoder.com/ingredients/parfum"
+          }
+        ]
+      }
+    },
+    {
+      "id": "otdushka-young-pear-sd-7",
+      "reason": "Добавлены ссылки на первоисточники производителя Syren по артикулу SD-7: IFRA-сертификат (Syren, SD-7); Allergen declaration / перечень аллергенов (Syren, SD-7); MSDS — паспорт безопасности (Syren, SD-7). Документы получены с сайта производителя и сохранены в проекте (web/docs/syren/), поэтому доступны без интернета.",
+      "patch": {
+        "data_confidence": "high",
+        "extra": {
+          "producer_documents": "IFRA-сертификат (Syren, SD-7); Allergen declaration / перечень аллергенов (Syren, SD-7); MSDS — паспорт безопасности (Syren, SD-7)",
+          "producer_documents_note": "Оригиналы IFRA, allergen declaration и MSDS приложены к каталогу в папке web/docs/syren — их можно открыть по ссылкам в карточке."
+        },
+        "references": [
+          {
+            "title": "IFRA-сертификат (Syren, SD-7)",
+            "url": "/docs/syren/sd7_IFRA.pdf"
+          },
+          {
+            "title": "Allergen declaration — перечень аллергенов (Syren, SD-7)",
+            "url": "/docs/syren/sd7_LA.pdf"
+          },
+          {
+            "title": "MSDS — паспорт безопасности (Syren, SD-7)",
+            "url": "/docs/syren/sd7_MSDS.pdf"
+          },
+          {
+            "title": "SYREN — карточка продукта Young pear SD-7 (производитель, пирамида, нормы ввода, документация)",
+            "url": "https://отдушка.рф/young-pear-sd-7"
+          },
+          {
+            "title": "SYREN — статья «Водорастворимые и жирорастворимые отдушки Syren» (линия SD на дипропиленгликоле)",
+            "url": "https://отдушка.рф/informations/vodorastvorimye-i-zhirorastvorimye-otdushki-syren"
+          },
+          {
+            "title": "SYREN — отдушки для косметики (области применения и нормы ввода)",
+            "url": "https://отдушка.рф/informations/otdushki-dlya-kosmetiki"
+          },
+          {
+            "title": "SYREN — о компании-производителе (ООО «Сайрэн», отдушки с 2023 г.)",
+            "url": "https://отдушка.рф/informations/about_us"
+          },
+          {
+            "title": "Regulation (EC) No 1223/2009 on cosmetic products — консолидированный текст, EUR-Lex",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20250501"
+          },
+          {
+            "title": "CosIng — база ингредиентов косметики, Европейская комиссия",
+            "url": "https://ec.europa.eu/growth/tools-databases/cosing/"
+          },
+          {
+            "title": "IFRA Standards Library — стандарты ограничений по категориям продукции",
+            "url": "https://ifrafragrance.org/standards-library"
+          },
+          {
+            "title": "INKEEDecoder — Parfum/Fragrance: общее описание ингредиента",
+            "url": "https://inkeedecoder.com/ingredients/parfum"
+          }
+        ]
+      }
+    },
+    {
+      "id": "otdushka-vanilla-cola-sd-82",
+      "reason": "Добавлены ссылки на первоисточники производителя Syren по артикулу SD-82: IFRA-сертификат (Syren, SD-82); Allergen declaration / перечень аллергенов (Syren, SD-82); MSDS — паспорт безопасности (Syren, SD-82); Документ по ванилину (Syren, SD-82); Веган-сертификат (Syren, SD-82). Документы получены с сайта производителя и сохранены в проекте (web/docs/syren/), поэтому доступны без интернета.",
+      "patch": {
+        "data_confidence": "high",
+        "extra": {
+          "producer_documents": "IFRA-сертификат (Syren, SD-82); Allergen declaration / перечень аллергенов (Syren, SD-82); MSDS — паспорт безопасности (Syren, SD-82); Документ по ванилину (Syren, SD-82); Веган-сертификат (Syren, SD-82)",
+          "producer_documents_note": "Оригиналы IFRA, allergen declaration и MSDS приложены к каталогу в папке web/docs/syren — их можно открыть по ссылкам в карточке."
+        },
+        "references": [
+          {
+            "title": "IFRA-сертификат (Syren, SD-82)",
+            "url": "/docs/syren/sd82_IFRA.pdf"
+          },
+          {
+            "title": "Allergen declaration — перечень аллергенов (Syren, SD-82)",
+            "url": "/docs/syren/sd82_LA.pdf"
+          },
+          {
+            "title": "MSDS — паспорт безопасности (Syren, SD-82)",
+            "url": "/docs/syren/sd82_MSDS.pdf"
+          },
+          {
+            "title": "Документ по ванилину (Syren, SD-82)",
+            "url": "/docs/syren/sd82_VANILLIN.pdf"
+          },
+          {
+            "title": "Веган-сертификат (Syren, SD-82)",
+            "url": "/docs/syren/sd82_VEGAN.pdf"
+          },
+          {
+            "title": "SYREN — карточка продукта Vanilla cola SD-82 (производитель, пирамида, нормы ввода, документация)",
+            "url": "https://отдушка.рф/vanilla-cola-sd-82"
+          },
+          {
+            "title": "SYREN — статья «Водорастворимые и жирорастворимые отдушки Syren» (линия SD на дипропиленгликоле)",
+            "url": "https://отдушка.рф/informations/vodorastvorimye-i-zhirorastvorimye-otdushki-syren"
+          },
+          {
+            "title": "SYREN — отдушки для бытовой химии и универсальные (области применения)",
+            "url": "https://отдушка.рф/otdushki?filter%5B%5D=56"
+          },
+          {
+            "title": "Syren строит новый завод в Подмосковье — отраслевое издание «Сырьё и Упаковка»",
+            "url": "https://cosmetic-industry.com/syren-stroit-novyj-zavod-v-podmoskove.html"
+          },
+          {
+            "title": "Regulation (EC) No 1223/2009 on cosmetic products — консолидированный текст, EUR-Lex",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20250501"
+          },
+          {
+            "title": "CosIng — база ингредиентов косметики, Европейская комиссия",
+            "url": "https://ec.europa.eu/growth/tools-databases/cosing/"
+          },
+          {
+            "title": "IFRA Standards Library — стандарты ограничений по категориям продукции",
+            "url": "https://ifrafragrance.org/standards-library"
+          },
+          {
+            "title": "INKEEDecoder — Parfum/Fragrance: общее описание ингредиента",
+            "url": "https://inkeedecoder.com/ingredients/parfum"
+          }
+        ]
+      }
+    }
+  ]
+}

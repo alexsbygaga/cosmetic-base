@@ -1,0 +1,15 @@
+{
+  "key": "ai-20",
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched-ai\\ai-20.json",
+  "append": true,
+  "items": [
+    {
+      "id": "dicetyldimonium-hlorid",
+      "name_ru": "Дицетилдимониум хлорид",
+      "name_lat": "Dicetyldimonium Chloride",
+      "category": "conditioners-cationics",
+      "inci_from_file": "Dicetyldimonium Chloride",
+      "provenance": "ai"
+    }
+  ]
+}

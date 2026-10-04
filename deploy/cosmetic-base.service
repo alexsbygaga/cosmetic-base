@@ -1,0 +1,44 @@
+[Unit]
+Description=Косметическая база — каталог сырья (Node.js)
+Documentation=file:/opt/cosmetic-base/app/README.md
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=cosmetic
+Group=cosmetic
+WorkingDirectory=/opt/cosmetic-base/app
+
+# Каталог данных (каталог сырья, пользователи, сессии, журнал, бэкапы)
+# лежит ВНЕ кода: обновление приложения его не затрагивает.
+StateDirectory=cosmetic-base
+StateDirectoryMode=0750
+Environment=NODE_ENV=production
+Environment=CB_DATA_DIR=/var/lib/cosmetic-base
+# Слушаем только localhost: наружу смотрит Caddy с HTTPS.
+Environment=CB_HOST=127.0.0.1
+Environment=CB_PORT=8787
+# Запросы приходят от Caddy, поэтому реальный адрес клиента — в X-Forwarded-For.
+Environment=CB_TRUST_PROXY=1
+
+ExecStart=/usr/bin/node /opt/cosmetic-base/app/server/serve.mjs
+
+Restart=always
+RestartSec=3
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=cosmetic-base
+
+# Плавная остановка и минимальные права
+KillSignal=SIGTERM
+TimeoutStopSec=15
+
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=true
+ReadWritePaths=/var/lib/cosmetic-base
+
+[Install]
+WantedBy=multi-user.target

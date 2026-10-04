@@ -1,0 +1,38 @@
+{
+  "key": "extracts-1",
+  "title": "Экстракты: ромашка и календула",
+  "hint": "ПГ = пропиленгликолевый экстракт, ВГ = водно-гликолевый экстракт. Для каждого укажи точные INCI-имена формы экстракта (Chamomilla Recutita Flower Extract, Calendula Officinalis Flower Extract и т. п.) и носитель (Propylene Glycol / Water / Glycerin).",
+  "items": [
+    {
+      "id": "pg-ekstrakt-romashki-i-kalenduly",
+      "name_ru": "ПГ Экстракт ромашки и календулы",
+      "category": "plant-extracts",
+      "inci_from_file": "Chamomilla recutita flower Extract"
+    },
+    {
+      "id": "pg-ekstrakt-romashki",
+      "name_ru": "ПГ Экстракт ромашки",
+      "category": "plant-extracts",
+      "inci_from_file": "Chamomilla Recutita (Matricaria) Flower Extract"
+    },
+    {
+      "id": "vg-ekstrakt-romashki",
+      "name_ru": "ВГ экстракт ромашки",
+      "category": "plant-extracts",
+      "inci_from_file": ""
+    },
+    {
+      "id": "vg-ekstrakt-kalenduly",
+      "name_ru": "ВГ экстракт календулы",
+      "category": "plant-extracts",
+      "inci_from_file": ""
+    },
+    {
+      "id": "pg-ekstrakt-kalenduly",
+      "name_ru": "ПГ экстракт календулы",
+      "category": "plant-extracts",
+      "inci_from_file": ""
+    }
+  ],
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched\\extracts-1.json"
+}

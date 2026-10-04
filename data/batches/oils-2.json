@@ -1,0 +1,44 @@
+{
+  "key": "oils-2",
+  "title": "Масла, жирные спирты и эмоленты",
+  "hint": "Макадамия, авокадо, аргана, миндаль, ши, жожоба, сквалан, касторовое, кокосовое, виноградной косточки, изопропилмиристат, цетеариловый спирт.",
+  "items": [
+    {
+      "id": "skvalan",
+      "name_ru": "Сквалан",
+      "category": "emollients-oils",
+      "inci_from_file": "Squalane"
+    },
+    {
+      "id": "kastorovoe-maslo",
+      "name_ru": "Касторовое масло",
+      "category": "emollients-oils",
+      "inci_from_file": "Ricinus Communis Seed Oil"
+    },
+    {
+      "id": "maslo-kokosa",
+      "name_ru": "Масло кокоса",
+      "category": "emollients-oils",
+      "inci_from_file": "Cocos Nucifera Oil"
+    },
+    {
+      "id": "maslo-vinogradnoy-kostochki-rafinirovannoe",
+      "name_ru": "Масло виноградной косточки рафинированное",
+      "category": "emollients-oils",
+      "inci_from_file": ""
+    },
+    {
+      "id": "izopropilmiristat",
+      "name_ru": "Изопропилмиристат",
+      "category": "emollients-oils",
+      "inci_from_file": ""
+    },
+    {
+      "id": "cetearilovyy-spirt",
+      "name_ru": "Цетеариловый спирт",
+      "category": "emollients-oils",
+      "inci_from_file": "Cetearyl alcohol"
+    }
+  ],
+  "output_file": "F:\\cosmetic-compound-base\\data\\enriched\\oils-2.json"
+}
