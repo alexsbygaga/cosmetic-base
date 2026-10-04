@@ -1,0 +1,228 @@
+﻿glicerin	Glycerin	solvents-humectants
+gidrokipropil-guar-gidroksipropil-trimonium-hlorid	Hydroxypropyl Guar Hydroxypropyltrimonium Chloride	conditioners-cationics
+guar-gidroksipropil-trimonium-hlorid	Guar Hydroxypropyltrimonium Chloride	conditioners-cationics
+kokamidopropilbetain	Cocamidopropyl Betaine	surfactants
+decil-glyukozid	Decyl Glucoside	surfactants
+kokosulfat-natriya	Sodium Coco-Sulfate	surfactants
+gliceril-oleat-i-koko-glyukozid	Glyceryl Oleate (and) Coco-Glucoside	surfactants
+sol-melkaya	Sodium chloride	ph-adjusters-chelants
+krasitel-siniy-panentovannyy-v	CI 42051	colorants
+proteiny-pshenicy	Hydrolyzed Wheat Protein	proteins-peptides
+proteiny-shelka	Hydrolyzed Silk	proteins-peptides
+limonnaya-kislota	Citric acid	ph-adjusters-chelants
+prodyu-500	Sodium PCA, Sodium Lactate, Arginine, Aspartic Acid, PCA Alanine, Glycine, Serine, Valine, Isoleucine, Threonine, Proline, Histidine, Phenylalanine, Aqua	active-ingredients
+niacinamid	Niacinamide	active-ingredients
+otdushka-romashka-v1502-1-novakom	Parfum	fragrances
+otdushka-style-897992-dobroff	Parfum	fragrances
+otdushka-zelenyy-chay-novakom	Parfum	fragrances
+evaguard-400	Potassium Sorbate, Sodium Benzoate, Water	preservatives
+cetrimonium-hlorid	Cetrimonium Chloride	conditioners-cationics
+cetearilovyy-spirt	Cetearyl Alcohol	emollients-oils
+gliceril-stearat	Glyceryl Stearate	emulsifiers
+emulsiya-silikonovaya-amodimethicone-cetrimonium-chloride-trideceth-12	Amodimethicone, Cetrimonium Chloride, Trideceth-12	silicones
+ciklopentasiloksan	Cyclopentasiloxane	silicones
+maslo-makadamii	Macadamia Ternifolia Seed Oil	emollients-oils
+maslo-avokado	Persea Gratissima Oil	emollients-oils
+pantenol	Panthenol	active-ingredients
+otdushka-122948-interdisp-romashka-bez-allergenov	Parfum	fragrances
+euksil-k100	Benzyl Alcohol, Methylchloroisothiazolinone, Methylisothiazolinone	preservatives
+gliceril-glyukozid	Glyceryl Glucoside	solvents-humectants
+ppg-3	PPG-3 Caprylyl Ether	emollients-oils
+pg-ekstrakt-romashki-i-kalenduly	Chamomilla Recutita Flower Extract and Calendula Officinalis Flower Extract, Propylene Glycol, Water	plant-extracts
+keratin	Hydrolyzed Keratin	proteins-peptides
+otdushka-fruity-care	Parfum	fragrances
+gidroksid-natriya-30	Sodium Hydroxide	ph-adjusters-chelants
+evaguard-206	Benzyl Alcohol, Potassium Sorbate, Sodium Benzoate, Water	preservatives
+linoleamidopropil-pg-dimonium-hlorid-fosfat	Linoleamidopropyl PG-Dimonium Chloride Phosphate	conditioners-cationics
+gidrolizovannye-proteiny-soi	Hydrolyzed Soy Protein	proteins-peptides
+pg-ekstrakt-layma	Citrus Aurantifolia Fruit Extract, Propylene Glycol	plant-extracts
+pg-ekstrakt-vinogradnyh-kostochek	Vitis Vinifera Seed Extract, Propylene Glycol	plant-extracts
+maslo-zhozhoba	Simmondsia Chinensis Seed Oil	emollients-oils
+skvalan	Squalane	emollients-oils
+vitamin-b-complex	Biotin, Folic Acid, Cyanocobalamin, Niacinamide, Panthenol, Pyridoxine, Riboflavin, Thiamine	vitamins-antioxidants
+drozhzhevye-polipeptidy	Saccharomyces Polypeptides	active-ingredients
+ceramide-complex-clr	Water, Pentylene Glycol, Phospholipids, Sphingolipids	active-ingredients
+maslo-argany	Argania Spinosa Kernel Oil	emollients-oils
+maslo-mindalya-svetloe	Prunus Amygdalus Dulcis Oil	emollients-oils
+gidroksietilcellyuloza	Hydroxyethylcellulose	thickeners-rheology
+gidrolizovannyy-rastitelnyy-belok	Hydrolyzed Vegetable Protein	proteins-peptides
+kompleks-vitaminov-a-e-s	Retinyl Palmitate, Tocopheryl Acetate, Sodium Ascorbyl Phosphate	vitamins-antioxidants
+citrat-natriya	Sodium Citrate	ph-adjusters-chelants
+maslo-shi	Butyrospermum Parkii Butter	emollients-oils
+begentrimonium-hlorid	Behentrimonium Chloride	conditioners-cationics
+feniltrimetikon	Phenyl Trimethicone	silicones
+kastorovoe-maslo	Ricinus Communis Seed Oil	emollients-oils
+silikonovaya-emulsiya	Bis-Cetearyl Amodimethicone, Ceteareth-25, Ceteareth-7	silicones
+vitamin-e	Tocopheryl Acetate	vitamins-antioxidants
+maslo-kokosa	Cocos Nucifera Oil	emollients-oils
+cetearilsulfat-natriya	Sodium Cetearyl Sulfate	surfactants
+trilon-b	Disodium EDTA	ph-adjusters-chelants
+salicilovaya-kislota	Salicylic Acid	active-ingredients
+polikvaternium-10	Polyquaternium-10	conditioners-cationics
+dinatriya-lauret-sulfosukcinat	Disodium Laureth Sulfosuccinate	surfactants
+natriya-lauret-sulfat	Sodium Laureth Sulfate	surfactants
+pirokton-olamin	Piroctone Olamine	active-ingredients
+mentol	Menthol	other-functional
+gel-aloe-vera-10-1	Aloe Barbadensis Leaf Juice	plant-extracts
+pg-ekstrakt-romashki	Chamomilla Recutita Flower Extract, Propylene Glycol, Water	plant-extracts
+peg-120	PEG-120 Methyl Glucose Dioleate	thickeners-rheology
+zamutnitel-zamutnitel-glikol-distearat-hony-egds	Glycol Distearate	opacifiers-pearlizers
+zamutnitel-monostearat-etilenglikolya-hony-egms	Glycol Stearate	opacifiers-pearlizers
+otdushka-allure-avm-554	Parfum	fragrances
+otdushka-aurum-elite-avm-516	Parfum	fragrances
+otdushka-bad-girl-avm-645	Parfum	fragrances
+otdushka-cannabis-sky-avm-855	Parfum	fragrances
+otdushka-classic-no-5-avm-1070	Parfum	fragrances
+otdushka-florencia-avm-521	Parfum	fragrances
+otdushka-ganymede-avm-891	Parfum	fragrances
+otdushka-lime-basil-mandarin-avm-711	Parfum	fragrances
+otdushka-molecular-02-avm-841	Parfum	fragrances
+otdushka-mystique-florale-avm-505	Parfum	fragrances
+otdushka-night-afghan-avm-567	Parfum	fragrances
+otdushka-noir-bloom-avm-507	Parfum	fragrances
+otdushka-pomegranate-night-avm-699	Parfum	fragrances
+otdushka-savage-avm-679	Parfum	fragrances
+otdushka-the-best-girl-avm-803	Parfum	fragrances
+otdushka-wood-sea-salt-sd-211	Parfum	fragrances
+otdushka-almond-milk-l26-sd-644	Parfum	fragrances
+otdushka-amber-milk-l26-sd-445	Parfum	fragrances
+otdushka-aloe-vera-sd-149	Parfum	fragrances
+otdushka-black-currant-mint-sd-361	Parfum	fragrances
+otdushka-mandarin-peel-sd-759	Parfum	fragrances
+otdushka-matcha-mint-sd-758	Parfum	fragrances
+otdushka-peach-sd-156	Parfum	fragrances
+otdushka-vanilla-cola-sd-82	Parfum	fragrances
+otdushka-young-pear-sd-7	Parfum	fragrances
+otdushka-raspberry-green-sd-340	Parfum	fragrances
+pg-ekstrakt-orihdei	Orchis Mascula Extract, Propylene Glycol	plant-extracts
+pg-ekstrakt-rozy	Rosa Damascena Flower Extract, Propylene Glycol	plant-extracts
+vg-ekstrakt-romashki	Chamomilla Recutita Flower Extract, Water, Glycerin	plant-extracts
+vg-ekstrakt-kalenduly	Calendula Officinalis Flower Extract, Water, Glycerin	plant-extracts
+pg-ekstrakt-zelenogo-chaya	Propylene Glycol, Camellia Sinensis Leaf Extract	plant-extracts
+pg-ekstrakt-golubiki	Vaccinium Angustifolium Fruit Extract, Propylene Glycol	plant-extracts
+pg-ekstrakt-limonnika	Schisandra Chinensis Fruit Extract, Propylene Glycol	plant-extracts
+pg-ekstrakt-shalfeya	Propylene Glycol, Salvia Officinalis Leaf Extract	plant-extracts
+pg-ekstrakt-ananasa	Ananas Sativus Fruit Extract, Propylene Glycol	plant-extracts
+pg-ekstrakt-kalenduly	Calendula Officinalis Flower Extract, Propylene Glycol, Water	plant-extracts
+krasitel-zelenyy-blestyaschiy-b11	CI 44090	colorants
+krasitel-tartrazin-e102	CI 19140	colorants
+krasitel-ponso-4k-e124-foodco-p02	CI 16255	colorants
+krasitel-ciniy-blestyaschiy-e133	CI 42090	colorants
+sorbitol	Sorbitol	solvents-humectants
+polikvaternium-7	Polyquaternium-7	conditioners-cationics
+pdrn-edelveysa	Sodium DNA; Leontopodium Alpinum Extract	active-ingredients
+krasitel-karmuazin-e122	CI 14720	colorants
+krasnyy-ocharovatelnyy-proizvoditel-alliance-organics-llp	CI 16035	colorants
+krasitel-zheltyy-solnechnyy-zakat-terezainter-franciya	CI 15985	colorants
+maslo-vinogradnoy-kostochki-rafinirovannoe	Vitis Vinifera Seed Oil	emollients-oils
+silikonovaya-emulsiya-evs-0785-dimethiconol-and-tea-dodecylbenzenesulf	Dimethiconol, TEA-Dodecylbenzenesulfonate	silicones
+izopentildiol	Isopentyldiol	solvents-humectants
+otdushka-solary-yuzu-sd-761-syren	Parfum	fragrances
+vg-ekstrakt-zhenshenya	Glycerin, Water, Panax Ginseng Root Extract	plant-extracts
+vg-ekstrakt-kashtana-konskogo	Glycerin, Water, Aesculus Hippocastanum Seed Extract	plant-extracts
+kokamid-dea	Cocamide DEA	surfactants
+peg-40	PEG-40 Hydrogenated Castor Oil	emulsifiers
+evaguard-100	Phenoxyethanol, Ethylhexylglycerin	preservatives
+izopropilmiristat	Isopropyl Myristate	emollients-oils
+kofein-bezvodnyy	Caffeine	active-ingredients
+ekzosomy-moloka-milk-exosomes-10000-ppm	Milk Exosomes, Xanthan Gum, Water, 1,2-Hexanediol	active-ingredients
+lauril-sulfat-natriya	Sodium Lauryl Sulfate	surfactants
+lauril-sulfat-ammoniya	Ammonium Lauryl Sulfate	surfactants
+natriy-kokoil-izetionat	Sodium Cocoyl Isethionate	surfactants
+natriy-metil-kokoil-taurat	Sodium Methyl Cocoyl Taurate	surfactants
+lauril-glukozid	Lauryl Glucoside	surfactants
+kokamidopropil-gidroksisultain	Cocamidopropyl Hydroxysultaine	surfactants
+natriy-lauroil-sarkozinat	Sodium Lauroyl Sarcosinate	surfactants
+gliceril-stearat-se	Glyceryl Stearate SE	emulsifiers
+gliceril-stearat-citrat	Glyceryl Stearate Citrate	emulsifiers
+poligliceril-3-diizostearat	Polyglyceryl-3 Diisostearate	emulsifiers
+sorbitan-oleat	Sorbitan Oleate	emulsifiers
+sorbitan-stearat	Sorbitan Stearate	emulsifiers
+polysorbat-20	Polysorbate 20	emulsifiers
+polysorbat-60	Polysorbate 60	emulsifiers
+polysorbat-80	Polysorbate 80	emulsifiers
+tsetilfosfat-kaliya	Potassium Cetyl Phosphate	emulsifiers
+tsetearilovyj-glukozid	Cetearyl Glucoside	emulsifiers
+behenilovyj-spirt	Behenyl Alcohol	emulsifiers
+stearoil-glutamat-natriya	Sodium Stearoyl Glutamate	emulsifiers
+tsetilovyj-spirt	Cetyl Alcohol	emulsifiers
+olivat-emulgator	Cetearyl Olivate (and) Sorbitan Olivate	emulsifiers
+karbomer	Carbomer	thickeners-rheology
+akrilatnyj-kopolimer	Acrylates/C10-30 Alkyl Acrylate Crosspolymer	thickeners-rheology
+ksantanovaya-kamed	Xanthan Gum	thickeners-rheology
+gellanovaya-kamed	Gellan Gum	thickeners-rheology
+skleroglikany	Sclerotium Gum	thickeners-rheology
+monostearat-glikolya	Glycol Stearate	thickeners-rheology
+gidroksipropilmetilcellyuloza	Hydroxypropyl Methylcellulose	thickeners-rheology
+magniya-alyuminiya-silikat	Magnesium Aluminum Silicate	thickeners-rheology
+dvuoksid-kremniya	Silica	thickeners-rheology
+kaprilik-kaprikovyy-triglicerid	Caprylic/Capric Triglyceride	emollients-oils
+izopropil-palmitat	Isopropyl Palmitate	emollients-oils
+oktil-dodekanol	Octyldodecanol	emollients-oils
+setil-palmitat	Cetyl Palmitate	emollients-oils
+dikaprilil-karbonat	Dicaprylyl Carbonate	emollients-oils
+izogeksadekan	Isohexadecane	emollients-oils
+skvalen	Squalene	emollients-oils
+lanolin	Lanolin	emollients-oils
+pchelinyy-vosk	Cera Alba	emollients-oils
+karnaubskiy-vosk	Copernicia Cerifera Cera	emollients-oils
+mikrokristallicheskiy-vosk	Microcrystalline Wax	emollients-oils
+paraffin	Paraffin	emollients-oils
+vazelinovoe-maslo	Paraffinum Liquidum	emollients-oils
+stearinovaya-kislota	Stearic Acid	emollients-oils
+izostearinovaya-kislota	Isostearic Acid	emollients-oils
+propilenglikol	Propylene Glycol	solvents-humectants
+butilenglikol	Butylene Glycol	solvents-humectants
+pentilenglikol	Pentylene Glycol	solvents-humectants
+geksilenglikol	Hexylene Glycol	solvents-humectants
+etanol	Alcohol Denat.	solvents-humectants
+natriy-gialuronat	Sodium Hyaluronate	solvents-humectants
+trehaloza	Trehalose	solvents-humectants
+betain	Betaine	solvents-humectants
+dimethicon	Dimethicone	silicones
+tsiklomethicon	Cyclomethicone	silicones
+tsiklgeksasiloksan	Cyclohexasiloxane	silicones
+amodimethicon	Amodimethicone	silicones
+dimethiconol	Dimethiconol	silicones
+dimethicon-krospolimer	Dimethicone Crosspolymer	silicones
+trimetilsiloksisilikat	Trimethylsiloxysilicate	silicones
+fenoksietanol	Phenoxyethanol	preservatives
+etilgeksilglicerin	Ethylhexylglycerin	preservatives
+metilparaben	Methylparaben	preservatives
+propilparaben	Propylparaben	preservatives
+dmdm-gidantoin	DMDM Hydantoin	preservatives
+imidazolidinil-mochevina	Imidazolidinyl Urea	preservatives
+diazolidinil-mochevina	Diazolidinyl Urea	preservatives
+iodopropinil-butilkarbamat	Iodopropynyl Butylcarbamate	preservatives
+askorbilglukozid	Ascorbyl Glucoside	active-ingredients
+askorbilfosfat-magniya	Magnesium Ascorbyl Phosphate	active-ingredients
+retinol	Retinol	active-ingredients
+bakuchiol	Bakuchiol	active-ingredients
+allantoin	Allantoin	active-ingredients
+bisabolol	Bisabolol	active-ingredients
+gidroksiacetofenon	Hydroxyacetophenone	active-ingredients
+alfa-arbutin	Alpha-Arbutin	active-ingredients
+glikolevaya-kislota-aktiv	Glycolic Acid	active-ingredients
+ferulovaya-kislota	Ferulic Acid	active-ingredients
+trietanolamin	Triethanolamine	ph-adjusters-chelants
+aminometilpropanol	Aminomethyl Propanol	ph-adjusters-chelants
+trometamin	Tromethamine	ph-adjusters-chelants
+tetranatriy-glutamat-diacetat	Tetrasodium Glutamate Diacetate	ph-adjusters-chelants
+fittovaya-kislota	Phytic Acid	ph-adjusters-chelants
+glikolevaya-kislota-ph	Glycolic Acid	ph-adjusters-chelants
+molochaynaya-kislota-ph	Lactic Acid	ph-adjusters-chelants
+avobenzon	Butyl Methoxydibenzoylmethane	uv-filters
+oktokrilen	Octocrylene	uv-filters
+etilgeksil-triasont	Ethylhexyl Triazone	uv-filters
+bemotrizinol	Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine	uv-filters
+dvuoksid-titana	Titanium Dioxide	uv-filters
+oksid-tsinka	Zinc Oxide	uv-filters
+oktilsalicilat	Ethylhexyl Salicylate	uv-filters
+gomosalat	Homosalate	uv-filters
+tsetrimonium-bromid	Cetrimonium Bromide	conditioners-cationics
+stearalkonium-hlorid	Stearalkonium Chloride	conditioners-cationics
+polikvaternium-11	Polyquaternium-11	conditioners-cationics
+polikvaternium-4	Polyquaternium-4	conditioners-cationics
+polikvaternium-6	Polyquaternium-6	conditioners-cationics
+behentrimonium-metosulfat	Behentrimonium Methosulfate	conditioners-cationics
+dicetyldimonium-hlorid	Dicetyldimonium Chloride	conditioners-cationics

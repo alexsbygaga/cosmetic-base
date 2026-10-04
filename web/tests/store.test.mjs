@@ -79,7 +79,7 @@ check('у каждой позиции есть id, name_ru и известная
 
 check('сортировка по названию (А → Я) соблюдена', () => {
   store.state.query = '';
-  store.state.filters = { categories: [], states: [], origins: [], provenance: [], showRestricted: false, onlyFilled: false, onlyEdited: false };
+  store.state.filters = { categories: [], states: [], origins: [], provenance: [], hideRestricted: false, onlyFilled: false, onlyEdited: false };
   store.state.sort = 'name-asc';
   const items = store.visibleItems();
   const collator = new Intl.Collator('ru', { numeric: true, sensitivity: 'base' });
@@ -125,24 +125,48 @@ check('поиск по несуществующему запросу даёт п
 check('фильтр по категории ограничивает выдачу', () => {
   store.state.query = '';
   const target = store.state.materials[0].category;
-  store.state.filters = { categories: [target], states: [], origins: [], provenance: [], showRestricted: false, onlyFilled: false, onlyEdited: false };
+  store.state.filters = { categories: [target], states: [], origins: [], provenance: [], hideRestricted: false, onlyFilled: false, onlyEdited: false };
   const items = store.visibleItems();
   assert.ok(items.length > 0, 'фильтр по категории ничего не вернул');
   assert.ok(items.every((m) => m.category === target));
+});
+
+/* Регрессия: администратор и модератор не видели отдушки, пока вручную не
+ * включат переключатель. Скрытые категории должны показываться по умолчанию. */
+check('скрытые категории видны по умолчанию (админ не включает ничего вручную)', () => {
+  store.state.query = '';
+  store.state.filters = { categories: [], states: [], origins: [], provenance: [], hideRestricted: false, onlyFilled: false, onlyEdited: false };
+  store.state.hiddenCategories = ['fragrances'];
+
+  const items = store.visibleItems();
+  const fragrances = items.filter((m) => m.category === 'fragrances');
+  assert.ok(fragrances.length > 0, 'отдушки не показаны без явного включения');
+  assert.equal(items.length, store.state.materials.length, 'часть позиций скрыта');
+});
+
+check('переключатель «Скрыть эти категории» действительно скрывает их', () => {
+  store.state.filters = { categories: [], states: [], origins: [], provenance: [], hideRestricted: true, onlyFilled: false, onlyEdited: false };
+  const items = store.visibleItems();
+  assert.equal(items.filter((m) => m.category === 'fragrances').length, 0,
+    'скрытые категории остались в выдаче');
+  assert.ok(items.length < store.state.materials.length);
+
+  store.state.hiddenCategories = [];
+  store.state.filters.hideRestricted = false;
 });
 
 check('фильтр по агрегатному состоянию работает', () => {
   const states = store.distinctValues('aggregate_state');
   if (!states.length) return; // данных ещё нет — проверка неприменима
   const value = states[0][0];
-  store.state.filters = { categories: [], states: [value], origins: [], provenance: [], showRestricted: false, onlyFilled: false, onlyEdited: false };
+  store.state.filters = { categories: [], states: [value], origins: [], provenance: [], hideRestricted: false, onlyFilled: false, onlyEdited: false };
   const items = store.visibleItems();
   assert.ok(items.length > 0);
   assert.ok(items.every((m) => String(m.aggregate_state).trim() === value));
 });
 
 check('фильтр «только изменённые» реагирует на правку', () => {
-  store.state.filters = { categories: [], states: [], origins: [], provenance: [], showRestricted: false, onlyFilled: false, onlyEdited: true };
+  store.state.filters = { categories: [], states: [], origins: [], provenance: [], hideRestricted: false, onlyFilled: false, onlyEdited: true };
   const before = store.visibleItems().length;
   const id = store.state.materials[0].id;
   store.updateMaterial(id, { description: 'Тестовое изменение описания для проверки.' });
@@ -207,7 +231,7 @@ check('поисковый индекс включает INCI, CAS и синон�
   if (!withCas) return;
   const casNumber = String(withCas.cas).match(/\d{2,7}-\d{2}-\d/)[0];
   store.state.query = casNumber;
-  store.state.filters = { categories: [], states: [], origins: [], provenance: [], showRestricted: false, onlyFilled: false, onlyEdited: false };
+  store.state.filters = { categories: [], states: [], origins: [], provenance: [], hideRestricted: false, onlyFilled: false, onlyEdited: false };
   assert.ok(store.visibleItems().some((m) => m.id === withCas.id), `поиск по CAS ${casNumber} не нашёл позицию`);
 });
 

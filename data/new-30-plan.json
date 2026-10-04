@@ -1,0 +1,272 @@
+[
+  {
+    "key": "sodium-cocoyl-glycinate",
+    "name_ru": "Натрия кокоил глицинат",
+    "inci": "Sodium Cocoyl Glycinate",
+    "cas": "90387-74-9",
+    "category": "surfactants",
+    "out": "data/enriched-new/sodium-cocoyl-glycinate.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "sodium-cocoyl-alaninate",
+    "name_ru": "Натрия кокоил аланинат",
+    "inci": "Sodium Cocoyl Alaninate",
+    "cas": "90170-45-9",
+    "category": "surfactants",
+    "out": "data/enriched-new/sodium-cocoyl-alaninate.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "potassium-cocoyl-glycinate",
+    "name_ru": "Калия кокоил глицинат",
+    "inci": "Potassium Cocoyl Glycinate",
+    "cas": "301341-58-2",
+    "category": "surfactants",
+    "out": "data/enriched-new/potassium-cocoyl-glycinate.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "sodium-lauroyl-glutamate",
+    "name_ru": "Натрия лауроил глутамат",
+    "inci": "Sodium Lauroyl Glutamate",
+    "cas": "29923-31-7",
+    "category": "surfactants",
+    "out": "data/enriched-new/sodium-lauroyl-glutamate.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "sodium-lauroyl-lactylate",
+    "name_ru": "Натрия лауроил лактилат",
+    "inci": "Sodium Lauroyl Lactylate",
+    "cas": "13557-75-0",
+    "category": "surfactants",
+    "out": "data/enriched-new/sodium-lauroyl-lactylate.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "sodium-cocoyl-glutamate",
+    "name_ru": "Натрия кокоил глутамат",
+    "inci": "Sodium Cocoyl Glutamate",
+    "cas": "68187-32-6",
+    "category": "surfactants",
+    "out": "data/enriched-new/sodium-cocoyl-glutamate.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "disodium-cocoyl-glutamate",
+    "name_ru": "Динатрия кокоил глутамат",
+    "inci": "Disodium Cocoyl Glutamate",
+    "cas": "68187-30-4",
+    "category": "surfactants",
+    "out": "data/enriched-new/disodium-cocoyl-glutamate.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "sodium-lauroyl-methyl-isethionate",
+    "name_ru": "Натрия лауроил метил изетионат",
+    "inci": "Sodium Lauroyl Methyl Isethionate",
+    "cas": "928663-45-0",
+    "category": "surfactants",
+    "out": "data/enriched-new/sodium-lauroyl-methyl-isethionate.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "sodium-cocoamphoacetate",
+    "name_ru": "Натрия кокоамфоацетат",
+    "inci": "Sodium Cocoamphoacetate",
+    "cas": "68608-68-4",
+    "category": "surfactants",
+    "out": "data/enriched-new/sodium-cocoamphoacetate.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "caprylyl-capryl-glucoside",
+    "name_ru": "Каприлил/каприл глюкозид",
+    "inci": "Caprylyl/Capryl Glucoside",
+    "cas": "68515-73-1",
+    "category": "surfactants",
+    "out": "data/enriched-new/caprylyl-capryl-glucoside.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "peg-7-glyceryl-cocoate",
+    "name_ru": "ПЭГ-7 глицерил кокоат",
+    "inci": "PEG-7 Glyceryl Cocoate",
+    "cas": "68201-46-7",
+    "category": "surfactants",
+    "out": "data/enriched-new/peg-7-glyceryl-cocoate.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "ectoin",
+    "name_ru": "Эктоин",
+    "inci": "Ectoin",
+    "cas": "96702-03-3",
+    "category": "active-ingredients",
+    "out": "data/enriched-new/ectoin.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "tranexamic-acid",
+    "name_ru": "Транексамовая кислота",
+    "inci": "Tranexamic Acid",
+    "cas": "1197-18-8",
+    "category": "active-ingredients",
+    "out": "data/enriched-new/tranexamic-acid.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "azelaic-acid",
+    "name_ru": "Азелаиновая кислота",
+    "inci": "Azelaic Acid",
+    "cas": "123-99-9",
+    "category": "active-ingredients",
+    "out": "data/enriched-new/azelaic-acid.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "mandelic-acid",
+    "name_ru": "Миндальная кислота",
+    "inci": "Mandelic Acid",
+    "cas": "90-64-2",
+    "category": "active-ingredients",
+    "out": "data/enriched-new/mandelic-acid.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "zinc-pca",
+    "name_ru": "Цинка пирролидонкарбоксилат (Цинк PCA)",
+    "inci": "Zinc PCA",
+    "cas": "15454-75-8",
+    "category": "active-ingredients",
+    "out": "data/enriched-new/zinc-pca.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "carnitine",
+    "name_ru": "L-карнитин",
+    "inci": "Carnitine",
+    "cas": "541-15-1",
+    "category": "active-ingredients",
+    "out": "data/enriched-new/carnitine.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "taurine",
+    "name_ru": "Таурин",
+    "inci": "Taurine",
+    "cas": "107-35-7",
+    "category": "active-ingredients",
+    "out": "data/enriched-new/taurine.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "madecassoside",
+    "name_ru": "Мадекассозид",
+    "inci": "Madecassoside",
+    "cas": "34540-22-2",
+    "category": "active-ingredients",
+    "out": "data/enriched-new/madecassoside.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "oleuropein",
+    "name_ru": "Олеуропеин",
+    "inci": "Oleuropein",
+    "cas": "32619-42-4",
+    "category": "active-ingredients",
+    "out": "data/enriched-new/oleuropein.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "adenosine",
+    "name_ru": "Аденозин",
+    "inci": "Adenosine",
+    "cas": "58-61-7",
+    "category": "active-ingredients",
+    "out": "data/enriched-new/adenosine.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "dipotassium-glycyrrhizate",
+    "name_ru": "Дикалия глицирризат",
+    "inci": "Dipotassium Glycyrrhizate",
+    "cas": "68797-35-3",
+    "category": "active-ingredients",
+    "out": "data/enriched-new/dipotassium-glycyrrhizate.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "sepimax-zen",
+    "name_ru": "Полиакрилат кросполимер-6",
+    "inci": "Polyacrylate Crosspolymer-6",
+    "cas": "1112867-66-8",
+    "category": "thickeners-rheology",
+    "out": "data/enriched-new/sepimax-zen.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "sodium-polyacrylate",
+    "name_ru": "Натрия полиакрилат",
+    "inci": "Sodium Polyacrylate",
+    "cas": "9003-04-7",
+    "category": "thickeners-rheology",
+    "out": "data/enriched-new/sodium-polyacrylate.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "sodium-polyacryloyldimethyl-taurate",
+    "name_ru": "Натрия полиакрилоилдиметил таурат",
+    "inci": "Sodium Polyacryloyldimethyl Taurate",
+    "cas": "1053651-62-7",
+    "category": "thickeners-rheology",
+    "out": "data/enriched-new/sodium-polyacryloyldimethyl-taurate.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "peg-150-distearate",
+    "name_ru": "ПЭГ-150 дистеарат",
+    "inci": "PEG-150 Distearate",
+    "cas": "9005-08-7",
+    "category": "thickeners-rheology",
+    "out": "data/enriched-new/peg-150-distearate.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "ammonium-acryloyldimethyltaurate-vp",
+    "name_ru": "Аммония акрилоилдиметилтаурат/VP кополимер",
+    "inci": "Ammonium Acryloyldimethyltaurate/VP Copolymer",
+    "cas": "58374-69-9",
+    "category": "thickeners-rheology",
+    "out": "data/enriched-new/ammonium-acryloyldimethyltaurate-vp.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "hydrogenated-styrene-butadiene",
+    "name_ru": "Водородный стирол/бутадиен кополимер",
+    "inci": "Hydrogenated Styrene/Butadiene Copolymer",
+    "cas": "66070-58-4",
+    "category": "thickeners-rheology",
+    "out": "data/enriched-new/hydrogenated-styrene-butadiene.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "hydroxypropyl-starch-phosphate",
+    "name_ru": "Гидроксипропил крахмал фосфат",
+    "inci": "Hydroxypropyl Starch Phosphate",
+    "cas": "53124-00-8",
+    "category": "thickeners-rheology",
+    "out": "data/enriched-new/hydroxypropyl-starch-phosphate.json",
+    "provenance": "ai"
+  },
+  {
+    "key": "microcrystalline-cellulose",
+    "name_ru": "Микрокристаллическая целлюлоза",
+    "inci": "Microcrystalline Cellulose",
+    "cas": "9004-34-6",
+    "category": "thickeners-rheology",
+    "out": "data/enriched-new/microcrystalline-cellulose.json",
+    "provenance": "ai"
+  }
+]

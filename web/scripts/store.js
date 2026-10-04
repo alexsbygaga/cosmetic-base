@@ -16,8 +16,8 @@ export const state = {
   filters: {
     categories: [], states: [], origins: [], provenance: [],
     onlyFilled: false, onlyEdited: false,
-    /** показывать категории, скрытые от гостей (только модератор и админ) */
-    showRestricted: false,
+    /** скрывать категории, скрытые от гостей (отдушки): по умолчанию показываем */
+    hideRestricted: false,
   },
   sort: 'name-asc',
   view: prefs.view,
@@ -46,11 +46,14 @@ export function isRestrictedCategory(categoryId) {
 }
 
 /**
- * Показывать ли скрытые категории: только если есть право на них
- * и включён соответствующий переключатель.
+ * Показывать ли скрытые категории.
+ *
+ * Скрытые от гостей позиции видны всегда, если у роли есть право на них:
+ * администратор и модератор не должны каждый раз включать переключатель.
+ * Переключатель «Скрывать скрытые категории» позволяет их спрятать.
  */
 export function canSeeRestricted() {
-  return state.filters.showRestricted;
+  return !state.filters.hideRestricted;
 }
 
 export function subscribe(fn) {

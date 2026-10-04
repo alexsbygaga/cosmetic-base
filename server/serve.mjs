@@ -648,7 +648,11 @@ async function serveStatic(req, res, url) {
 
   try {
     const stat = await fs.stat(target);
-    if (stat.isDirectory()) return serveStatic(req, res, new URL(`${rel}/index.html`, url));
+    if (stat.isDirectory()) {
+      const indexUrl = new URL(url.href);
+      indexUrl.pathname = `${rel.replace(/\/$/, '')}/index.html`;
+      return serveStatic(req, res, indexUrl);
+    }
     const type = MIME[ext] || 'application/octet-stream';
     res.writeHead(200, { 'Content-Type': type, 'Cache-Control': 'no-store' });
     createReadStream(target).pipe(res);
@@ -671,7 +675,20 @@ async function serveStatic(req, res, url) {
 
 const { host, port } = ARGS;
 const server = http.createServer((req, res) => {
-  const url = new URL(req.url, `http://${req.headers.host || 'localhost'}`);
+  // Разбор адреса не должен ронять сервер: запросы вида «//» или с неверным
+  // хостом приводят к ERR_INVALID_URL. Отвечаем 400 вместо падения процесса.
+  let url;
+  try {
+    const base = `http://${req.headers.host || 'localhost'}`;
+    url = new URL(req.url, base);
+  } catch {
+    return send(res, 400, 'Некорректный адрес запроса');
+  }
+
+  // Схлопываем повторные слэши: «//index.html» и «/api//materials»
+  // должны обрабатываться так же, как обычные пути
+  url.pathname = url.pathname.replace(/\/{2,}/g, '/');
+
   if (url.pathname.startsWith('/api/')) {
     handleApi(req, res, url).catch((err) => sendJson(res, 500, { error: String(err) }));
     return;

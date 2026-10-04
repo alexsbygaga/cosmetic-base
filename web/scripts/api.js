@@ -98,8 +98,21 @@ export async function serverHealth() {
   }
 }
 
+/**
+ * Загружает каталог с сервера.
+ *
+ * Токен обязателен: без него сервер отвечает как гостю и не отдаёт позиции
+ * скрытых категорий (отдушки), даже если пользователь вошёл как администратор.
+ */
 export async function loadFromServer() {
-  const res = await fetch(`${API}/materials`, { cache: 'no-store' });
+  const headers = {};
+  const token = getAuthToken();
+  if (token) headers.Authorization = `Bearer ${token}`;
+  const res = await fetch(`${API}/materials`, {
+    cache: 'no-store',
+    headers,
+    credentials: 'same-origin',
+  });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   return res.json();
 }

@@ -104,6 +104,10 @@ html[data-theme="dark"] {
 
 *, *::before, *::after { box-sizing: border-box; }
 
+/* Атрибут hidden должен всегда скрывать элемент: у него низкая специфичность,
+   и любое правило с display может его перебить. */
+[hidden] { display: none !important; }
+
 html { -webkit-text-size-adjust: 100%; }
 
 body {

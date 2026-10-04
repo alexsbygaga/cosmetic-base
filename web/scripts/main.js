@@ -1,6 +1,8 @@
 /* Точка входа: связывает состояние, отрисовку и обработчики интерфейса. */
 
-import { $, $$, debounce, download, el, pickFile, plural, toast } from './util.js';
+import {
+  $, $$, debounce, download, el, norm, pickFile, plural, searchableText, toast,
+} from './util.js';
 import {
   loadFromServer, localDeleted, localEdits, prefs, saveToServer, serverHealth,
 } from './api.js';
@@ -12,8 +14,241 @@ import {
 import { bindOpen, renderList } from './render.js';
 import { renderDetail } from './detail.js';
 import { openEditor } from './editor.js';
-import { auth, can as canDo, canEditCatalog, refresh as refreshAuth } from './auth-client.js';
+import {
+  auth, can as canDo, canEditCatalog, refresh as refreshAuth, subscribeAuth,
+} from './auth-client.js';
 import { openAccount } from './account.js';
+import { content, loadContent, searchArticles } from './content.js';
+import {
+  buildCategoryArticle, buildProductArticle, contentStats, renderCategoriesIndex,
+  renderProductsIndex,
+} from './article.js';
+import { parseRoute, shouldClearUrlOnClose } from './route.js';
+
+/* ---------- Разделы сайта и маршрутизация ---------- */
+
+/** Текущий маршрут: { section, param }. */
+export function currentRoute() {
+  return parseRoute({ hash: location.hash, search: location.search });
+}
+
+/** Показывает нужный раздел и скрывает остальные. */
+function showSection(name) {
+  const pages = {
+    catalog: $('#catalog'),
+    categories: $('#categoriesPage'),
+    products: $('#productsPage'),
+    article: $('#articlePage'),
+  };
+  for (const [key, node] of Object.entries(pages)) {
+    if (node) node.hidden = key !== name;
+  }
+  const navKey = name === 'article' ? '' : name;
+  for (const link of $$('.nav__link')) {
+    const route = (link.dataset.route || '').replace(/^\//, '');
+    const key = route === '' ? 'catalog' : route;
+    link.classList.toggle('is-active', key === navKey);
+  }
+}
+
+/** Перерисовывает текущий раздел по адресу.
+ *
+ *  Любая ошибка отрисовки показывается на странице, а не остаётся незаметной:
+ *  иначе пользователь видит пустой раздел без объяснения причины.
+ */
+export function applyRoute() {
+  try {
+    applyRouteInner();
+  } catch (err) {
+    showRouteError(err);
+  }
+}
+
+function applyRouteInner() {
+  const route = currentRoute();
+
+  if (route.section === 'catalog') {
+    showSection('catalog');
+    document.title = 'Косметическая база — каталог сырья';
+    if (route.material && state.materials.some((m) => m.id === route.material)) {
+      openDetail(route.material);
+    }
+    return;
+  }
+
+  if (route.section === 'categories') {
+    showSection('categories');
+    document.title = 'Категории сырья — Косметическая база';
+    renderCategoriesIndex();
+    return;
+  }
+
+  if (route.section === 'products') {
+    showSection('products');
+    document.title = 'Виды косметической продукции — Косметическая база';
+    renderProductsIndex();
+    return;
+  }
+
+  // Подробности справочника открываются попапом поверх списка раздела:
+  // список рисуем всегда, чтобы за попапом был контент, а не пустота
+  if (route.section === 'category') {
+    if (!content.categoryArticles[route.param]) {
+      closeArticleDialog();
+      toast('Статья по этой категории ещё не написана', 'warn', 5000);
+      location.hash = '#/categories';
+      return;
+    }
+    showSection('categories');
+    renderCategoriesIndex();
+    ensureArticleCardsBound();
+    openArticleDialog({ kind: 'category', id: route.param });
+    return;
+  }
+
+  if (route.section === 'product') {
+    if (!content.productArticles[route.param]) {
+      closeArticleDialog();
+      toast('Описание этого вида продукции ещё не готово', 'warn', 5000);
+      location.hash = '#/products';
+      return;
+    }
+    showSection('products');
+    renderProductsIndex();
+    ensureArticleCardsBound();
+    openArticleDialog({ kind: 'product', id: route.param });
+    return;
+  }
+
+  closeArticleDialog();
+  showSection('catalog');
+}
+
+/** Показывает ошибку отрисовки раздела вместо пустого экрана. */
+function showRouteError(err) {
+  const message = String((err && err.message) || err);
+  console.error('Не удалось открыть раздел:', err);
+  const host = $('#articleView') || $('#categoriesView');
+  if (host) {
+    showSection('article');
+    host.replaceChildren(
+      el('div', { class: 'empty' },
+        el('h2', { text: 'Не удалось открыть раздел' }),
+        el('p', { text: message }),
+        el('p', { class: 'hint', text:
+          'Если ошибка повторяется, обновите страницу с Ctrl+F5 — возможно, '
+          + 'браузер использует старую версию скриптов.' }),
+        el('a', { class: 'btn btn--outline', href: '#/', text: 'Вернуться в каталог' }),
+      ),
+    );
+  }
+  toast(`Ошибка раздела: ${message}`, 'error', 9000);
+}
+
+/* ---------- Попап статьи справочника ---------- */
+
+/** Какой материал открыт в попапе: { kind, id } или null. */
+let openArticle = null;
+
+function articleDialog() {
+  return $('#articleDialog');
+}
+
+/**
+ * Открывает статью в попапе.
+ *
+ * Подробности справочника показываются поверх списка раздела, а не отдельной
+ * страницей: адрес меняется на #/categories/<id>, поэтому ссылку можно
+ * скопировать, а кнопка «назад» браузера закрывает попап.
+ */
+function openArticleDialog({ kind, id }) {
+  const dialog = articleDialog();
+  if (!dialog) return false;
+
+  const node = kind === 'category' ? buildCategoryArticle(id) : buildProductArticle(id);
+  if (!node) return false;
+
+  const article = kind === 'category' ? content.categoryArticles[id] : content.productArticles[id];
+  openArticle = { kind, id };
+
+  $('#articleTitle').textContent = article.title;
+  $('#articleSub').textContent = kind === 'category'
+    ? `Категория сырья · ${plural(article.reading_minutes || 5, 'минута', 'минуты', 'минут')} чтения`
+    : `Вид продукции · ${plural(article.reading_minutes || 6, 'минута', 'минуты', 'минут')} чтения`;
+  $('#articleBody').replaceChildren(node);
+  $('#articleBody').scrollTop = 0;
+
+  const back = $('#articleBack');
+  back.textContent = kind === 'category' ? 'К категориям' : 'К видам продукции';
+
+  if (!dialog.open) {
+    if (typeof dialog.showModal === 'function') dialog.showModal();
+    else dialog.setAttribute('open', '');
+  }
+  return true;
+}
+
+/** Закрывает попап статьи. updateUrl=false — адрес уже ведёт в раздел. */
+function closeArticleDialog({ updateUrl = false } = {}) {
+  const dialog = articleDialog();
+  if (dialog && dialog.open) dialog.close();
+  openArticle = null;
+  if (updateUrl) {
+    const route = currentRoute();
+    const parent = route.section === 'product' ? '#/products'
+      : (route.section === 'category' ? '#/categories' : '');
+    if (parent && location.hash !== parent) location.hash = parent;
+  }
+}
+
+/** Вешает обработчики на попап статьи (один раз при запуске). */
+function bindArticleDialog() {
+  const dialog = articleDialog();
+  if (!dialog) return;
+
+  $('#articleClose').addEventListener('click', () => closeArticleDialog({ updateUrl: true }));
+  $('#articleBack').addEventListener('click', () => closeArticleDialog({ updateUrl: true }));
+
+  // клик по затемнению закрывает попап
+  dialog.addEventListener('click', (event) => {
+    if (event.target === dialog) closeArticleDialog({ updateUrl: true });
+  });
+
+  // закрытие любым способом (в том числе Esc) — вернуть адрес раздела
+  dialog.addEventListener('close', () => {
+    if (openArticle) closeArticleDialog({ updateUrl: true });
+  });
+}
+
+/** Перехватывает клики по карточкам разделов и открывает статью попапом. */
+function bindArticleCards() {
+  for (const host of [$('#categoriesView'), $('#productsView')]) {
+    if (!host) continue;
+    host.addEventListener('click', (event) => {
+      const link = event.target.closest('a.catcard, a.artcard');
+      if (!link || !host.contains(link)) return;
+      const href = link.getAttribute('href') || '';
+      const match = href.match(/^#\/(categories|products)\/(.+)$/);
+      if (!match) return;
+      event.preventDefault();
+      const kind = match[1] === 'categories' ? 'category' : 'product';
+      const id = match[2];
+      const target = `#/${match[1]}/${id}`;
+      if (location.hash === target) applyRoute();
+      else location.hash = target;
+    });
+  }
+}
+
+/** Привязка карточек нужна один раз, но контейнеры могут появиться позже. */
+let articleCardsBound = false;
+
+function ensureArticleCardsBound() {
+  if (articleCardsBound) return;
+  if (!$('#categoriesView') && !$('#productsView')) return;
+  bindArticleCards();
+  articleCardsBound = true;
+}
 
 /* ---------- Тема ---------- */
 function applyTheme(theme) {
@@ -97,17 +332,18 @@ function renderFilters() {
   $('#onlyFilled').checked = state.filters.onlyFilled;
   $('#onlyEdited').checked = state.filters.onlyEdited;
 
-  // категории, скрытые от гостей: переключатель только у модератора и админа
+  // категории, скрытые от гостей: у модератора и админа они видны по умолчанию,
+  // переключатель позволяет их спрятать
   const restrictedPanel = $('#restrictedPanel');
-  const restrictedToggle = $('#showRestricted');
+  const restrictedToggle = $('#hideRestricted');
   const hiddenCats = state.categories.filter((c) => isRestrictedCategory(c.id));
-  const totalHidden = state.materials.filter((m) => isRestrictedCategory(m.category)).length;
+  const hiddenCount = state.materials.filter((m) => isRestrictedCategory(m.category)).length;
   if (canDo('catalog:restricted') && hiddenCats.length) {
     restrictedPanel.hidden = false;
-    restrictedToggle.checked = state.filters.showRestricted;
+    restrictedToggle.checked = state.filters.hideRestricted;
     restrictedToggle.disabled = false;
-    $('#restrictedHint').textContent = `${hiddenCats.map((c) => c.ru).join(', ')} — ${totalHidden} поз. `
-      + 'Гостям эти позиции не показываются.';
+    $('#restrictedHint').textContent = `${hiddenCats.map((c) => c.ru).join(', ')} — `
+      + `${hiddenCount} поз. Видны вам как ${auth.roleLabel.toLowerCase()}; гостям не показываются.`;
   } else {
     restrictedPanel.hidden = true;
     restrictedToggle.checked = false;
@@ -309,7 +545,7 @@ function applyPermissions() {
 
   // список категорий, скрытых от гостей; без права — принудительно выключаем показ
   state.hiddenCategories = Array.isArray(auth.hiddenCategories) ? auth.hiddenCategories : [];
-  if (!canDo('catalog:restricted')) state.filters.showRestricted = false;
+  if (!canDo('catalog:restricted')) state.filters.hideRestricted = true;
 
   // экспорт и импорт доступны только после входа
   const exportable = canDo('catalog:export');
@@ -331,11 +567,34 @@ function applyPermissions() {
 
   renderAccount();
   renderStats();
+  renderFooterAccount();
 }
 
 function permissionHint(action = 'изменять каталог') {
   if (!auth.available) return 'Сервер API недоступен — изменения некуда сохранить';
   return `Чтобы ${action}, войдите как модератор или администратор`;
+}
+
+/**
+ * После входа или выхода каталог нужно перечитать: сервер отдаёт разный набор
+ * позиций в зависимости от прав (скрытые категории — только модератору и админу).
+ * Без этого администратор видел каталог как гость.
+ */
+let lastAuthKey = null;
+
+async function onAuthChanged() {
+  const key = auth.user ? `${auth.user.id}:${auth.role}` : 'guest';
+  if (key === lastAuthKey) return;
+  lastAuthKey = key;
+
+  if (state.source !== 'server') return;
+  try {
+    await initStore();
+    applyPermissions();
+    refresh();
+  } catch (err) {
+    toast(`Не удалось перечитать каталог: ${err.message}`, 'warn', 6000);
+  }
 }
 
 /* ---------- Панель деталей в попапе ---------- */
@@ -362,12 +621,22 @@ function openDetail(id) {
   if (history.replaceState) history.replaceState(null, '', `#${id}`);
 }
 
-function closeDetail() {
+/**
+ * Закрывает попап позиции.
+ *
+ * updateUrl=false нужен, когда закрытие вызвано сменой раздела: адрес уже
+ * указывает на новый раздел и переписывать его нельзя.
+ */
+function closeDetail({ updateUrl = true } = {}) {
   state.selectedId = null;
   const dialog = detailDialog();
   if (dialog.open) dialog.close();
   renderDetail($('#detail'), null);
-  if (history.replaceState) history.replaceState(null, '', location.pathname + location.search);
+  // адрес очищаем только если он действительно указывает на позицию:
+  // иначе сносится маршрут раздела и раздел не открывается
+  if (updateUrl && history.replaceState && shouldClearUrlOnClose(location.hash)) {
+    history.replaceState(null, '', location.pathname + location.search);
+  }
 }
 
 function applyEdit(id, patch) {
@@ -585,10 +854,19 @@ function bindUi() {
   search.addEventListener('input', debounce(() => {
     state.query = search.value;
     $('#searchClear').hidden = !search.value;
+    // поиск в шапке всегда относится к каталогу: уводим со статьи в каталог
+    if (search.value.trim() && currentRoute().section !== 'catalog') {
+      location.hash = '#/';
+      return;
+    }
     refresh();
   }, 150));
   search.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') { search.value = ''; state.query = ''; $('#searchClear').hidden = true; refresh(); }
+    if (e.key === 'Enter' && currentRoute().section !== 'catalog') {
+      e.preventDefault();
+      location.hash = '#/';
+    }
   });
   $('#searchClear').addEventListener('click', () => {
     search.value = '';
@@ -695,8 +973,8 @@ function bindUi() {
 
   $('#onlyFilled').addEventListener('change', (e) => { state.filters.onlyFilled = e.target.checked; refresh(); });
   $('#onlyEdited').addEventListener('change', (e) => { state.filters.onlyEdited = e.target.checked; refresh(); });
-  $('#showRestricted').addEventListener('change', (e) => {
-    state.filters.showRestricted = e.target.checked;
+  $('#hideRestricted').addEventListener('change', (e) => {
+    state.filters.hideRestricted = e.target.checked;
     refresh();
   });
 
@@ -707,8 +985,8 @@ function bindUi() {
     state.filters = {
       categories: [], states: [], origins: [], provenance: [],
       onlyFilled: false, onlyEdited: false,
-      // показ скрытых категорий сохраняем: это осознанная настройка администратора
-      showRestricted: state.filters.showRestricted,
+      // показ скрытых категорий сохраняем: это осознанная настройка
+      hideRestricted: state.filters.hideRestricted,
     };
     refresh();
   };
@@ -750,13 +1028,156 @@ function bindUi() {
   });
 
   window.addEventListener('hashchange', () => {
-    const id = location.hash.slice(1);
-    if (id && state.materials.some((m) => m.id === id)) openDetail(id);
-    else if (!id) closeDetail();
+    const route = currentRoute();
+    if (route.section === 'catalog') {
+      const id = route.material || '';
+      if (id && state.materials.some((m) => m.id === id)) openDetail(id);
+      else if (!id) closeDetail();
+      // ушли из справочника — попап статьи закрываем
+      closeArticleDialog();
+    } else {
+      // переходим в другой раздел: адрес трогать нельзя, иначе маршрут потеряется
+      closeDetail({ updateUrl: false });
+    }
+    // сначала применяем маршрут, потом прокрутка: ошибка прокрутки не должна
+    // мешать смене раздела
+    applyRoute();
+    try {
+      window.scrollTo({ top: 0, left: 0 });
+    } catch {
+      /* прокрутка недоступна — не критично */
+    }
   });
 }
 
-/* ---------- Запуск ---------- */
+/* ---------- Футер: ссылки, статистика, поиск, вход ---------- */
+
+/** Заполняет футер ссылками на категории и виды продукции. */
+function renderFooter() {
+  const stats = contentStats();
+
+  const set = (sel, text) => {
+    const node = $(sel);
+    if (node) node.textContent = text;
+  };
+  set('#footerCountCatalog', state.materials.length ? ` (${state.materials.length})` : '');
+  set('#footerCountCategories', stats.categoryArticles ? ` (${stats.categoryArticles})` : '');
+  set('#footerCountProducts', stats.products ? ` (${stats.products})` : '');
+
+  const catHost = $('#footerCategories');
+  if (catHost) {
+    const counts = categoryCounts();
+    const popular = content.categories
+      .filter((c) => !c.hidden || canDo('catalog:restricted'))
+      .map((c) => ({ ...c, n: counts.get(c.id) || 0 }))
+      .filter((c) => c.n > 0)
+      .sort((a, b) => b.n - a.n)
+      .slice(0, 6);
+
+    catHost.replaceChildren(...(popular.length
+      ? popular.map((c) => el('li', {},
+        el('a', { href: `#/categories/${c.id}` },
+          el('span', { text: c.ru }),
+          el('span', { class: 'footer__count', text: String(c.n) }),
+        )))
+      : [el('li', {}, el('span', { class: 'muted', text: 'Нет данных' }))]));
+  }
+
+  const prodHost = $('#footerProducts');
+  if (prodHost) {
+    const ids = ['shampoo', 'conditioner', 'cream', 'face-wash', 'sunscreen', 'serum']
+      .filter((id) => content.productArticles[id]);
+    prodHost.replaceChildren(...(ids.length
+      ? ids.map((id) => el('li', {},
+        el('a', { href: `#/products/${id}`, text: content.productArticles[id].title })))
+      : [el('li', {}, el('span', { class: 'muted', text: 'Раздел готовится' }))]));
+  }
+
+  set('#footerStats', [
+    plural(state.materials.length, 'позиция', 'позиции', 'позиций'),
+    stats.categoryArticles ? plural(stats.categoryArticles, 'статья', 'статьи', 'статей') : '',
+    stats.products ? plural(stats.products, 'вид продукции', 'вида продукции', 'видов продукции') : '',
+  ].filter(Boolean).join(' · '));
+
+  const note = $('#footerNote');
+  if (note) {
+    note.textContent = content.available
+      ? 'Справочные статьи носят технический характер и описывают общие принципы разработки рецептур.'
+      : 'Справочные разделы появятся после сборки контента (python tools/build_content.py).';
+  }
+
+  renderFooterAccount();
+}
+
+/** Кнопка входа в футере синхронизируется с состоянием учётной записи. */
+function renderFooterAccount() {
+  const btn = $('#footerAccountBtn');
+  const label = $('#footerAccountLabel');
+  if (!btn || !label) return;
+
+  if (!auth.available && !auth.user) {
+    btn.hidden = true;
+    return;
+  }
+  btn.hidden = false;
+  label.textContent = auth.user ? `${auth.user.login} · ${auth.roleLabel}` : 'Войти';
+  btn.title = auth.user
+    ? `Вы вошли как ${auth.roleLabel}. Открыть учётную запись`
+    : 'Вход для модераторов и администраторов';
+}
+
+/** Поиск по сайту: сначала каталог, затем статьи. */
+function runSiteSearch(rawQuery) {
+  const query = String(rawQuery || '').trim();
+  if (!query) return;
+
+  const articles = searchArticles(query, 20);
+
+  // если запрос находится в каталоге — показываем каталог
+  const catalogHit = state.materials.some((m) => searchableText(m).includes(norm(query)));
+
+  if (catalogHit || !articles.length) {
+    if (location.hash !== '#/' && location.hash !== '') location.hash = '#/';
+    state.query = query;
+    const header = $('#searchInput');
+    if (header) header.value = query;
+    refresh();
+    const route = currentRoute();
+    if (route.section !== 'catalog') applyRoute();
+    if (articles.length) {
+      toast(`В каталоге есть совпадения. По статьям найдено: ${articles.length}. `
+        + 'Откройте раздел «Категории сырья» или «Виды продукции».', 'info', 6000);
+    }
+    return;
+  }
+
+  // иначе открываем первую подходящую статью
+  const first = articles[0];
+  location.hash = first.route;
+  toast(`Найдено статей: ${articles.length}. Открываю «${first.title}»`, 'ok', 4200);
+}
+
+/** Обработчики футера: поиск и вход. */
+function bindFooter() {
+  const form = $('#footerSearchForm');
+  const input = $('#footerSearch');
+  if (form && input) {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      runSiteSearch(input.value);
+    });
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        runSiteSearch(input.value);
+      }
+    });
+  }
+
+  const btn = $('#footerAccountBtn');
+  if (btn) btn.addEventListener('click', () => openAccount());
+}
+
 async function boot() {
   applyTheme(prefs.theme);
   for (const btn of $$('.viewswitch__btn')) {
@@ -787,11 +1208,20 @@ async function boot() {
     toast('В файле данных нет списка категорий', 'warn', 6000);
   }
 
+  // справочный контент необязателен: без него сайт работает как каталог
+  await loadContent();
+  bindFooter();
+  bindArticleDialog();
+  ensureArticleCardsBound();
+  renderFooter();
+
+  // при смене учётной записи перечитываем каталог с её правами
+  lastAuthKey = auth.user ? `${auth.user.id}:${auth.role}` : 'guest';
+  subscribeAuth(() => { onAuthChanged(); });
+
   refresh();
   applyPermissions();
-
-  const id = location.hash.slice(1);
-  if (id && state.materials.some((m) => m.id === id)) openDetail(id);
+  applyRoute();
 
   // первый запуск: предлагаем создать администратора
   if (auth.available && !auth.configured && !auth.user) {
